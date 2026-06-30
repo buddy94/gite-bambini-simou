@@ -50,11 +50,6 @@ a{color:var(--g2)}
 .ri{text-align:center}.ri .sss{font-size:1rem;color:var(--gd);margin-bottom:.08rem}
 .ri .rl{font-size:.6rem;color:var(--tl);text-transform:uppercase;letter-spacing:.3px;font-weight:700}
 .ri .rv{font-size:.72rem;font-weight:600;color:var(--t)}
-.wx{margin:.6rem 0;padding:.6rem;background:linear-gradient(135deg,#e0f2fe 0%,#dbeafe 100%);border-radius:var(--rs);border:1px solid #bae6fd}
-.wx h4{font-size:.72rem;color:#1e40af;margin-bottom:.35rem}
-.wr{display:flex;gap:.2rem;flex-wrap:wrap}
-.wd{flex:1;min-width:50px;text-align:center;padding:.3rem;background:rgba(255,255,255,.5);border-radius:6px;font-size:.65rem}
-.wd .dn{font-weight:700;color:#1e40af}.wd .hi{color:#dc2626;font-weight:600}.wd .lo{color:#2563eb;font-weight:600}
 .acts{display:flex;gap:.3rem;flex-wrap:wrap;margin-top:.45rem}
 .btn{display:inline-flex;align-items:center;gap:.18rem;padding:.25rem .7rem;border-radius:18px;font-size:.68rem;font-weight:600;text-decoration:none;transition:background .15s;border:none;cursor:pointer}
 .bat{background:#1a3c2a;color:white}.bat:hover{background:#2d5a3f}
@@ -62,7 +57,7 @@ a{color:var(--g2)}
 .bwb{background:#ea580c;color:white}.bwb:hover{background:#c2410c}
 .bph{background:#0891b2;color:white}.bph:hover{background:#0e7490}
 .bpp{background:#7c3aed;color:white}.bpp:hover{background:#6d28d9}
-@media(prefers-color-scheme:dark){body:not(.light){--cr:#16213e;--w:#1a1a2e;--t:#e0e0e0;--tl:#a0a0a0;--b:#333;--sh:0 2px 12px rgba(0,0,0,.3);--sh2:0 4px 24px rgba(0,0,0,.5);background:linear-gradient(135deg,#0f0f23 0%,#1a1a2e 50%,#0f1a1a 100%)}body:not(.light) .card{background:var(--w);border-color:var(--b)}body:not(.light) .actc{background:linear-gradient(135deg,#1a1a0e 0%,#1a1500 100%);border-color:#3d3500}body:not(.light) .actc h3{color:#f0d78c}body:not(.light) .sbox,body:not(.light) .tips{background:var(--w)}body:not(.light) .si,body:not(.light) .fs{background:var(--cr);color:var(--t);border-color:var(--b)}body:not(.light) .tag{background:#1a3a1a;color:#8fbc8f}body:not(.light) .desc,body:not(.light) .sv{color:var(--t)}body:not(.light) .ratings{background:var(--cr)}body:not(.light) .wx{background:linear-gradient(135deg,#0a1628,#0d1b33);border-color:#1e3a5f}body:not(.light) .wx h4{color:#60a5fa}body:not(.light) .wd{background:rgba(255,255,255,.08)}body:not(.light) .lb-bg{background:rgba(0,0,0,.95)}}
+@media(prefers-color-scheme:dark){body:not(.light){--cr:#16213e;--w:#1a1a2e;--t:#e0e0e0;--tl:#a0a0a0;--b:#333;--sh:0 2px 12px rgba(0,0,0,.3);--sh2:0 4px 24px rgba(0,0,0,.5);background:linear-gradient(135deg,#0f0f23 0%,#1a1a2e 50%,#0f1a1a 100%)}body:not(.light) .card{background:var(--w);border-color:var(--b)}body:not(.light) .actc{background:linear-gradient(135deg,#1a1a0e 0%,#1a1500 100%);border-color:#3d3500}body:not(.light) .actc h3{color:#f0d78c}body:not(.light) .sbox,body:not(.light) .tips{background:var(--w)}body:not(.light) .si,body:not(.light) .fs{background:var(--cr);color:var(--t);border-color:var(--b)}body:not(.light) .tag{background:#1a3a1a;color:#8fbc8f}body:not(.light) .desc,body:not(.light) .sv{color:var(--t)}body:not(.light) .ratings{background:var(--cr)}body:not(.light) .lb-bg{background:rgba(0,0,0,.95)}}
 .theme-btn{position:fixed;top:10px;right:10px;z-index:100;width:32px;height:32px;border-radius:50%;border:2px solid rgba(255,255,255,.3);background:rgba(0,0,0,.15);color:white;font-size:.95rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s}.theme-btn:hover{background:rgba(255,255,255,.2)}
 .fav-btn{font-size:.75rem;cursor:pointer;background:none;border:none;padding:.08rem .2rem;border-radius:50%;transition:transform .2s;opacity:.35}.fav-btn:hover,.fav-btn.on{opacity:1;transform:scale(1.2)}.fav-btn.on{color:#dc2626!important}
 .btt{position:fixed;bottom:20px;right:20px;z-index:99;width:38px;height:38px;border-radius:50%;background:var(--g2);color:white;font-size:1.2rem;border:none;cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:var(--sh2);transition:opacity .3s,transform .2s}.btt:hover{transform:translateY(-3px)}.btt.show{display:flex}
