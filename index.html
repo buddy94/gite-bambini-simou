@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🏔️ Gite per Bambini — Da Simöu, Olivone</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<button class="theme-btn" onclick="toggleTheme()" title="🌓 Dark/Light" id="tb">🌙</button>
+<button class="btt" id="btt" onclick="scrollTo({top:0,behavior:'smooth'})" title="Torna su">↑</button>
+
+<div class="hero">
+<h1>🏔️ Gite & Avventure per Bambini — Da Simöu</h1>
+<div class="sub">Olivone • Valle di Blenio • Ticino ☀️ Estate 2026 • <a href="https://www.meteosvizzera.admin.ch/local-forecasts/olivone/46.495N8.940E" style="color:rgba(255,255,255,.7)">🌤️ Meteo live</a></div>
+<div class="badges">
+<span class="badge">🚗 max ~40 min</span><span class="badge">👶 2-4 anni</span>
+<span class="badge">🥾 15 sentieri</span><span class="badge">🎯 25+ attività</span>
+<span class="badge">🆕 12 nuove scoperte</span>
+</div></div>
+
+<div class="ctr">
+<div class="sbox"><div class="srow">
+<input type="text" class="si" id="si" placeholder="🔍 Cerca per nome, descrizione..." oninput="af()">
+<select class="fs" id="ft" onchange="af()"><option value="all">📂 Tutto</option><option value="hike">🥾 Gite a Piedi</option><option value="activity">🎯 Altre Attività</option></select>
+<select class="fs" id="fd" onchange="af()"><option value="all">📊 Ogni difficoltà</option><option value="Facile">🟢 Facile</option><option value="Moderato">🟡 Moderato</option><option value="Attività">🟣 Attività</option></select>
+<select class="fs" id="fw" onchange="af()"><option value="all">🚗 Ogni distanza</option><option value="10">⭐ &lt; 10 min</option><option value="15">🥇 &lt; 15 min</option><option value="20">🥈 &lt; 20 min</option><option value="30">🥉 &lt; 30 min</option><option value="40">🏅 &lt; 40 min</option></select>
+<button class="bclr" onclick="cf()">✕ Azzera</button>
+</div><div class="rcount" id="rc"></div></div>
+
+<div class="tabs"><button class="tb act" onclick="st('hike',this)">🥾 Gite a Piedi (15)</button><button class="tb" onclick="st('activity',this)">🎯 Altre Attività (25+)</button></div>
+
+<!-- ═══ TAB 1: GITE ═══ -->
+<div class="tc act" id="th"><div class="st">🥇 Top Pick — Perfetti per 2-4 Anni</div><div class="ss">Brevi, facili, pianeggianti, con attrazioni per i più piccoli</div>
+
+<!-- 1. Campo Blenio -->
+<div class="card ft" data-type="hike" data-diff="Facile" data-drive="15" data-search="campo blenio sentiero pineta saracin passeggiata parco giochi sarracino scoiattoli"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">1</div><div><h3>Sentiero di Campo Blenio 🌲</h3><span class="db dbe">Facile</span> <span class="dt">🚗 ~12 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>2 km</strong> anello</div><div class="sv">⛰️ <strong>40 m</strong></div><div class="sv">⏱️ <strong>40 min</strong></div><div class="sv">📍 Campo Blenio 1217m</div></div>
+<div class="img-strip"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Campo_Blenio.jpg" onclick="openLb(this)" alt="Campo Blenio" onerror="this.style.display='none'"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/2/28/Campo_Blenio_im_Val_di_Campo.jpg" onclick="openLb(this)" alt="Val di Campo" onerror="this.style.display='none'"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Campo_Blenio_Lago_di_Luzzone_-_panoramio_-_Jakkes.jpg" onclick="openLb(this)" alt="Panorama" onerror="this.style.display='none'"></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Pineta magica</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Perfetto 2-4a</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~12 min</div></div></div>
+<div class="desc"><strong>Il paradiso delle famiglie.</strong> Percorso pianeggiante nella piana di Campo Blenio fino alla <em>Pineta Saracin</em> — bosco fiabesco con scoiattoli e caprioli. Parco Giochi Sarracino con buvette/ristorante. Anche invernale sulla neve. <strong>🆕 Caccia al tesoro!</strong> (App mobile gratuita).</div>
+<div class="tags"><span class="tag">🌲 Pineta</span><span class="tag">🐿️ Animali</span><span class="tag">🛝 Parco giochi</span><span class="tag">🔍 Caccia tesoro</span><span class="tag">❄️ Invernale</span></div>
+<div class="acts"><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Campo+Blenio" target="_blank">🗺️ Maps</a><a class="btn bwb" href="https://www.myswitzerland.com/it-ch/scoprire-la-svizzera/route/sentiero-di-campo-blenio/" target="_blank">🇨🇭 Info</a><button class="btn bph" onclick="openLb(this.parentElement.parentElement.querySelector('.img-thumb'))">📷 Foto</button></div></div></div>
+
+<!-- 2. Sentiero dell'Acqua (NEW) -->
+<div class="card new" data-type="hike" data-diff="Facile" data-drive="15" data-search="sentiero acqua acquacalda dotra lucomagno didattico pannelli">
+<div class="cb"><div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">2</div><div><h3>Sentiero dell'Acqua / Santéi dr'équa 💧</h3><span class="new-badge">NUOVO</span> <span class="db dbe">Facile</span> <span class="dt">🚗 ~15 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>3,7 km</strong></div><div class="sv">⛰️ <strong>166 m</strong></div><div class="sv">⏱️ <strong>1h15</strong></div><div class="sv">📍 Acquacalda→Dötra 1750-1920m</div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">4 paesaggi, pannelli</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Tema acqua, didattico</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~15 min!</div></div></div>
+<div class="desc"><strong>Il sentiero perfetto per bimbi curiosi! 🆕</strong> 3.7km tra Acquacalda e Dötra con 4 pannelli sul tema dell'acqua e cambiamento climatico. Attraversa 4 paesaggi d'importanza federale. Accessibile a tutti, ben segnalato. Ristorante al Centro Pro Natura Acquacalda. Info: sentierilucomagno.ch</div>
+<div class="tags"><span class="tag">💧 Acqua</span><span class="tag">📚 Didattico</span><span class="tag">🏔️ 4 paesaggi</span><span class="tag">🍽️ Ristorante</span><span class="tag">📍 Vicinissimo</span></div>
+<div class="acts"><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Acquacalda,+Olivone" target="_blank">🗺️ Maps</a><a class="btn bpp" href="https://www.bellinzonaevalli.ch/hike/details/Sentiero-dell-Acqua/801528750.html" target="_blank">📖 Dettagli</a></div></div></div>
+
+<!-- 3. Diga del Luzzone -->
+<div class="actc" data-type="hike" data-diff="Facile" data-drive="25" data-search="diga luzzone tunnel eco ghirone passeggiata discesa parco giochi">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.4rem"><h3>🏗️ Diga del Luzzone + Discesa a Ghirone</h3><div><span class="db dbe">Facile</span> <span class="dt">🚗 ~25 min</span></div></div>
+<div class="stats"><div class="sv">📏 <strong>~3 km</strong> discesa</div><div class="sv">⛰️ <strong>~200 m ↓</strong></div><div class="sv">⏱️ <strong>1-2 h</strong></div><div class="sv">📍 Diga 1600m</div></div>
+<div class="img-strip"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Luzzone3.jpg" onclick="openLb(this)" alt="Diga Luzzone" onerror="this.style.display='none'"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/4/41/Diga_del_Luzzone_-_panoramio.jpg" onclick="openLb(this)" alt="Diga panorama" onerror="this.style.display='none'"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/7/71/Dam_of_Lago_di_Luzzone.jpg" onclick="openLb(this)" alt="Lago Luzzone" onerror="this.style.display='none'"></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Diga 225m, lago</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Tunnel + eco!</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~25 min</div></div></div>
+<div class="desc"><strong>La diga più alta del Ticino!</strong> (225m). Tunnel buio 150m dove i bimbi adorano l'eco. Poi discesa a Ghirone. Ristorante alla diga. Parco Giochi Sarracino a fine percorso. Salire in postbus, scendere a piedi.</div>
+<div class="tags"><span class="tag">🏗️ Diga 225m</span><span class="tag">🔦 Tunnel</span><span class="tag">🛝 Parco</span><span class="tag">🍽️ Risto</span><span class="tag">🚌 Postbus</span></div>
+<div class="acts"><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Diga+del+Luzzone" target="_blank">🗺️ Maps</a><a class="btn bwb" href="https://www.fugainfamiglia.ch/post/la-diga-del-luzzone" target="_blank">📖 Articolo</a><button class="btn bph" onclick="openLb(this.parentElement.parentElement.querySelector('.img-thumb'))">📷 Foto</button></div></div>
+
+<!-- 4. Cancurì - Leontica -->
+<div class="card ft" data-type="hike" data-diff="Facile" data-drive="20" data-search="cancuri leontica piatto pianeggiante seggiovia nara bosco fiume"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">4</div><div><h3>Cancurì – Leontica 🚡</h3><span class="db dbe">Facile</span> <span class="dt">🚗 ~18 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>3,4 km</strong></div><div class="sv">⛰️ <strong>6 m</strong> 😮</div><div class="sv">⏱️ <strong>1h35</strong></div><div class="sv">⭐ <strong>3.3</strong> AllTrails</div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Bosco, fiume</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">PIATTO! 6m</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~18 min</div></div></div>
+<div class="desc"><strong>Solo 6 metri di dislivello!</strong> Passeggiata nel bosco tra Cancurì e Leontica, ruscello e viste. Accesso con <strong>seggiovia Nara</strong>. 🆕 A Nara: Monster Roller (bob su rotaia per bimbi 4+) e Swing the World!</div>
+<div class="tags"><span class="tag">🌲 Bosco</span><span class="tag">🏞️ Fiume</span><span class="tag">👶 Bimbi</span><span class="tag">🚡 Seggiovia</span><span class="tag">🎢 Monster Roller</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/cancuri-leontica" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Cancur%C3%AC,+Leontica" target="_blank">🗺️ Maps</a></div></div></div>
+
+<!-- 5. Lucomagno Rosso -->
+<div class="card ft" data-type="hike" data-diff="Facile" data-drive="20" data-search="lucomagno rosso sentiero naturalistico lago alpino didattico pro natura"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">5</div><div><h3>Sentiero Naturalistico Lucomagno – Rosso 🔴</h3><span class="db dbe">Facile</span> <span class="dt">🚗 ~22 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>4,2 km</strong> anello</div><div class="sv">⛰️ <strong>163 m</strong></div><div class="sv">⏱️ <strong>1h18</strong></div><div class="sv">⭐ <strong>4.7</strong> (11 rec.)</div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Laghi, fiumi</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Buono, salitelle</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~22 min</div></div></div>
+<div class="desc"><strong>Uno dei 7 sentieri Pro Natura.</strong> Anello con laghi alpini, ruscelli, boschi. Pannelli didattici, birdwatching. Ben segnalato. 🆕 Caccia al tesoro disponibile!</div>
+<div class="wd"><div class="dn">Mer</div><div class="hi">16°</div><div class="lo">7°</div></div><div class="wd"><div class="dn">Gio</div><div class="hi">15°</div><div class="lo">6°</div></div><div class="wd"><div class="dn">Ven</div><div class="hi">17°</div><div class="lo">5°</div></div><div class="wd"><div class="dn">Sab</div><div class="hi">18°</div><div class="lo">7°</div></div><div class="wd"><div class="dn">Dom</div><div class="hi">19°</div><div class="lo">2°</div></div><div class="wd"><div class="dn">Lun</div><div class="hi">21°</div><div class="lo">9°</div></div></div></div>
+<div class="tags"><span class="tag">🏔️ Lago</span><span class="tag">🌲 Bosco</span><span class="tag">📚 Didattico</span><span class="tag">🔍 Caccia tesoro</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sentiero-naturalistico-lucomagno-rosso" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Passo+del+Lucomagno" target="_blank">🗺️ Maps</a></div></div></div>
+
+<!-- 6. Ai Cembri - Dötra -->
+<div class="card ft" data-type="hike" data-diff="Moderato" data-drive="15" data-search="cembri dotra capanna cascata sentiero didattico natura vicino"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">6</div><div><h3>Nature Trail: Ai Cembri – Dötra 🌲</h3><span class="db dbm">Moderato</span> <span class="dt">🚗 ~10 min!</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>4,2 km</strong></div><div class="sv">⛰️ <strong>166 m</strong></div><div class="sv">⏱️ <strong>1h24</strong></div><div class="sv">⭐ <strong>5.0</strong></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Cembri, cascata</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Ideale Bimbi</div><div class="rv">OK 4a, 2a zaino</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~10 min!</div></div></div>
+<div class="desc"><strong>A due passi da Simöu!</strong> Foresta di cembri secolari, ruscello, cascata, panorami. Arrivo a Dötra con Capanna Dötra (ristorante 1748m). Si può accorciare.</div>
+<div class="wd"><div class="dn">Mer</div><div class="hi">17°</div><div class="lo">9°</div></div><div class="wd"><div class="dn">Gio</div><div class="hi">17°</div><div class="lo">8°</div></div><div class="wd"><div class="dn">Ven</div><div class="hi">19°</div><div class="lo">7°</div></div><div class="wd"><div class="dn">Sab</div><div class="hi">20°</div><div class="lo">8°</div></div><div class="wd"><div class="dn">Dom</div><div class="hi">21°</div><div class="lo">4°</div></div><div class="wd"><div class="dn">Lun</div><div class="hi">23°</div><div class="lo">10°</div></div></div></div>
+<div class="tags"><span class="tag">🌲 Cembri</span><span class="tag">💧 Cascata</span><span class="tag">🍽️ Capanna</span><span class="tag">📍 Vicinissimo</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/lucomagno-nature-trail-ai-cembri-dotra" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/D%C3%B6tra" target="_blank">🗺️ Maps</a></div></div></div>
+
+<div class="st">🥈 Molto Buone — Con Più Cammino</div>
+
+<!-- 7. Alpe Casaccia -->
+<div class="card" data-type="hike" data-diff="Facile" data-drive="20" data-search="alpe casaccia campo solario lucomagno alpeggi fiori anello"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">7</div><div><h3>Alpe Casaccia – Campo Solario 🐄</h3><span class="db dbe">Facile</span> <span class="dt">🚗 ~18 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>6,1 km</strong> anello</div><div class="sv">⛰️ <strong>232 m</strong></div><div class="sv">⏱️ <strong>~2h</strong></div><div class="sv">⭐ <strong>5.0</strong></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Alpeggi, 360°</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Ideale Bimbi</div><div class="rv">6km: lungo</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~18 min</div></div></div>
+<div class="desc">Magnifico anello tra alpeggi con vista 360° sulle Alpi. Prati fioriti, larici. Cani ammessi. Aperto tutto l'anno.</div>
+<div class="tags"><span class="tag">🐄 Alpeggi</span><span class="tag">🌸 Fiori</span><span class="tag">🏔️ Panorama</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/lucomagno-alpe-casaccia-campo-solario-stabbio-nuovo" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Passo+del+Lucomagno" target="_blank">🗺️ Maps</a></div></div></div>
+
+<!-- 8. Salamandra Vagabonda (NEW) -->
+<div class="card new" data-type="hike" data-diff="Facile" data-drive="30" data-search="salamandra vagabonda ludiano semione animale castello serravalle tematico"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">8</div><div><h3>Sentiero Salamandra Vagabonda 🦎</h3><span class="new-badge">NUOVO</span> <span class="db dbe">Facile</span> <span class="dt">🚗 ~25 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>5,4 km</strong> anello</div><div class="sv">⛰️ <strong>294 m</strong></div><div class="sv">⏱️ <strong>~2h</strong></div><div class="sv">📍 Ludiano/Semione</div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Castello, salamandre</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Tema animali!</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Vicinanza</div><div class="rv">~25 min</div></div></div>
+<div class="desc"><strong>Sentiero a tema salamandra! 🆕</strong> Anello che unisce natura e storia: nucleo di Selvapiana, ruderi del Castello di Serravalle, grotti, vigneti. Pannelli didattici sulla salamandra pezzata. "Adatto a famiglie con bambini e persone curiose". Maggio-Ottobre.</div>
+<div class="tags"><span class="tag">🦎 Salamandra</span><span class="tag">🏰 Castello</span><span class="tag">📚 Didattico</span><span class="tag">🍇 Vigneti</span></div>
+<div class="acts"><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Ludiano,+Serravalle" target="_blank">🗺️ Maps</a><a class="btn bpp" href="https://www.bellinzonaevalli.ch/hike/details/Sentiero-tematico-Salamandra-Vagabonda/801413692.html" target="_blank">📖 Dettagli</a></div></div></div>
+
+<!-- 9. Quatro pâss visín a r'acqua (NEW) -->
+<div class="card new" data-type="hike" data-diff="Facile" data-drive="20" data-search="quatro pass acqua corzoneso mulino lavatoio sentiero tematico"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">9</div><div><h3>Quatro pâss visín a r'acqua 💦</h3><span class="new-badge">NUOVO</span> <span class="db dbe">Facile</span> <span class="dt">🚗 ~20 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>6,6 km</strong> anello</div><div class="sv">⛰️ <strong>333 m</strong></div><div class="sv">⏱️ <strong>~2h10</strong></div><div class="sv">📍 Corzoneso Piano</div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Mulino, borgo</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Tema acqua, storia</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~20 min</div></div></div>
+<div class="desc"><strong>Sentiero sull'acqua nella storia. 🆕</strong> Vecchio Mulino di Corzoneso (ulmurin.ch), microcentrale Acquarossa, lavatoio XVII sec, "bagno delle pecore", Casa Rotonda Casserio. "Adatto a tutti: giovani, anziani e famiglie con bambini". Consigliata mezza giornata.</div>
+<div class="tags"><span class="tag">💦 Acqua</span><span class="tag">🏚️ Mulino</span><span class="tag">📜 Storia</span><span class="tag">👨‍👩‍👧 Famiglie</span></div>
+<div class="acts"><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Corzoneso+Piano" target="_blank">🗺️ Maps</a><a class="btn bpp" href="https://www.bellinzonaevalli.ch/it/theme-trail/details/Quatro-p%C3%A2ss-vis%C3%ADn-a-r-acqua/801184193.html" target="_blank">📖 Dettagli</a></div></div></div>
+
+<!-- 10. Orrido del Sosto -->
+<div class="card" data-type="hike" data-diff="Moderato" data-drive="15" data-search="orrido sosto gola mulattiera roccia olivone"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">10</div><div><h3>L'Orrido del Sosto 🪨</h3><span class="db dbm">Moderato</span> <span class="dt">🚗 ~12 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>4,3 km</strong></div><div class="sv">⛰️ <strong>423 m</strong></div><div class="sv">⏱️ <strong>1h42</strong></div><div class="sv">⭐ <strong>3.9</strong></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Gola scavata</div></div><div class="ri"><div class="sss">★★☆☆☆</div><div class="rl">Ideale Bimbi</div><div class="rv">423m salita</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~12 min</div></div></div>
+<div class="desc">Antica mulattiera scavata nella roccia da Olivone a Campo Blenio. Gola spettacolare. Per bimbi che camminano bene. Portare torcia!</div>
+<div class="tags"><span class="tag">🪨 Gola</span><span class="tag">🏛️ Storico</span><span class="tag">🔦 Torcia</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/l-orrido-del-sosto" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Olivone+Posta" target="_blank">🗺️ Maps</a></div></div></div>
+
+<!-- 11. Sommascona -->
+<div class="card" data-type="hike" data-diff="Moderato" data-drive="5" data-search="sommascona dotra anveuda capanna bosco ruscello vicino"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">11</div><div><h3>Sommascona – Dötra – Anveuda 🌿</h3><span class="db dbm">Moderato</span> <span class="dt">🚗 ~5 min!</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>8,9 km</strong> anello</div><div class="sv">⛰️ <strong>492 m</strong></div><div class="sv">⏱️ <strong>3h17</strong></div><div class="sv">⭐ <strong>4.6</strong></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Bosco, ruscello</div></div><div class="ri"><div class="sss">★★☆☆☆</div><div class="rl">Ideale Bimbi</div><div class="rv">9km: impegnativo</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~5 min!</div></div></div>
+<div class="desc">Partenza praticamente da casa! Sommascona subito sotto Simöu. Bosco ombreggiato, ruscello, Capanna Dötra (ristorante).</div>
+<div class="tags"><span class="tag">🌲 Bosco</span><span class="tag">💧 Ruscello</span><span class="tag">🍽️ Capanna</span><span class="tag">📍 Simöu</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sommascona-capanna-dotra-anveuda" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Sommascona" target="_blank">🗺️ Maps</a></div></div></div>
+
+<!-- 12. Comprovasco -->
+<div class="card" data-type="hike" data-diff="Facile" data-drive="20" data-search="comprovasco acquarossa pian lottigna terme museo fiume"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">12</div><div><h3>Comprovasco – Acquarossa – Pian Lottigna 🌊</h3><span class="db dbe">Facile</span> <span class="dt">🚗 ~18 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>6,8 km</strong> anello</div><div class="sv">⛰️ <strong>178 m</strong></div><div class="sv">⏱️ <strong>1h48</strong></div><div class="sv">⭐ <strong>3.4</strong></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Bellezza</div><div class="rv">Fiume, villaggi</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Dolce, picnic</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~18 min</div></div></div>
+<div class="desc">Anello tranquillo. Tocca Acquarossa (terme), Lottigna (Museo di Blenio). Boschi e fiume Brenno.</div>
+<div class="tags"><span class="tag">🏞️ Fiume</span><span class="tag">🏛️ Museo</span><span class="tag">♨️ Terme</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/comprovasco-acquarossa-pian-lottigna-pian-di-ganet" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Comprovasco" target="_blank">🗺️ Maps</a></div></div></div>
+
+<!-- 13. Sentiero Storico 3 -->
+<div class="card" data-type="hike" data-diff="Facile" data-drive="20" data-search="sentiero storico acquarossa malvaglia chiese romaniche borghi"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">13</div><div><h3>Sentiero Storico 3: Acquarossa – Malvaglia ⛪</h3><span class="db dbe">Facile</span> <span class="dt">🚗 ~18 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>7,4 km</strong></div><div class="sv">⛰️ <strong>86 m</strong></div><div class="sv">⏱️ <strong>1h52</strong></div><div class="sv">⭐ <strong>4.5</strong></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Chiese, borghi</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Piatto, 7.4km</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~18 min</div></div></div>
+<div class="desc">Chiese romaniche tra Acquarossa e Malvaglia. Solo 86m di dislivello — quasi tutto in piano.</div>
+<div class="tags"><span class="tag">⛪ Romanico</span><span class="tag">🏘️ Borghi</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sentiero-storico-3-via-acquarossa" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Acquarossa" target="_blank">🗺️ Maps</a></div></div></div>
+
+<!-- 14. Sentiero Didattico Lago Ritom (NEW) -->
+<div class="card new" data-type="hike" data-diff="Facile" data-drive="40" data-search="ritom piotta funicolare lago didattico leventina cadagno"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">14</div><div><h3>Sentiero Didattico Lago Ritom 🚞</h3><span class="new-badge">NUOVO</span> <span class="db dbe">Facile</span> <span class="dt">🚗 ~35-40 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>varie opzioni</strong></div><div class="sv">⛰️ <strong>leggero</strong></div><div class="sv">⏱️ <strong>1-3h</strong></div><div class="sv">📍 Piotta, Leventina</div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Funicolare + lago</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Top 5 Ticino!</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Vicinanza</div><div class="rv">~35-40 min</div></div></div>
+<div class="desc"><strong>Nella Top 5 "sentieri a prova di bambino" di ticino.ch! 🆕</strong> Funicolare del Ritom (una delle più ripide al mondo) fino al lago. Sentiero didattico con pannelli su fauna, flora e geologia. Possibilità di raggiungere Capanna Cadagno. I bimbi adorano la funicolare!</div>
+<div class="tags"><span class="tag">🚞 Funicolare</span><span class="tag">🏔️ Lago alpino</span><span class="tag">📚 Didattico</span><span class="tag">👶 Top 5 Ticino</span></div>
+<div class="acts"><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Piotta,+Leventina" target="_blank">🗺️ Maps</a><a class="btn bpp" href="https://www.ticino.ch/hike/details/Sentiero-Didattico-Lago-Ritom/59559110.html" target="_blank">📖 Dettagli</a></div></div></div>
+
+<!-- 15. Sentiero Storico 4 -->
+<div class="card" data-type="hike" data-diff="Moderato" data-drive="15" data-search="sentiero storico olivone acquarossa cioccolato cima norma dangio"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">15</div><div><h3>Sentiero Storico 4: Olivone – Acquarossa 🏛️</h3><span class="db dbm">Moderato</span> <span class="dt">🚗 ~12 min</span></div></div></div>
+<div class="stats"><div class="sv">📏 <strong>12,2 km</strong></div><div class="sv">⛰️ <strong>328 m</strong></div><div class="sv">⏱️ <strong>~4h</strong></div><div class="sv">⭐ Nuovo</div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Chiese, valle</div></div><div class="ri"><div class="sss">★★☆☆☆</div><div class="rl">Ideale Bimbi</div><div class="rv">12km: a tappe</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~12 min</div></div></div>
+<div class="desc">Olivone → Dangio (Cioccolateria Cima Norma!) → Lottigna → Acquarossa. Fare a tappe e rientrare in bus.</div>
+<div class="tags"><span class="tag">🏛️ Storico</span><span class="tag">🍫 Cima Norma</span><span class="tag">🚌 Bus</span></div>
+<div class="acts"><a class="btn bat" href="https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sentiero-storico-valle-di-blenio-4-olivone-acquarossa" target="_blank">🥾 AllTrails</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Olivone+Posta" target="_blank">🗺️ Maps</a></div></div></div>
+
+</div><!-- /tab-hike -->
+
+<!-- ═══ TAB 2: ATTIVITÀ ═══ -->
+<div class="tc" id="ta">
+
+<div class="st">🔍 Cacce al Tesoro! 🆕</div>
+<div class="ss">LA novità dell'estate 2026: 4 cacce al tesoro nella valle, gratis con app mobile!</div>
+
+<div class="actc" data-type="activity" data-diff="Attività" data-drive="20" data-search="caccia tesoro app blenio lucomagno campo salamandra biriki nara gratis"><h3>📱 App "Tesori della Valle di Blenio" — 4 Cacce al Tesoro!</h3>
+<div class="desc" style="margin-top:.4rem">
+<strong>Scarica l'app gratuita e parti all'avventura!</strong> 🆕 4 percorsi interattivi con enigmi e indovinelli per bambini 4+:<br><br>
+<strong>1. 🔴 Lucomagno</strong> — Tra Acquacalda e Dötra, scopri i segreti dell'acqua e delle Alpi (~1h30)<br>
+<strong>2. 🟢 Campo Blenio</strong> — Nella Pineta Saracin e dintorni, cerca gli animali del bosco (~1h)<br>
+<strong>3. 🟡 Salamandra</strong> — A Ludiano/Semione, segui le tracce della salamandra pezzata (~2h)<br>
+<strong>4. 🟣 Biriki (Nara)</strong> — Alla stazione Nara, caccia al tesoro con la mascotte Biriki (~1h)<br><br>
+<em>App gratuita. Perfetta per coinvolgere il bimbo di 4 anni nella camminata!</em>
+</div>
+<div class="tags"><span class="tag">🔍 Caccia tesoro</span><span class="tag">📱 App gratis</span><span class="tag">👶 4-10 anni</span><span class="tag">🎯 4 percorsi</span><span class="tag">🆕 Estate 2026</span></div>
+<div class="acts"><a class="btn bpp" href="https://www.bellinzonaevalli.ch/it/commons/search?q=tesori+della+valle+di+blenio" target="_blank">📖 Info App</a></div></div>
+
+<div class="st">🎢 NARA — Divertimento in Quota</div>
+
+<div class="card new" data-type="activity" data-diff="Attività" data-drive="20" data-search="nara monster roller bob rotaia swing the world leontica divertimento"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A1</div><div><h3>NARA Mountain — Monster Roller & Swing 🎢</h3><span class="new-badge">NUOVO</span> <span class="db dbi">Attività</span> <span class="dt">🚗 ~18 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Panorama + adrenalina</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Monster Roller 4+!</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~18 min</div></div></div>
+<div class="desc"><strong>Bob su rotaia per bambini dai 4 anni! 🆕</strong> A Nara (sopra Leontica): <strong>Monster Roller</strong> — discesa mozzafiato su rotaia, adrenalina pura ma sicura per bambini. <strong>Swing the World</strong> — altalena panoramica. Seggiovia panoramica, ristorante in quota. Aperto estate e inverno.</div>
+<div class="tags"><span class="tag">🎢 Bob rotaia</span><span class="tag">🎠 Altalena</span><span class="tag">🚡 Seggiovia</span><span class="tag">👶 Dai 4 anni</span><span class="tag">🍽️ Ristorante</span></div>
+<div class="acts"><a class="btn bwb" href="https://nara.ch" target="_blank">🌐 nara.ch</a><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Nara,+Leontica" target="_blank">🗺️ Maps</a></div></div></div>
+
+<div class="st">🏊‍♂️ Piscine & Acqua</div>
+
+<div class="card ft" data-type="activity" data-diff="Attività" data-drive="15" data-search="piscina centro poli olivone coperta nuoto bambini pioggia"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A2</div><div><h3>Centro POLI Olivone 🏊‍♂️</h3><span class="db dbi">Attività</span><span class="cb2 cs1">Piscina</span> <span class="dt">🚗 ~12 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Moderna, pulita</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Vasca bimbi!</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~12 min</div></div></div>
+<div class="desc">Piscina coperta con vasca bambini. Acqua calda, palestra. Salvezza per i giorni di pioggia!</div>
+<div class="tags"><span class="tag">🏊 Piscina</span><span class="tag">👶 Vasca bimbi</span><span class="tag">🌧️ Pioggia</span></div></div></div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="15" data-search="fiume brenno pozze bagno estate fresco olivone"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A3</div><div><h3>Pozze del Fiume Brenno 💧</h3><span class="db dbi">Attività</span><span class="cb2 cs1">Natura</span> <span class="dt">🚗 ~10-15 min</span></div></div></div>
+<div class="img-strip"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Valle_Blenio_Brenno.JPG" onclick="openLb(this)" alt="Fiume Brenno" onerror="this.style.display='none'"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Fall_Colours_in_Blenio_Valley.jpg" onclick="openLb(this)" alt="Valle Blenio" onerror="this.style.display='none'"></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Selvaggio, fresco</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Sorvegliare!</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~10-15 min</div></div></div>
+<div class="desc">Pozze naturali lungo il Brenno. Accesso dal TCS Camping Olivone. <em>Sempre sorvegliare i bimbi!</em></div>
+<div class="tags"><span class="tag">🏞️ Naturale</span><span class="tag">☀️ Estate</span><span class="tag">⚠️ Sorvegliare</span></div></div></div>
+
+<div class="st">🐴 Animali & Fattorie</div>
+
+<div class="card ft" data-type="activity" data-diff="Attività" data-drive="20" data-search="somarelli corzoneso asini trekking bambini passeggiata"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A4</div><div><h3>Somarelli Corzoneso 🐴</h3><span class="db dbi">Attività</span><span class="cb2 cs3">Fattoria</span> <span class="dt">🚗 ~20 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Asini, natura</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Trekking asini!</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~20 min</div></div></div>
+<div class="desc">Trekking con asini mansueti. I bimbi accarezzano e portano al guinzaglio. Prenotare.</div>
+<div class="tags"><span class="tag">🐴 Asini</span><span class="tag">🚶 Trekking</span><span class="tag">👶 2-4a</span><span class="tag">📞 Prenotare</span></div></div></div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="20" data-search="bleniocavalli fattoria cavalli lottigna passeggiate"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A5</div><div><h3>Fattoria Bleniocavalli 🐎</h3><span class="db dbi">Attività</span><span class="cb2 cs3">Fattoria</span> <span class="dt">🚗 ~18 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Cavalli argentini</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Battesimo sella</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~18 min</div></div></div>
+<div class="desc">A Lottigna. Passeggiate a cavallo per bambini. Contattare per orari.</div>
+<div class="tags"><span class="tag">🐎 Cavalli</span><span class="tag">👶 Battesimo</span><span class="tag">📞 Prenotare</span></div></div></div>
+
+<div class="st">🏛️ Musei & Cultura</div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="20" data-search="museo blenio lottigna storia palazzo pretorio"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A6</div><div><h3>Museo Valle di Blenio 🏛️</h3><span class="db dbi">Attività</span><span class="cb2 cs6">Museo</span> <span class="dt">🚗 ~18 min</span></div></div></div>
+<div class="img-strip"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Palazzo_Pretorio_Lottigna_DSC8982.JPG" onclick="openLb(this)" alt="Palazzo Pretorio" onerror="this.style.display='none'"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Museo_della_Valle_di_Blenio_01.jpg" onclick="openLb(this)" alt="Museo" onerror="this.style.display='none'"></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Palazzo storico</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Più adulti</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~18 min</div></div></div>
+<div class="desc">Lottigna, Palazzo del Pretorio (XVI sec.). Storia e tradizioni. Gratuito/offerta.</div>
+<div class="tags"><span class="tag">🏛️ Museo</span><span class="tag">📜 Storia</span><span class="tag">🏰 XVI sec</span></div></div></div>
+
+<div class="st">🌿 Natura & Avventura</div>
+
+<div class="card ft" data-type="activity" data-diff="Attività" data-drive="20" data-search="pro natura lucomagno centro didattico laboratori natura"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A7</div><div><h3>Centro Pro Natura Lucomagno 🦊</h3><span class="db dbi">Attività</span><span class="cb2 cs7">Natura</span> <span class="dt">🚗 ~20 min</span></div></div></div>
+<div class="img-strip"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Lukmanierpass%2C_Passo_del_Lucomagno._20-09-2022._%28actm.%29_01.jpg" onclick="openLb(this)" alt="Lucomagno" onerror="this.style.display='none'"><img class="img-thumb" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Lukmanierpass%2C_Passo_del_Lucomagno._20-09-2022._%28actm.%29_03.jpg" onclick="openLb(this)" alt="Lucomagno 2" onerror="this.style.display='none'"></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Natura alpina</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Laboratori</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~20 min</div></div></div>
+<div class="desc">7 sentieri naturalistici, laboratori famiglie, flora e fauna alpina.</div>
+<div class="tags"><span class="tag">🦊 Natura</span><span class="tag">📚 Didattico</span><span class="tag">👨‍👩‍👧 Famiglie</span></div>
+<div class="acts"><a class="btn bwb" href="https://www.pronatura-lucomagno.ch/it/" target="_blank">🌐 Sito</a></div></div></div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="15" data-search="aula bosco olivone didattica natura bambini outdoor"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A8</div><div><h3>Aula nel Bosco 🌳</h3><span class="db dbi">Attività</span><span class="cb2 cs7">Natura</span> <span class="dt">🚗 ~12 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Spazio nel bosco</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Libertà, sicuro</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~12 min</div></div></div>
+<div class="desc">Spazio didattico a Olivone. Natura in libertà. <strong>Gratuito!</strong></div>
+<div class="tags"><span class="tag">🌳 Outdoor</span><span class="tag">🆓 Gratuito</span></div></div></div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="15" data-search="parco sarracino giochi campo blenio altalene ristorante"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A9</div><div><h3>Parco Giochi Sarracino 🛝</h3><span class="db dbi">Attività</span><span class="cb2 cs2">Parco</span> <span class="dt">🚗 ~12 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Nel bosco</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Giochi + risto</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Vicinanza</div><div class="rv">~12 min</div></div></div>
+<div class="desc">Parco giochi immerso nel verde. Buvette con cucina nostrana. Ombra garantita!</div>
+<div class="tags"><span class="tag">🛝 Giochi</span><span class="tag">🍽️ Buvette</span><span class="tag">🆓 Gratuito</span></div></div></div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="35" data-search="castelli bellinzona unesco trenino artu merlatura bambini"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A10</div><div><h3>Castelli di Bellinzona + Artù Trenino 🏰</h3><span class="new-badge">NUOVO</span> <span class="db dbi">Attività</span><span class="cb2 cs6">UNESCO</span> <span class="dt">🚗 ~35 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★★</div><div class="rl">Bellezza</div><div class="rv">Patrimonio UNESCO</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Trenino + merlature</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Vicinanza</div><div class="rv">~35 min</div></div></div>
+<div class="desc"><strong>3 castelli UNESCO! 🆕</strong> I bimbi adorano il <strong>trenino Artù</strong> che collega i castelli. Merlature, torri, ponti levatoi. Perfetto per una gita di mezza giornata. Ristoranti e aree picnic. <em>Anche la Caccia al tesoro Maestro Martino parte da qui!</em></div>
+<div class="tags"><span class="tag">🏰 UNESCO</span><span class="tag">🚂 Trenino</span><span class="tag">🔍 Caccia tesoro</span><span class="tag">📸 Foto</span></div>
+<div class="acts"><a class="btn bmp" href="https://www.google.com/maps/dir/Sim%C3%B6u/Castelgrande,+Bellinzona" target="_blank">🗺️ Maps</a><a class="btn bpp" href="https://www.bellinzonaevalli.ch/it/activities/caccia-al-tesoro-maestro-martino.html" target="_blank">📖 Caccia Tesoro</a></div></div></div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="25" data-search="filovia monte dagro funivia panoramica malvaglia"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A11</div><div><h3>Filovia Monte Dagro 🚡</h3><span class="db dbi">Attività</span><span class="cb2 cs7">Panorama</span> <span class="dt">🚗 ~25 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Vista valle</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Funivia!</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Vicinanza</div><div class="rv">~25 min</div></div></div>
+<div class="desc">Funivia panoramica da Malvaglia. I bimbi adorano la funivia! Passeggiate in quota.</div></div></div>
+
+<div class="st">🎬 Giorni di Pioggia</div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="20" data-search="cinema teatro blenio acquarossa film bambini pioggia"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A12</div><div><h3>Cinema Teatro Blenio 🎬</h3><span class="db dbi">Attività</span><span class="cb2 cs4">Pioggia</span> <span class="dt">🚗 ~18 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Bellezza</div><div class="rv">Sala moderna</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Ideale Bimbi</div><div class="rv">Programmazione</div></div><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Vicinanza</div><div class="rv">~18 min</div></div></div>
+<div class="desc">Cinema ad Acquarossa. Proiezioni per famiglie. <em>Alt: Splash & Spa Tamaro a ~50 min.</em></div></div></div>
+
+<div class="st">🚲 Bici</div>
+
+<div class="card" data-type="activity" data-diff="Attività" data-drive="25" data-search="pista ciclabile fondovalle blenio bici bambini biasca acquarossa"><div class="cb">
+<div class="ch"><div style="display:flex;align-items:center;gap:.4rem"><div class="num">A13</div><div><h3>Pista Ciclabile Fondovalle Blenio 🚲</h3><span class="db dbi">Attività</span><span class="cb2 cs5">Bici</span> <span class="dt">🚗 ~20-30 min</span></div></div></div>
+<div class="ratings"><div class="ri"><div class="sss">★★★★☆</div><div class="rl">Bellezza</div><div class="rv">Lungo fiume</div></div><div class="ri"><div class="sss">★★★★★</div><div class="rl">Ideale Bimbi</div><div class="rv">Piatto, sicuro!</div></div><div class="ri"><div class="sss">★★★☆☆</div><div class="rl">Vicinanza</div><div class="rv">~20-30 min</div></div></div>
+<div class="desc">Pista pianeggiante Biasca–Acquarossa. Sicura, lontana dal traffico. Bici o passeggino.</div></div></div>
+
+<div class="st">📅 Eventi Estate 2026</div>
+<div class="actc" data-type="activity" data-diff="Attività" data-drive="20" data-search="eventi estate sagre feste mercati blenio martedi natura"><h3>🎪 Eventi in Valle</h3>
+<div class="desc"><strong>Da non perdere:</strong><br>• <strong>Martedì in Natura</strong> — escursioni guidate gratis per famiglie (Pro Natura)<br>• <strong>Musica al Museo</strong> — concerti a Lottigna, Luglio-Agosto<br>• <strong>Sagra di Dandrio</strong> — festa paesana, metà Agosto<br>• <strong>Festa Patronale Olivone</strong> — giochi bimbi, musica<br>• <strong>Mercato Contadino</strong> — Acquarossa weekend<br>• <strong>Bus Alpino</strong> — collegamenti Greina, Luglio-Ottobre (busalpin.ch)<br>• <strong>Pineta Saracino</strong> — attività per bambini tutta l'estate!<br><em>Date: blenioturismo.ch</em></div>
+<div class="tags"><span class="tag">🎪 Feste</span><span class="tag">🎵 Musica</span><span class="tag">🍽️ Gastronomia</span><span class="tag">🚌 Bus Alpino</span></div></div>
+
+</div><!-- /tab-activity -->
+
+<div class="tips"><h2>💡 Consigli Pratici</h2><div class="tps">
+<div><strong>🎒 Portare:</strong><br>• Zaino porta-bimbo (2 anni)<br>• Acqua e snack<br>• Crema solare e cappellino<br>• Torcia (tunnel diga, Orrido!)<br>• Giacca impermeabile</div>
+<div><strong>🍽️ Mangiare:</strong><br>• Ristorante Diga Luzzone<br>• Capanna Dötra (1748m)<br>• Buvette Parco Sarracino<br>• Osteria Polisport Olivone<br>• Cima Norma Dangio</div>
+<div><strong>🚌 Trasporti:</strong><br>• Postbus Olivone–Luzzone<br>• Bus Alpino (busalpin.ch)<br>• Seggiovia Nara<br>• Funicolare Ritom<br>• Trenino Artù Bellinzona</div>
+<div><strong>🔗 Link:</strong><br>• blenioturismo.ch<br>• pronatura-lucomagno.ch<br>• sentierilucomagno.ch<br>• nara.ch<br>• ticino.ch</div></div></div>
+
+<div class="foot"><p>🏔️ Fonti: AllTrails, Switzerland Tourism, Bellinzonese e Valli, Pro Natura Lucomagno, Ticino.ch, Fuga in Famiglia</p><p>Simöu, Olivone • Valle di Blenio • Ticino • 30 Giugno 2026</p><p>⚠️ Verifica sempre meteo e condizioni sentieri. Alcune attività richiedono prenotazione.</p></div>
+</div>
+
+<div class="lb-bg" id="lb"><button class="lb-close" onclick="closeLb()">✕</button><button class="lb-nav lb-prev" onclick="lbNav(-1)">‹</button><img class="lb-img" id="lbImg" src="" alt=""><button class="lb-nav lb-next" onclick="lbNav(1)">›</button><div class="lb-counter" id="lbCt"></div><div class="lb-thumbs" id="lbThumbs"></div></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
