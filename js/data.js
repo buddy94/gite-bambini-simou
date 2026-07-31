@@ -51,6 +51,6 @@ function validate(activities, meta) {
   }
 
   if (problems.length) {
-    console.warn(`[gite-simou] ${problems.length} problemi nei dati:\n` + problems.join('\n'));
+    console.warn(`[guida-simou] ${problems.length} problemi nei dati:\n` + problems.join('\n'));
   }
 }
