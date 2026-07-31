@@ -7,6 +7,7 @@
       "emoji": "🌲",
       "kind": "sentiero",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -47,7 +48,8 @@
           "kind": "alltrails",
           "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/lucomagno-nature-trail-ai-cembri-dotra"
         }
-      ]
+      ],
+      "toddler": "Il primo tratto nel bosco di cembri secolari è dolce: si cammina quanto regge il bambino e si torna indietro quando si vuole, senza dover arrivare alla Capanna Dötra. Zaino porta-bimbo consigliato per il fondo sconnesso (radici, sassi) e per il tratto vicino alla cascata; passeggino non adatto."
     },
     {
       "id": "sentiero-acqua",
@@ -332,6 +334,7 @@
       "emoji": "🌲",
       "kind": "sentiero",
       "ages": [
+        "0-4",
         "4-9"
       ],
       "difficulty": "facile",
@@ -377,7 +380,9 @@
           "kind": "info",
           "url": "https://www.myswitzerland.com/it-ch/scoprire-la-svizzera/route/sentiero-di-campo-blenio/"
         }
-      ]
+      ],
+      "toddler": "Percorso pianeggiante nella pineta, ottimo anche per lattanti in passeggino: 40 m di dislivello su 2 km, anello breve. Al Parco Giochi Sarracino c'è la buvette con ombra per una lunga pausa; da guardare scoiattoli e caprioli nel bosco.",
+      "stroller": true
     },
     {
       "id": "lucomagno-rosso",
@@ -745,6 +750,7 @@
       "emoji": "🌊",
       "kind": "sentiero",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi"
       ],
@@ -783,7 +789,8 @@
           "kind": "alltrails",
           "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/comprovasco-acquarossa-pian-lottigna-pian-di-ganet"
         }
-      ]
+      ],
+      "toddler": "Poco dislivello spalmato su tutto l'anello (178 m su 6,8 km) e tanti punti dove fermarsi: non serve fare tutto il giro, si cammina lungo il Brenno da Comprovasco finché il bimbo regge e si torna sui propri passi. Fondo misto, non garantito per il passeggino su tutto il tragitto."
     },
     {
       "id": "sentiero-storico-3",
@@ -791,6 +798,7 @@
       "emoji": "⛪",
       "kind": "sentiero",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -830,7 +838,8 @@
           "kind": "alltrails",
           "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sentiero-storico-3-via-acquarossa"
         }
-      ]
+      ],
+      "toddler": "Quasi piatto (86 m su 7,4 km): non serve percorrerlo tutto, si arriva in auto ad Acquarossa e si cammina verso le prime chiese romaniche finché il bimbo ce la fa, poi si torna sui propri passi invece di aspettare il bus di fine percorso."
     },
     {
       "id": "quatro-pass",
@@ -1036,6 +1045,7 @@
       "emoji": "🚞",
       "kind": "sentiero",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -1080,7 +1090,8 @@
           "kind": "info",
           "url": "https://www.ticino.ch/hike/details/Sentiero-Didattico-Lago-Ritom/59559110.html"
         }
-      ]
+      ],
+      "toddler": "La funicolare più ripida al mondo è già di per sé l'attrazione; il giro del lago è quasi pianeggiante (125 m su 6,8 km) ma non serve completarlo, si cammina in riva quanto il bimbo regge e si torna indietro. Zaino porta-bimbo consigliato, il fondo non è garantito per il passeggino; conta come gita di giornata intera per la distanza (oltre un'ora di auto)."
     }
   ]
 }

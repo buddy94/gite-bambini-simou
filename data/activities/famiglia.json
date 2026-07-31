@@ -7,6 +7,7 @@
       "emoji": "🔍",
       "kind": "avventura",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi"
       ],
@@ -48,7 +49,9 @@
           "kind": "web",
           "url": "https://apps.apple.com/ch/app/tesori-della-valle-di-blenio/id1569421716"
         }
-      ]
+      ],
+      "toddler": "L'app è pensata dai 4 anni: per la fascia 0-4 sceglie il percorso di Campo Blenio (~1h, sulla Pineta Saracin, già adatta ai piccolissimi) e lascia perdere gli altri tre, su sentieri troppo impegnativi per questa età. Scarica l'app prima di partire, il segnale in valle è scarso.",
+      "stroller": true
     },
     {
       "id": "centro-poli",
@@ -56,6 +59,7 @@
       "emoji": "🏊",
       "kind": "acqua",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -88,7 +92,9 @@
         "autunno",
         "inverno"
       ],
-      "links": []
+      "links": [],
+      "toddler": "Piscina raggiungibile in auto, nessun cammino richiesto: buona scelta anche per un bimbo piccolissimo, ma verificare se c'è una zona bassa adatta ai lattanti e sorvegliare sempre in acqua. Passeggino comodo fino all'ingresso, poi snack bar e parco giochi.",
+      "stroller": true
     },
     {
       "id": "pozze-brenno",
@@ -137,6 +143,7 @@
       "emoji": "🦊",
       "kind": "animali",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -176,7 +183,9 @@
           "kind": "web",
           "url": "https://www.pronatura-lucomagno.ch/it/"
         }
-      ]
+      ],
+      "toddler": "Il centro visite e i laboratori per famiglie si vivono senza cammino impegnativo, raggiungibile in auto, con ristorante comodo anche con un neonato al seguito. I sette sentieri naturalistici collegati sono per età più grandi: qui basta il centro.",
+      "stroller": true
     },
     {
       "id": "aula-nel-bosco",
@@ -184,6 +193,7 @@
       "emoji": "🌳",
       "kind": "animali",
       "ages": [
+        "0-4",
         "4-9"
       ],
       "difficulty": "facile",
@@ -211,7 +221,8 @@
         "estate",
         "autunno"
       ],
-      "links": []
+      "links": [],
+      "toddler": "Spazio aperto senza percorso obbligato, dove il bambino esplora liberamente: nessun dislivello, si torna all'auto quando si vuole. Terreno naturale (erba, terra), non pensato per il passeggino."
     },
     {
       "id": "parco-sarracino",
@@ -219,6 +230,7 @@
       "emoji": "🛝",
       "kind": "avventura",
       "ages": [
+        "0-4",
         "4-9"
       ],
       "difficulty": "facile",
@@ -247,7 +259,9 @@
         "estate",
         "autunno"
       ],
-      "links": []
+      "links": [],
+      "toddler": "Vero e proprio parco giochi nel bosco, raggiungibile in auto: nessun cammino richiesto, ombra garantita e buvette per gli adulti. Adatto anche a un bimbo che gattona o cammina appena.",
+      "stroller": true
     },
     {
       "id": "bleniocavalli",
@@ -255,6 +269,7 @@
       "emoji": "🐎",
       "kind": "animali",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi"
       ],
@@ -283,7 +298,8 @@
         "estate",
         "autunno"
       ],
-      "links": []
+      "links": [],
+      "toddler": "Il battesimo della sella è pensato più per 3-4 anni che per un lattante: chiedere al momento della prenotazione l'età minima accettata dal maneggio. Per i più piccoli resta comunque possibile vedere e accarezzare i cavalli."
     },
     {
       "id": "somarelli",
@@ -291,6 +307,7 @@
       "emoji": "🐴",
       "kind": "animali",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi"
       ],
@@ -322,7 +339,8 @@
         "autunno"
       ],
       "warn": "Prenotazione obbligatoria.",
-      "links": []
+      "links": [],
+      "toddler": "Pensato esplicitamente per un bambino di quattro anni che tiene l'asino al guinzaglio; sotto i 3 anni il bimbo può solo accarezzarlo in braccio a un adulto. Prenotazione obbligatoria: chiedere l'età minima accettata."
     },
     {
       "id": "filovia-dagro",
@@ -330,6 +348,7 @@
       "emoji": "🚡",
       "kind": "avventura",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -360,7 +379,8 @@
         "autunno"
       ],
       "warn": "Verificare gli orari della filovia prima di partire.",
-      "links": []
+      "links": [],
+      "toddler": "Si sale in funivia, non serve camminare: il testo segnala esplicitamente passeggiate tranquille in quota adatte anche ai più piccoli. Zaino porta-bimbo più comodo del passeggino sul sentiero in cima; verificare gli orari della funivia prima di partire."
     },
     {
       "id": "rafting-brenno",
@@ -410,6 +430,7 @@
       "emoji": "🎢",
       "kind": "avventura",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -454,7 +475,8 @@
           "kind": "info",
           "url": "https://www.blenioviva.ch/it/offerte/estate-al-nara"
         }
-      ]
+      ],
+      "toddler": "Il Monster Roller è aperto dai 4 anni compiuti: adatto solo alla punta più alta della fascia 0-4, non ai più piccoli, e verificare eventuali limiti di altezza o peso sul posto. Le altalene panoramiche Swing the World vanno valutate a vista, possono spaventare un bimbo piccolo."
     },
     {
       "id": "canyoning-pontirone",

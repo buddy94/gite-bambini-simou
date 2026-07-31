@@ -43,6 +43,7 @@
       "emoji": "🎪",
       "kind": "cultura",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -82,7 +83,9 @@
           "kind": "web",
           "url": "https://www.busalpin.ch/"
         }
-      ]
+      ],
+      "toddler": "Sagre, mercati e feste di paese si girano comodamente col passeggino, senza cammino impegnativo. Evitare invece le escursioni guidate 'Martedì in Natura' e il Bus Alpino per la Greina, pensati per gambe più grandi.",
+      "stroller": true
     },
     {
       "id": "cima-norma",
@@ -90,6 +93,7 @@
       "emoji": "🍫",
       "kind": "gusto",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -135,7 +139,9 @@
           "kind": "info",
           "url": "https://www.ticino.ch/en/commons/details/La-Fabbrica-del-Cioccolato-c-o-Cima-Norma/136547.html"
         }
-      ]
+      ],
+      "toddler": "Visita museale al coperto, senza cammino: adatta anche a 0-4 se la visita resta breve. Telefonare prima per prenotare (+41 79 518 99 79 / +41 91 872 15 13); passeggino utilizzabile negli spazi del museo.",
+      "stroller": true
     },
     {
       "id": "museo-blenio",
@@ -183,6 +189,7 @@
       "emoji": "🚲",
       "kind": "bici",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -216,7 +223,9 @@
         "estate",
         "autunno"
       ],
-      "links": []
+      "links": [],
+      "toddler": "Percorso pianeggiante e sicuro lontano dal traffico, la descrizione stessa dice che va bene con il passeggino. Non serve completare i 20 km: si fa il pezzo che si vuole e si torna indietro.",
+      "stroller": true
     },
     {
       "id": "cinema-blenio",
@@ -224,6 +233,7 @@
       "emoji": "🎬",
       "kind": "pioggia",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -254,7 +264,9 @@
         "autunno",
         "inverno"
       ],
-      "links": []
+      "links": [],
+      "toddler": "Attività al coperto per i giorni di pioggia: valutare durata e tipo di film per un bimbo così piccolo, e ricordare che si può sempre uscire in anticipo dalla sala. Passeggino ok fino in sala.",
+      "stroller": true
     },
     {
       "id": "bike-park-nara",
@@ -311,6 +323,7 @@
       "emoji": "🏰",
       "kind": "cultura",
       "ages": [
+        "0-4",
         "4-9",
         "ragazzi",
         "adulti"
@@ -349,7 +362,9 @@
           "kind": "info",
           "url": "https://www.bellinzonaevalli.ch/it/activities/caccia-al-tesoro-maestro-martino.html"
         }
-      ]
+      ],
+      "toddler": "Le spianate e i cortili dei tre castelli sono in gran parte pianeggianti e passeggino-friendly, e il trenino Artù che li collega è un'attrazione in sé senza bisogno di camminare. Nelle torri e sulle merlature tenere il bimbo per mano o in braccio, non sempre c'è una barriera bassa.",
+      "stroller": true
     }
   ]
 }
