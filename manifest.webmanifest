@@ -1,0 +1,14 @@
+{
+  "name": "Guida di Simöu",
+  "short_name": "Simöu",
+  "description": "Gite e attività in Valle di Blenio, da Simöu — per bambini, ragazzi e adulti.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#1a3c2a",
+  "lang": "it",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
