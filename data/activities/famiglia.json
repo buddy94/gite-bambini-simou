@@ -1,0 +1,507 @@
+{
+  "title": "Acqua, animali e avventura",
+  "activities": [
+    {
+      "id": "caccia-tesoro",
+      "title": "App \"Tesori della Valle di Blenio\" — 4 cacce al tesoro",
+      "emoji": "🔍",
+      "kind": "avventura",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 15,
+        "km": 10.2,
+        "to": "varie (Lucomagno, Campo Blenio, Ludiano, Nara)"
+      },
+      "lat": 46.5379,
+      "lon": 8.83466,
+      "stats": {
+        "time": "1-2h per percorso"
+      },
+      "rating": 4.7,
+      "featured": true,
+      "why": "Gratis, e trasforma una camminata in una missione. Funziona sui bambini che dicono \"sono stanco\" dopo 200 metri.",
+      "desc": "App gratuita con quattro percorsi a enigmi per bambini dai 4 anni: Lucomagno (Acquacalda–Dötra, ~1h30), Campo Blenio (Pineta Saracin, ~1h), Salamandra (Ludiano/Semione, ~2h) e Biriki al Nara (~1h). Si sovrappongono ai sentieri già in questa guida: scarica l'app prima di partire, in valle il segnale non è ovunque.",
+      "tags": [
+        "gratis",
+        "app",
+        "enigmi",
+        "dai 4 anni",
+        "4 percorsi"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "Android",
+          "kind": "web",
+          "url": "https://play.google.com/store/apps/details?id=com.MACACO.TesoridellaVallediBlenio"
+        },
+        {
+          "label": "iOS",
+          "kind": "web",
+          "url": "https://apps.apple.com/ch/app/tesori-della-valle-di-blenio/id1569421716"
+        }
+      ]
+    },
+    {
+      "id": "centro-poli",
+      "title": "Centro POLI Olivone — piscina",
+      "emoji": "🏊",
+      "kind": "acqua",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 15,
+        "km": 10.1,
+        "to": "Olivone"
+      },
+      "lat": 46.5304,
+      "lon": 8.93845,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "890 m"
+      },
+      "rating": 4.5,
+      "featured": true,
+      "why": "La prima piscina pubblica di tutta la Valle di Blenio, ed è quella vicina a casa.",
+      "desc": "Piscina laghetto di 450 m², snack bar con cucina, parco giochi, palestra e palestra di roccia nella vecchia struttura polisportiva restaurata. Pensata per famiglie, bambini, giovani e scuole. La salvezza dei giorni in cui non si sa cosa fare.",
+      "tags": [
+        "piscina 450 m²",
+        "snack bar",
+        "parco giochi",
+        "palestra di roccia"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "links": []
+    },
+    {
+      "id": "pozze-brenno",
+      "title": "Pozze del fiume Brenno",
+      "emoji": "💧",
+      "kind": "acqua",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 15,
+        "km": 10.1,
+        "to": "Olivone"
+      },
+      "lat": 46.5304,
+      "lon": 8.93845,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "890 m"
+      },
+      "rating": 4.0,
+      "why": "Acqua gelida e gratis nei giorni in cui in valle fa caldo davvero.",
+      "desc": "Pozze naturali lungo il Brenno, con accesso dalla zona del camping di Olivone. Fondo di sassi, acqua molto fredda anche ad agosto.",
+      "tags": [
+        "naturale",
+        "gratis",
+        "estate",
+        "acqua fredda"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Sempre sorvegliare i bambini. La portata del fiume cambia in fretta dopo i temporali.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/5d/Valle_Blenio_Brenno.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/5/55/Fall_Colours_in_Blenio_Valley.jpg"
+      ],
+      "links": []
+    },
+    {
+      "id": "pro-natura-lucomagno",
+      "title": "Centro Pro Natura Lucomagno",
+      "emoji": "🦊",
+      "kind": "animali",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 15,
+        "km": 10.2,
+        "to": "Acquacalda"
+      },
+      "lat": 46.53791,
+      "lon": 8.83466,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "1750 m"
+      },
+      "rating": 4.6,
+      "why": "Sette sentieri naturalistici, laboratori per famiglie e un ristorante, tutto nello stesso posto.",
+      "desc": "Base di partenza per i sentieri naturalistici del Lucomagno, con laboratori dedicati alle famiglie su flora e fauna alpina. Il ristorante lo rende una destinazione di mezza giornata anche col brutto tempo.",
+      "tags": [
+        "7 sentieri",
+        "laboratori",
+        "famiglie",
+        "ristorante"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/5/57/Lukmanierpass%2C_Passo_del_Lucomagno._20-09-2022._%28actm.%29_01.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/70/Lukmanierpass%2C_Passo_del_Lucomagno._20-09-2022._%28actm.%29_03.jpg"
+      ],
+      "links": [
+        {
+          "label": "pronatura-lucomagno.ch",
+          "kind": "web",
+          "url": "https://www.pronatura-lucomagno.ch/it/"
+        }
+      ]
+    },
+    {
+      "id": "aula-nel-bosco",
+      "title": "Aula nel Bosco",
+      "emoji": "🌳",
+      "kind": "animali",
+      "ages": [
+        "4-9"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 15,
+        "km": 10.1,
+        "to": "Olivone"
+      },
+      "lat": 46.5304,
+      "lon": 8.93845,
+      "stats": {
+        "time": "1-2h",
+        "alt": "890 m"
+      },
+      "rating": 4.4,
+      "why": "Gratis, all'aperto e i bambini possono fare quello che vogliono.",
+      "desc": "Spazio didattico all'aperto a Olivone. Natura in libertà, senza programma. Gratuito.",
+      "tags": [
+        "gratis",
+        "outdoor",
+        "libero"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": []
+    },
+    {
+      "id": "parco-sarracino",
+      "title": "Parco Giochi Sarracino",
+      "emoji": "🛝",
+      "kind": "avventura",
+      "ages": [
+        "4-9"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 19,
+        "km": 13.4,
+        "to": "Campo Blenio"
+      },
+      "lat": 46.55706,
+      "lon": 8.93538,
+      "stats": {
+        "time": "1-3h",
+        "alt": "1217 m"
+      },
+      "rating": 4.5,
+      "why": "Parco giochi nel bosco con buvette: ombra garantita e adulti seduti.",
+      "desc": "Immerso nella pineta di Campo Blenio, con buvette e cucina nostrana. D'estate ci sono attività per bambini per tutta la stagione. Gratuito.",
+      "tags": [
+        "gratis",
+        "buvette",
+        "ombra",
+        "pineta"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": []
+    },
+    {
+      "id": "bleniocavalli",
+      "title": "Fattoria Bleniocavalli",
+      "emoji": "🐎",
+      "kind": "animali",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 24,
+        "km": 17.7,
+        "to": "Lottigna"
+      },
+      "lat": 46.46988,
+      "lon": 8.94351,
+      "stats": {
+        "time": "1-2h",
+        "alt": "~700 m"
+      },
+      "rating": 4.3,
+      "why": "Battesimo della sella a venti minuti da casa.",
+      "desc": "A Lottigna, passeggiate a cavallo anche per bambini. Contattare per orari e disponibilita'.",
+      "tags": [
+        "cavalli",
+        "battesimo sella",
+        "su prenotazione"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": []
+    },
+    {
+      "id": "somarelli",
+      "title": "Somarelli Corzoneso — trekking con gli asini",
+      "emoji": "🐴",
+      "kind": "animali",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 32,
+        "km": 23.7,
+        "to": "Corzoneso"
+      },
+      "lat": 46.44646,
+      "lon": 8.93359,
+      "stats": {
+        "time": "2-3h",
+        "alt": "~600 m"
+      },
+      "rating": 4.8,
+      "featured": true,
+      "why": "Un bambino di quattro anni cammina il doppio se tiene un asino al guinzaglio.",
+      "desc": "Trekking con asini mansueti: i bambini li accarezzano e li portano al guinzaglio lungo il percorso. Va prenotato.",
+      "tags": [
+        "asini",
+        "trekking",
+        "dai 3 anni",
+        "su prenotazione"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "warn": "Prenotazione obbligatoria.",
+      "links": []
+    },
+    {
+      "id": "filovia-dagro",
+      "title": "Filovia Monte Dagro",
+      "emoji": "🚡",
+      "kind": "avventura",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 35,
+        "km": 27.0,
+        "to": "Malvaglia"
+      },
+      "lat": 46.42189,
+      "lon": 8.99659,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "1400 m"
+      },
+      "rating": 4.2,
+      "why": "Salire in funivia è metà del divertimento, e in cima ci sono passeggiate facili.",
+      "desc": "Funivia panoramica da Malvaglia verso Dagro, terrazza sulla bassa Blenio. In quota, passeggiate tranquille adatte anche ai piccoli.",
+      "tags": [
+        "funivia",
+        "panorama",
+        "passeggiate in quota"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "warn": "Verificare gli orari della filovia prima di partire.",
+      "links": []
+    },
+    {
+      "id": "rafting-brenno",
+      "title": "Rafting sul Brenno e sul Ticino",
+      "emoji": "🛶",
+      "kind": "avventura",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 41,
+        "km": 32.5,
+        "to": "Biasca"
+      },
+      "lat": 46.36355,
+      "lon": 8.9803,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "~300 m"
+      },
+      "rating": 4.5,
+      "why": "Il Brenno è il fiume che passa sotto casa: qui lo scendi in gommone.",
+      "desc": "Discese in rafting da Biasca a Bellinzona sul Brenno e poi sul Ticino. Indicativamente 150 franchi a persona. La zona di Biasca e Riviera è il punto di partenza anche per canoa e canyoning.",
+      "tags": [
+        "gommone",
+        "fiume",
+        "guida",
+        "estate"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Verificare età minima e livello dell'acqua con l'organizzatore.",
+      "links": [
+        {
+          "label": "Biasca e Riviera",
+          "kind": "info",
+          "url": "https://www.bellinzonaevalli.ch/en/discover/destinations/biasca-riviera.html"
+        }
+      ]
+    },
+    {
+      "id": "nara-monster-roller",
+      "title": "NARA — Monster Roller & Swing the World",
+      "emoji": "🎢",
+      "kind": "avventura",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 45,
+        "km": 16.1,
+        "to": "Nara"
+      },
+      "lat": 46.4657,
+      "lon": 8.88463,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "1400-2000 m"
+      },
+      "rating": 4.8,
+      "featured": true,
+      "why": "Bob su rotaia dai 4 anni e due altalene panoramiche: la carta vincente quando i bambini sono stufi di camminare.",
+      "desc": "Sopra Leontica: il Monster Roller è una discesa su rotaia, adrenalinica ma sicura, aperta dai 4 anni. Swing the World sono altalene panoramiche sulla valle. Seggiovia, ristorante in quota e bike park nello stesso posto. Aperto estate e inverno.",
+      "tags": [
+        "bob su rotaia",
+        "altalena panoramica",
+        "seggiovia",
+        "dai 4 anni",
+        "ristorante"
+      ],
+      "season": [
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "warn": "45 minuti di macchina: più lontano di quanto sembri sulla cartina.",
+      "links": [
+        {
+          "label": "nara.ch",
+          "kind": "web",
+          "url": "https://nara.ch/"
+        },
+        {
+          "label": "Estate al Nara",
+          "kind": "info",
+          "url": "https://www.blenioviva.ch/it/offerte/estate-al-nara"
+        }
+      ]
+    },
+    {
+      "id": "canyoning-pontirone",
+      "title": "Canyoning — Gole del Pontirone e Malvaglia",
+      "emoji": "🌊",
+      "kind": "avventura",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 52,
+        "km": 33.8,
+        "to": "Pontirone (Biasca)"
+      },
+      "lat": 46.38182,
+      "lon": 9.02063,
+      "stats": {
+        "time": "3h",
+        "alt": "~600 m"
+      },
+      "rating": 4.7,
+      "why": "Calarsi dentro una gola scavata dall'acqua: per un adolescente è la giornata dell'estate.",
+      "desc": "La Val Pontirone, valle laterale sopra Biasca, ha gole adatte sia ai principianti sia agli esperti. C'è anche un tour per principianti a Malvaglia. Indicativamente da 145-155 franchi a persona, con guida e attrezzatura. Stagione da maggio a settembre, gruppi da 4 persone.",
+      "tags": [
+        "gole",
+        "guida",
+        "principianti ok",
+        "maggio-settembre"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Solo con guida certificata. Eta' minima e requisiti variano per tour: chiedere prima.",
+      "links": [
+        {
+          "label": "Canyoning in Ticino",
+          "kind": "info",
+          "url": "https://www.bellinzonaevalli.ch/en/activities/canyoning.html"
+        },
+        {
+          "label": "Ticino Outdoor",
+          "kind": "web",
+          "url": "https://ticinooutdoor.com/"
+        }
+      ]
+    }
+  ]
+}

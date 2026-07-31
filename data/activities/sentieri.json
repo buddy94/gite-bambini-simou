@@ -1,0 +1,1086 @@
+{
+  "title": "Sentieri e camminate",
+  "activities": [
+    {
+      "id": "cembri-dotra",
+      "title": "Nature Trail: Ai Cembri – Dötra",
+      "emoji": "🌲",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 7,
+        "km": 2.9,
+        "to": "Dötra"
+      },
+      "lat": 46.53175,
+      "lon": 8.8795,
+      "stats": {
+        "km": 4.2,
+        "up": 166,
+        "time": "1h24",
+        "alt": "1748 m",
+        "type": "andata e ritorno"
+      },
+      "rating": 5.0,
+      "featured": true,
+      "why": "La gita più vicina in assoluto: 7 minuti di macchina e sei alla partenza.",
+      "desc": "Foresta di pini cembri secolari, ruscello, una cascata e panorami sull'alta Blenio. Si arriva alla Capanna Dötra (1748 m), che d'estate fa da ristorante: è la carota perfetta per convincere le gambe corte. Il percorso si può accorciare a piacere tornando indietro dal punto che si vuole.",
+      "tags": [
+        "cembri",
+        "cascata",
+        "capanna",
+        "vicinissimo"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/lucomagno-nature-trail-ai-cembri-dotra"
+        }
+      ]
+    },
+    {
+      "id": "sentiero-acqua",
+      "title": "Sentiero dell'Acqua / Santéi dr'équa",
+      "emoji": "💧",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 15,
+        "km": 10.2,
+        "to": "Acquacalda"
+      },
+      "lat": 46.53791,
+      "lon": 8.83466,
+      "stats": {
+        "km": 3.7,
+        "up": 166,
+        "time": "1h15",
+        "alt": "1750-1920 m",
+        "type": "da punto a punto"
+      },
+      "rating": 4.6,
+      "featured": true,
+      "why": "Didattico senza essere noioso: quattro pannelli sull'acqua e sul clima, e un ristorante all'arrivo.",
+      "desc": "Da Acquacalda a Dötra attraversando quattro paesaggi d'importanza federale. Ben segnalato e accessibile, con pannelli che spiegano da dove viene l'acqua e come sta cambiando il clima alpino. Al Centro Pro Natura di Acquacalda c'è il ristorante. Si combina bene con la caccia al tesoro del Lucomagno.",
+      "tags": [
+        "didattico",
+        "acqua",
+        "ristorante",
+        "4 paesaggi"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "Dettagli",
+          "kind": "info",
+          "url": "https://www.bellinzonaevalli.ch/hike/details/Sentiero-dell-Acqua/801528750.html"
+        },
+        {
+          "label": "sentierilucomagno.ch",
+          "kind": "web",
+          "url": "https://www.sentierilucomagno.ch/"
+        }
+      ]
+    },
+    {
+      "id": "stabbio-nuovo",
+      "title": "Stabbio Nuovo dal Centro Pro Natura",
+      "emoji": "🦌",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 15,
+        "km": 10.2,
+        "to": "Acquacalda"
+      },
+      "lat": 46.5379,
+      "lon": 8.8347,
+      "stats": {
+        "km": 4.2,
+        "up": 209,
+        "time": "1h29",
+        "alt": "~1800 m",
+        "type": "anello"
+      },
+      "rating": 4.5,
+      "why": "Anello corto con buone probabilita' di vedere fauna, partendo dal centro Pro Natura.",
+      "desc": "Parte da Acquacalda e sale allo Stabbio Nuovo. Marcato come adatto ai bambini e ai cani. Si combina con la visita al Centro Pro Natura e con il ristorante, quindi tiene facilmente mezza giornata.",
+      "tags": [
+        "fauna",
+        "anello",
+        "Pro Natura",
+        "cani ok"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/stabbio-nuovo-via-centro-pro-natura-lucomagno"
+        }
+      ]
+    },
+    {
+      "id": "lareccio-stabbio",
+      "title": "Lareccio – Stabbio Nuovo – Alpe Pian Segno",
+      "emoji": "🏞️",
+      "kind": "sentiero",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 15,
+        "km": 10.2,
+        "to": "Acquacalda / Pian Segno"
+      },
+      "lat": 46.5379,
+      "lon": 8.8347,
+      "stats": {
+        "km": 6.8,
+        "up": 312,
+        "time": "2h17",
+        "alt": "~1900 m",
+        "type": "anello"
+      },
+      "rating": 4.9,
+      "why": "4,9 stelle su AllTrails ed è a un quarto d'ora da casa.",
+      "desc": "Anello nella conca di Pian Segno che collega Lareccio, lo Stabbio Nuovo e l'alpe. Uno dei sentieri meglio valutati di tutta la zona.",
+      "tags": [
+        "anello",
+        "alpeggi",
+        "panorama"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/lareccio-stabbio-nuovo-ai-pini-alpe-pian-segno"
+        }
+      ]
+    },
+    {
+      "id": "orrido-sosto",
+      "title": "L'Orrido del Sosto",
+      "emoji": "🪨",
+      "kind": "sentiero",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 15,
+        "km": 9.9,
+        "to": "Olivone Posta"
+      },
+      "lat": 46.52923,
+      "lon": 8.93585,
+      "stats": {
+        "km": 4.3,
+        "up": 423,
+        "time": "1h42",
+        "alt": "~1200 m",
+        "type": "andata e ritorno"
+      },
+      "rating": 3.9,
+      "why": "Una mulattiera scavata a mano nella roccia dentro una gola: sembra finta e invece è vera.",
+      "desc": "Antica mulattiera da Olivone a Campo Blenio, incisa nella roccia dentro una gola spettacolare. I 423 metri di dislivello la mettono fuori portata per i più piccoli, ma per un ragazzino è una delle cose più impressionanti della valle. Torcia consigliata.",
+      "tags": [
+        "gola",
+        "storico",
+        "mulattiera",
+        "torcia"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "warn": "Portare una torcia. Non adatto sotto i 7-8 anni.",
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/l-orrido-del-sosto"
+        }
+      ]
+    },
+    {
+      "id": "sentiero-storico-4",
+      "title": "Sentiero Storico 4: Olivone – Acquarossa",
+      "emoji": "🏛️",
+      "kind": "sentiero",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 15,
+        "km": 9.9,
+        "to": "Olivone Posta"
+      },
+      "lat": 46.52923,
+      "lon": 8.93585,
+      "stats": {
+        "km": 12.2,
+        "up": 328,
+        "time": "~4h",
+        "alt": "~900 m",
+        "type": "da punto a punto"
+      },
+      "rating": 4.2,
+      "why": "Passa dalla cioccolateria Cima Norma. Non serve altro.",
+      "desc": "Olivone → Dangio (ex fabbrica di cioccolato Cima Norma) → Lottigna → Acquarossa. Dodici chilometri: si può spezzare in due tappe e rientrare in bus da qualsiasi punto.",
+      "tags": [
+        "storico",
+        "Cima Norma",
+        "bus",
+        "a tappe"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sentiero-storico-valle-di-blenio-4-olivone-acquarossa"
+        }
+      ]
+    },
+    {
+      "id": "sommascona-dotra",
+      "title": "Sommascona – Capanna Dötra – Anveuda",
+      "emoji": "🌿",
+      "kind": "sentiero",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 16,
+        "km": 9.6,
+        "to": "Sommascona"
+      },
+      "lat": 46.52887,
+      "lon": 8.91691,
+      "stats": {
+        "km": 8.9,
+        "up": 492,
+        "time": "3h17",
+        "alt": "1748 m",
+        "type": "anello"
+      },
+      "rating": 4.6,
+      "why": "Anello che passa letteralmente sotto casa: Anveuda è la frazione di Simöu.",
+      "desc": "Bosco ombreggiato, ruscello e la Capanna Dötra a metà strada. Nove chilometri e mezzo con quasi 500 metri di dislivello: è la gita da adulti che si può fare partendo praticamente a piedi da casa, se si sale da Anveuda invece che da Sommascona.",
+      "tags": [
+        "anello",
+        "bosco",
+        "capanna",
+        "da casa"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sommascona-capanna-dotra-anveuda"
+        }
+      ]
+    },
+    {
+      "id": "campo-blenio-pineta",
+      "title": "Sentiero di Campo Blenio + Pineta Saracin",
+      "emoji": "🌲",
+      "kind": "sentiero",
+      "ages": [
+        "4-9"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 19,
+        "km": 13.4,
+        "to": "Campo Blenio"
+      },
+      "lat": 46.55706,
+      "lon": 8.93538,
+      "stats": {
+        "km": 2.0,
+        "up": 40,
+        "time": "40 min",
+        "alt": "1217 m",
+        "type": "anello"
+      },
+      "rating": 4.8,
+      "featured": true,
+      "why": "Il paradiso delle gambe corte: 40 metri di dislivello, pineta fiabesca e parco giochi con buvette.",
+      "desc": "Percorso pianeggiante nella piana di Campo Blenio fino alla Pineta Saracin, un bosco con scoiattoli e caprioli. Al Parco Giochi Sarracino c'è la buvette con cucina nostrana e l'ombra garantita. Funziona anche d'inverno sulla neve, ed è una delle quattro tappe della caccia al tesoro con l'app della valle.",
+      "tags": [
+        "pineta",
+        "animali",
+        "parco giochi",
+        "caccia al tesoro",
+        "invernale"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/76/Campo_Blenio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/2/28/Campo_Blenio_im_Val_di_Campo.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cf/Campo_Blenio_Lago_di_Luzzone_-_panoramio_-_Jakkes.jpg"
+      ],
+      "links": [
+        {
+          "label": "Svizzera Turismo",
+          "kind": "info",
+          "url": "https://www.myswitzerland.com/it-ch/scoprire-la-svizzera/route/sentiero-di-campo-blenio/"
+        }
+      ]
+    },
+    {
+      "id": "lucomagno-rosso",
+      "title": "Sentiero Naturalistico Lucomagno – Rosso",
+      "emoji": "🔴",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 20,
+        "km": 15.8,
+        "to": "Passo del Lucomagno"
+      },
+      "lat": 46.57431,
+      "lon": 8.80118,
+      "stats": {
+        "km": 4.2,
+        "up": 163,
+        "time": "1h18",
+        "alt": "~1900 m",
+        "type": "anello"
+      },
+      "rating": 4.7,
+      "why": "Laghi alpini e birdwatching su un anello corto e ben segnalato.",
+      "desc": "Uno dei sette sentieri naturalistici di Pro Natura Lucomagno. Anello tra laghetti alpini, ruscelli e boschi radi, con pannelli didattici. Buono per il birdwatching. Anche qui c'è una caccia al tesoro dell'app della valle.",
+      "tags": [
+        "lago",
+        "didattico",
+        "birdwatching",
+        "Pro Natura"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "warn": "Il Passo del Lucomagno chiude d'inverno: controlla l'apertura prima di partire.",
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sentiero-naturalistico-lucomagno-rosso"
+        },
+        {
+          "label": "pronatura-lucomagno.ch",
+          "kind": "web",
+          "url": "https://www.pronatura-lucomagno.ch/it/"
+        }
+      ]
+    },
+    {
+      "id": "alpe-pertusio",
+      "title": "Alpe Pertusio – Sorgente del Brenno – Alpe Gana",
+      "emoji": "🌊",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 20,
+        "km": 15.8,
+        "to": "Passo del Lucomagno"
+      },
+      "lat": 46.5743,
+      "lon": 8.8012,
+      "stats": {
+        "km": 7.4,
+        "up": 262,
+        "time": "2h13",
+        "alt": "~1900 m",
+        "type": "anello"
+      },
+      "rating": 4.6,
+      "why": "Si arriva alla sorgente del Brenno: il fiume che poi vedi da casa, qui nasce.",
+      "desc": "Anello al Lucomagno che tocca l'Alpe Pertusio, la sorgente del Brenno e l'Alpe Gana. Segnalato come adatto ai bambini su AllTrails, ma sono 7,4 km: meglio dai 6-7 anni in su, o mettendo in conto lo zaino porta-bimbo per il ritorno.",
+      "tags": [
+        "sorgente",
+        "alpeggi",
+        "anello",
+        "fiori"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/alpe-pertusio-sorgente-del-brenno-passo-del-lucomagno-alpe-gana"
+        }
+      ]
+    },
+    {
+      "id": "alpe-casaccia",
+      "title": "Alpe Casaccia – Campo Solario",
+      "emoji": "🐄",
+      "kind": "sentiero",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 20,
+        "km": 15.8,
+        "to": "Passo del Lucomagno"
+      },
+      "lat": 46.5698,
+      "lon": 8.8129,
+      "stats": {
+        "km": 6.1,
+        "up": 232,
+        "time": "~2h",
+        "alt": "~1850 m",
+        "type": "anello"
+      },
+      "rating": 5.0,
+      "why": "Vista a 360° sulle Alpi con pochissima fatica per quello che rende.",
+      "desc": "Anello tra gli alpeggi del Lucomagno, prati fioriti e larici. Cani ammessi. Sei chilometri sono tanti per un bambino piccolo ma giusti per chi cammina già bene.",
+      "tags": [
+        "alpeggi",
+        "panorama 360°",
+        "fiori",
+        "cani ok"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/lucomagno-alpe-casaccia-campo-solario-stabbio-nuovo"
+        }
+      ]
+    },
+    {
+      "id": "passo-colomba-sole",
+      "title": "Passo della Colomba – Passo del Sole",
+      "emoji": "🕊️",
+      "kind": "sentiero",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 20,
+        "km": 15.8,
+        "to": "Passo del Lucomagno"
+      },
+      "lat": 46.5698,
+      "lon": 8.8129,
+      "stats": {
+        "km": 13.8,
+        "up": 781,
+        "time": "5-6h",
+        "alt": "~2400 m",
+        "type": "anello"
+      },
+      "rating": 5.0,
+      "why": "Anello di due passi con 5.0 pieno, e la partenza è a 20 minuti.",
+      "desc": "Doppio valico dal Lucomagno: Passo della Colomba e Passo del Sole, con laghi e vista larga. Una delle grandi giornate classiche della zona senza bisogno di dormire fuori.",
+      "tags": [
+        "due passi",
+        "laghi",
+        "anello",
+        "panorama"
+      ],
+      "season": [
+        "estate"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/passo-delle-colombe-passo-del-sole"
+        }
+      ]
+    },
+    {
+      "id": "campanitt",
+      "title": "Alpe Casaccia – Passo Sole – Lago dei Campanitt",
+      "emoji": "🏔️",
+      "kind": "sentiero",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 20,
+        "km": 15.8,
+        "to": "Passo del Lucomagno"
+      },
+      "lat": 46.5698,
+      "lon": 8.8129,
+      "stats": {
+        "km": 13.8,
+        "up": 757,
+        "time": "5h",
+        "alt": "~2400 m",
+        "type": "anello"
+      },
+      "rating": 4.9,
+      "why": "Un lago d'alta quota come punto di svolta, su un anello ben valutato.",
+      "desc": "Anello dal Lucomagno che sale al Passo del Sole e tocca il Lago dei Campanitt. Aperto anche ai cani al guinzaglio, percorribile in MTB da chi ha gambe.",
+      "tags": [
+        "lago alpino",
+        "anello",
+        "MTB possibile"
+      ],
+      "season": [
+        "estate"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/alpe-casaccia-passo-sole-lago-dei-campanitt"
+        }
+      ]
+    },
+    {
+      "id": "gana-negro",
+      "title": "Passo di Gana Negra – Passo del Lucomagno",
+      "emoji": "⛰️",
+      "kind": "sentiero",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 20,
+        "km": 15.8,
+        "to": "Passo del Lucomagno"
+      },
+      "lat": 46.5743,
+      "lon": 8.8012,
+      "stats": {
+        "km": 10.0,
+        "up": 723,
+        "time": "4h17",
+        "alt": "~2400 m",
+        "type": "anello"
+      },
+      "rating": 4.7,
+      "why": "Anello compatto: tanto dislivello, poca strada, ottimo rapporto.",
+      "desc": "Dieci chilometri e 723 metri di salita per un anello che sale al Passo di Gana Negra e rientra al Lucomagno. Bene anche come allenamento di gambe prima delle uscite lunghe.",
+      "tags": [
+        "anello",
+        "allenamento",
+        "passi"
+      ],
+      "season": [
+        "estate"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/passo-di-gana-negro-passo-lucomagno"
+        }
+      ]
+    },
+    {
+      "id": "predelp-pecian",
+      "title": "Predèlp – Pécian",
+      "emoji": "🥾",
+      "kind": "sentiero",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 21,
+        "km": 15.2,
+        "to": "Dangio / Torre"
+      },
+      "lat": 46.49197,
+      "lon": 8.95559,
+      "stats": {
+        "km": 14.0,
+        "up": 964,
+        "time": "5h50",
+        "alt": "~2000 m",
+        "type": "andata e ritorno"
+      },
+      "rating": 4.4,
+      "why": "Quasi mille metri di dislivello senza allontanarsi dalla valle.",
+      "desc": "Salita lunga sul versante della media Blenio, con laghi, boschi e fauna. Giornata piena da adulti.",
+      "tags": [
+        "dislivello",
+        "fauna",
+        "laghi"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/predelp-pecian"
+        }
+      ]
+    },
+    {
+      "id": "ponte-tibetano-riasc",
+      "title": "Giro del Ponte Tibetano di Riasc",
+      "emoji": "🌉",
+      "kind": "sentiero",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 25,
+        "km": 15.7,
+        "to": "Aquila / Pinaderio"
+      },
+      "lat": 46.51852,
+      "lon": 8.94825,
+      "stats": {
+        "km": 6.1,
+        "up": 266,
+        "time": "2h",
+        "alt": "~1000 m",
+        "type": "anello"
+      },
+      "rating": 4.0,
+      "featured": true,
+      "why": "Un ponte tibetano sospeso: è il tipo di cosa che un ragazzino racconta poi per un anno.",
+      "desc": "Anello sopra Aquila che passa dal ponte tibetano di Riasc, sospeso sulla valle. Il sentiero è segnalato come adatto anche ai bambini, ma la traversata del ponte va valutata caso per caso: chi soffre il vuoto la sente tutta.",
+      "tags": [
+        "ponte tibetano",
+        "anello",
+        "adrenalina",
+        "bosco"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "warn": "Ponte sospeso: da valutare con bambini piccoli o con chi soffre di vertigini.",
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/giro-del-ponte-tibetano-riasc"
+        }
+      ]
+    },
+    {
+      "id": "comprovasco-lottigna",
+      "title": "Comprovasco – Acquarossa – Pian Lottigna",
+      "emoji": "🌊",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 25,
+        "km": 19.7,
+        "to": "Comprovasco"
+      },
+      "lat": 46.45508,
+      "lon": 8.938,
+      "stats": {
+        "km": 6.8,
+        "up": 178,
+        "time": "1h48",
+        "alt": "~500 m",
+        "type": "anello"
+      },
+      "rating": 4.0,
+      "why": "Dolce, con il fiume vicino e il museo a metà percorso.",
+      "desc": "Anello tranquillo lungo il Brenno che tocca Acquarossa e Lottigna, dove c'è il Museo di Blenio. Poco dislivello, molti punti dove fermarsi a fare picnic.",
+      "tags": [
+        "fiume",
+        "museo",
+        "picnic",
+        "quota bassa"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/comprovasco-acquarossa-pian-lottigna-pian-di-ganet"
+        }
+      ]
+    },
+    {
+      "id": "sentiero-storico-3",
+      "title": "Sentiero Storico 3: Acquarossa – Malvaglia",
+      "emoji": "⛪",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 25,
+        "km": 19.3,
+        "to": "Acquarossa"
+      },
+      "lat": 46.45503,
+      "lon": 8.94228,
+      "stats": {
+        "km": 7.4,
+        "up": 86,
+        "time": "1h52",
+        "alt": "~450 m",
+        "type": "da punto a punto"
+      },
+      "rating": 4.5,
+      "why": "86 metri di dislivello in 7 km: praticamente piatto, con chiese romaniche lungo la strada.",
+      "desc": "Il più pianeggiante di tutti. Collega Acquarossa a Malvaglia passando dalle chiese romaniche della bassa valle. Si torna in bus, così non si raddoppia.",
+      "tags": [
+        "romanico",
+        "borghi",
+        "piatto",
+        "bus di ritorno"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/sentiero-storico-3-via-acquarossa"
+        }
+      ]
+    },
+    {
+      "id": "quatro-pass",
+      "title": "Quatro pâss visín a r'acqua",
+      "emoji": "💦",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 27,
+        "km": 20.7,
+        "to": "Corzoneso Piano"
+      },
+      "lat": 46.44461,
+      "lon": 8.94456,
+      "stats": {
+        "km": 6.6,
+        "up": 333,
+        "time": "2h10",
+        "alt": "~500 m",
+        "type": "anello"
+      },
+      "rating": 4.3,
+      "why": "Mulino vero, lavatoio del Seicento e microcentrale: l'acqua che lavora, non solo che scorre.",
+      "desc": "Anello sull'acqua nella storia della valle: il Vecchio Mulino di Corzoneso, la microcentrale di Acquarossa, un lavatoio del XVII secolo, il 'bagno delle pecore' e la Casa Rotonda Casserio. Dato come adatto a tutti, giovani, anziani e famiglie. Mettici mezza giornata.",
+      "tags": [
+        "mulino",
+        "storia",
+        "acqua",
+        "famiglie"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "Dettagli",
+          "kind": "info",
+          "url": "https://www.bellinzonaevalli.ch/it/theme-trail/details/Quatro-p%C3%A2ss-vis%C3%ADn-a-r-acqua/801184193.html"
+        },
+        {
+          "label": "ulmurin.ch",
+          "kind": "web",
+          "url": "https://www.ulmurin.ch/"
+        }
+      ]
+    },
+    {
+      "id": "salamandra-vagabonda",
+      "title": "Sentiero Salamandra Vagabonda",
+      "emoji": "🦎",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 32,
+        "km": 24.7,
+        "to": "Ludiano"
+      },
+      "lat": 46.41862,
+      "lon": 8.97114,
+      "stats": {
+        "km": 5.4,
+        "up": 294,
+        "time": "~2h",
+        "alt": "~600 m",
+        "type": "anello"
+      },
+      "rating": 4.5,
+      "why": "Un sentiero a tema animale con in mezzo i ruderi di un castello.",
+      "desc": "Anello tra Ludiano e Semione che unisce natura e storia: il nucleo di Selvapiana, i ruderi del Castello di Serravalle, grotti e vigneti, con pannelli didattici sulla salamandra pezzata. Essendo a quota bassa è la gita giusta quando in alto fa freddo o c'è brutto.",
+      "tags": [
+        "salamandra",
+        "castello",
+        "didattico",
+        "vigneti",
+        "quota bassa"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "Dettagli",
+          "kind": "info",
+          "url": "https://www.bellinzonaevalli.ch/hike/details/Sentiero-tematico-Salamandra-Vagabonda/801413692.html"
+        }
+      ]
+    },
+    {
+      "id": "val-malvaglia",
+      "title": "Val Malvaglia",
+      "emoji": "🏞️",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 35,
+        "km": 27.0,
+        "to": "Malvaglia"
+      },
+      "lat": 46.42972,
+      "lon": 9.04211,
+      "stats": {
+        "km": 5.3,
+        "up": 245,
+        "time": "1h48",
+        "alt": "~800 m",
+        "type": "anello"
+      },
+      "rating": 4.3,
+      "why": "Valle laterale selvaggia e poco battuta, ma con un anello corto alla portata dei bambini.",
+      "desc": "Anello nella Val Malvaglia, la valle laterale che si apre sopra Malvaglia. Marcato come adatto ai bambini e ai cani. Da qui parte anche la funivia per Dagro.",
+      "tags": [
+        "valle laterale",
+        "fiume",
+        "poco battuto",
+        "cani ok"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/val-malvaglia"
+        }
+      ]
+    },
+    {
+      "id": "diga-luzzone",
+      "title": "Diga del Luzzone + discesa a Ghirone",
+      "emoji": "🏗️",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 47,
+        "km": 20.5,
+        "to": "Diga del Luzzone"
+      },
+      "lat": 46.5705,
+      "lon": 8.98306,
+      "stats": {
+        "km": 3.0,
+        "up": -200,
+        "time": "1-2h",
+        "alt": "1600 m",
+        "type": "discesa"
+      },
+      "rating": 4.8,
+      "featured": true,
+      "why": "La diga più alta del Ticino, 225 metri, con un tunnel buio dove i bambini impazziscono per l'eco.",
+      "desc": "Si sale in postbus e si scende a piedi a Ghirone. Il tunnel di 150 metri è il pezzo forte per i piccoli. Alla diga c'è il ristorante, a fine percorso il Parco Giochi Sarracino. Sulla parete della diga c'è anche la via di arrampicata artificiale più alta del mondo (vedi scheda dedicata).",
+      "tags": [
+        "diga 225 m",
+        "tunnel",
+        "eco",
+        "postbus",
+        "ristorante"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "warn": "47 minuti di macchina, quasi tutti su strada stretta a tornanti: è una gita da giornata intera, non da mezza.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/e/e2/Luzzone3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/4/41/Diga_del_Luzzone_-_panoramio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/71/Dam_of_Lago_di_Luzzone.jpg"
+      ],
+      "links": [
+        {
+          "label": "Articolo",
+          "kind": "info",
+          "url": "https://www.fugainfamiglia.ch/post/la-diga-del-luzzone"
+        }
+      ]
+    },
+    {
+      "id": "lago-ritom",
+      "title": "Lago Ritom e la funicolare più ripida",
+      "emoji": "🚞",
+      "kind": "sentiero",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 63,
+        "km": 63.6,
+        "to": "Piotta (stazione funicolare)"
+      },
+      "lat": 46.53992,
+      "lon": 8.68882,
+      "stats": {
+        "km": 6.8,
+        "up": 125,
+        "time": "1h38",
+        "alt": "1850 m",
+        "type": "anello"
+      },
+      "rating": 4.8,
+      "why": "Nella top 5 dei sentieri a prova di bambino del Ticino, e la funicolare da sola vale il viaggio.",
+      "desc": "La funicolare del Ritom è una delle più ripide al mondo. In cima, giro del lago quasi pianeggiante con pannelli didattici su fauna, flora e geologia, e la possibilità di proseguire fino alla Capanna Cadagno e ai laghi di Piora.",
+      "tags": [
+        "funicolare",
+        "lago alpino",
+        "didattico",
+        "top 5 Ticino"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "warn": "Oltre un'ora di macchina, e passando dal Lucomagno d'inverno non ci si arriva. Giornata intera.",
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/lagho-ritom"
+        },
+        {
+          "label": "ticino.ch",
+          "kind": "info",
+          "url": "https://www.ticino.ch/hike/details/Sentiero-Didattico-Lago-Ritom/59559110.html"
+        }
+      ]
+    }
+  ]
+}

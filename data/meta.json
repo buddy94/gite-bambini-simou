@@ -1,0 +1,85 @@
+{
+  "origin": {
+    "name": "Simöu",
+    "lat": 46.53803,
+    "lon": 8.90831,
+    "alt": "~1300 m"
+  },
+  "updated": "2026-07-31",
+  "routing": {
+    "engine": "OSRM / OpenStreetMap",
+    "note": "Tempi auto porta-a-porta da Simöu, a traffico libero. Da Simöu servono ~15 min solo per scendere a Olivone: è il pedaggio fisso di ogni gita."
+  },
+  "ages": {
+    "0-4": {
+      "label": "Piccoli 0-4",
+      "emoji": "🍼",
+      "hint": "Passeggino o zaino porta-bimbo. Corte, piatte, vicine al parcheggio."
+    },
+    "4-9": {
+      "label": "Bambini 4-9",
+      "emoji": "🧒",
+      "hint": "Gambe corte, tanta curiosita'. Max 2-3 km, dislivello quasi nullo, qualcosa da guardare ogni 10 minuti."
+    },
+    "ragazzi": {
+      "label": "Ragazzi 10-16",
+      "emoji": "🧗",
+      "hint": "Vogliono che succeda qualcosa. Adrenalina, acqua, bici, prime ferrate e prime pareti."
+    },
+    "adulti": {
+      "label": "Adulti",
+      "emoji": "🏔️",
+      "hint": "Dislivello vero, vie lunghe, alpinismo, capanne. Anche le mezze giornate senza bambini."
+    }
+  },
+  "kinds": {
+    "sentiero": {
+      "label": "Sentieri",
+      "emoji": "🥾"
+    },
+    "acqua": {
+      "label": "Acqua",
+      "emoji": "💧"
+    },
+    "animali": {
+      "label": "Animali",
+      "emoji": "🐴"
+    },
+    "cultura": {
+      "label": "Cultura",
+      "emoji": "🏛️"
+    },
+    "avventura": {
+      "label": "Avventura",
+      "emoji": "🎢"
+    },
+    "arrampicata": {
+      "label": "Arrampicata",
+      "emoji": "🧗"
+    },
+    "alpinismo": {
+      "label": "Alpinismo",
+      "emoji": "⛰️"
+    },
+    "capanna": {
+      "label": "Capanne",
+      "emoji": "🛖"
+    },
+    "bici": {
+      "label": "Bici",
+      "emoji": "🚲"
+    },
+    "gusto": {
+      "label": "Gusto",
+      "emoji": "🍫"
+    },
+    "pioggia": {
+      "label": "Se piove",
+      "emoji": "🌧️"
+    },
+    "inverno": {
+      "label": "Inverno",
+      "emoji": "❄️"
+    }
+  }
+}

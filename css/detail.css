@@ -1,0 +1,78 @@
+/* Finestra di dettaglio (elemento <dialog>). */
+
+.detail {
+  width: min(680px, calc(100vw - 2rem)); max-height: 88vh; padding: 0;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface); color: var(--text); box-shadow: var(--shadow-lg);
+  overflow: auto; overscroll-behavior: contain;
+}
+.detail::backdrop { background: rgba(15, 18, 14, .55); }
+
+.detail-close {
+  position: sticky; top: .6rem; float: right; margin: .6rem .6rem 0 0; z-index: 5;
+  width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); font-size: .95rem; cursor: pointer;
+}
+
+.d-hero { height: 200px; overflow: hidden; background: var(--surface-2); }
+.d-hero img { width: 100%; height: 100%; object-fit: cover; }
+
+.d-body { padding: 1.1rem 1.35rem 1.6rem; }
+.d-body h2 { font-size: 1.35rem; font-weight: 800; line-height: 1.25; letter-spacing: -.015em; }
+.d-meta { display: flex; flex-wrap: wrap; gap: .35rem; margin: .6rem 0 .9rem; }
+
+.d-why {
+  font-size: .95rem; font-style: italic; color: var(--text-soft);
+  border-left: 3px solid var(--green-500); padding-left: .8rem; margin-bottom: .9rem;
+}
+.d-body p.desc { font-size: .93rem; line-height: 1.62; margin-bottom: .9rem; }
+
+.d-toddler {
+  background: rgba(190,24,93,.07); border: 1px solid rgba(190,24,93,.2);
+  border-radius: var(--radius-sm); padding: .7rem .85rem; margin-bottom: .9rem;
+}
+.d-toddler h3 { font-size: .84rem; font-weight: 700; color: var(--pink); margin-bottom: .25rem; }
+.d-toddler p { font-size: .88rem; line-height: 1.5; color: var(--text-soft); }
+
+.d-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: .5rem;
+  margin-bottom: .9rem;
+}
+.d-grid div {
+  background: var(--surface-2); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: .5rem .65rem;
+}
+.d-grid dt {
+  font-size: .7rem; text-transform: uppercase; letter-spacing: .07em;
+  color: var(--text-faint); font-weight: 700;
+}
+.d-grid dd { font-size: .92rem; font-weight: 600; margin-top: .1rem; }
+
+.d-warn {
+  background: rgba(194,86,13,.09); border: 1px solid rgba(194,86,13,.25);
+  color: var(--orange); border-radius: var(--radius-sm); padding: .6rem .8rem;
+  font-size: .87rem; margin-bottom: .9rem; line-height: 1.45;
+}
+
+.d-season { font-size: .84rem; color: var(--text-soft); margin-bottom: .8rem; }
+
+.d-tags { display: flex; flex-wrap: wrap; gap: .3rem; margin-bottom: 1rem; }
+.d-tags span {
+  font-size: .77rem; background: var(--surface-2); border: 1px solid var(--border);
+  color: var(--text-soft); border-radius: 999px; padding: .18rem .6rem;
+}
+
+.d-links { display: flex; flex-wrap: wrap; gap: .45rem; }
+.d-links a {
+  font-size: .84rem; font-weight: 600; text-decoration: none; padding: .45rem .8rem;
+  border-radius: var(--radius-sm); border: 1.5px solid var(--border);
+  color: var(--text-soft); background: var(--surface-2); transition: all .13s;
+}
+.d-links a:hover { border-color: var(--green-500); color: var(--green-700); }
+:root[data-theme="dark"] .d-links a:hover { color: var(--green-300); }
+.d-links a.primary { background: var(--green-700); border-color: var(--green-700); color: #fff; }
+.d-links a.primary:hover { background: var(--green-800); color: #fff; }
+
+@media (max-width: 640px) {
+  .d-body { padding: 1rem 1rem 1.4rem; }
+}

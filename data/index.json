@@ -1,0 +1,10 @@
+{
+  "meta": "meta.json",
+  "sources": [
+    "activities/sentieri.json",
+    "activities/verticale.json",
+    "activities/famiglia.json",
+    "activities/cultura.json"
+  ],
+  "note": "Aggiungere un tema = un file qui dentro piu' una riga in sources."
+}

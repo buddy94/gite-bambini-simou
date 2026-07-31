@@ -1,0 +1,355 @@
+{
+  "title": "Cultura, gusto, bici e giorni di pioggia",
+  "activities": [
+    {
+      "id": "campo-blenio-sci",
+      "title": "Campo Blenio – Ghirone (sci)",
+      "emoji": "⛷️",
+      "kind": "inverno",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 19,
+        "km": 13.4,
+        "to": "Campo Blenio"
+      },
+      "lat": 46.55706,
+      "lon": 8.93538,
+      "stats": {
+        "time": "giornata",
+        "alt": "1200-1900 m"
+      },
+      "rating": 4.3,
+      "why": "Stazione piccola e per famiglie, con il posteggio a due passi dagli impianti.",
+      "desc": "Stazione sciistica accogliente, ideale per le famiglie, con infrastrutture rinnovate e un ampio posteggio nelle immediate vicinanze della partenza degli skilift. Niente code, niente ressa.",
+      "tags": [
+        "sci",
+        "famiglie",
+        "piccola",
+        "posteggio vicino"
+      ],
+      "season": [
+        "inverno"
+      ],
+      "links": []
+    },
+    {
+      "id": "eventi-blenio",
+      "title": "Eventi in valle",
+      "emoji": "🎪",
+      "kind": "cultura",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 20,
+        "km": 15.0,
+        "to": "varie"
+      },
+      "lat": 46.4955,
+      "lon": 8.9435,
+      "stats": {
+        "time": "varie"
+      },
+      "rating": 4.0,
+      "why": "Le cose che capitano solo se sei qui in quella settimana.",
+      "desc": "Martedì in Natura (escursioni guidate gratuite per famiglie, Pro Natura), Musica al Museo a Lottigna in luglio-agosto, Sagra di Dandrio a metà agosto, Festa Patronale di Olivone con giochi per bambini, mercato contadino ad Acquarossa nei weekend, Bus Alpino per la Greina da luglio a ottobre, e attività per bambini alla Pineta Saracin tutta l'estate.",
+      "tags": [
+        "sagre",
+        "concerti",
+        "mercati",
+        "escursioni guidate"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Le date cambiano ogni anno: verificare su blenioturismo.ch.",
+      "links": [
+        {
+          "label": "blenioturismo.ch",
+          "kind": "web",
+          "url": "https://www.blenioturismo.ch/"
+        },
+        {
+          "label": "busalpin.ch",
+          "kind": "web",
+          "url": "https://www.busalpin.ch/"
+        }
+      ]
+    },
+    {
+      "id": "cima-norma",
+      "title": "La Fabbrica del Cioccolato — Cima Norma",
+      "emoji": "🍫",
+      "kind": "gusto",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 21,
+        "km": 15.2,
+        "to": "Dangio-Torre"
+      },
+      "lat": 46.49197,
+      "lon": 8.95559,
+      "stats": {
+        "time": "1-2h",
+        "alt": "~600 m"
+      },
+      "rating": 4.5,
+      "featured": true,
+      "why": "Una fabbrica di cioccolato del 1903 diventata centro culturale. Il museo del cioccolato è la parte che interessa ai bambini.",
+      "desc": "Nel 1903 i fratelli Cima di Dangio costruirono qui la prima 'Fabrique de Chocolat Cima'. Oggi è una fondazione svizzera no-profit che usa l'ex complesso industriale per mostre, seminari e residenze d'artista, con il Cima Norma Art Festival ogni anno. Il museo dedicato alla storia del cioccolato svizzero è l'attrattiva per le famiglie.",
+      "tags": [
+        "cioccolato",
+        "1903",
+        "museo",
+        "festival",
+        "archeologia industriale"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "warn": "Per le visite va telefonato prima: +41 79 518 99 79 / +41 91 872 15 13.",
+      "links": [
+        {
+          "label": "lafabbricadelcioccolato.ch",
+          "kind": "web",
+          "url": "https://www.lafabbricadelcioccolato.ch/"
+        },
+        {
+          "label": "ticino.ch",
+          "kind": "info",
+          "url": "https://www.ticino.ch/en/commons/details/La-Fabbrica-del-Cioccolato-c-o-Cima-Norma/136547.html"
+        }
+      ]
+    },
+    {
+      "id": "museo-blenio",
+      "title": "Museo Valle di Blenio — Palazzo del Pretorio",
+      "emoji": "🏛️",
+      "kind": "cultura",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 24,
+        "km": 17.7,
+        "to": "Lottigna"
+      },
+      "lat": 46.46988,
+      "lon": 8.94351,
+      "stats": {
+        "time": "1-2h",
+        "alt": "~700 m"
+      },
+      "rating": 4.0,
+      "why": "Il palazzo è del Cinquecento e l'ingresso è a offerta libera.",
+      "desc": "A Lottigna, dentro il Palazzo del Pretorio (XVI secolo). Storia e tradizioni della valle. Più da adulti e ragazzi che da bambini piccoli.",
+      "tags": [
+        "XVI secolo",
+        "storia",
+        "offerta libera"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f1/Palazzo_Pretorio_Lottigna_DSC8982.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5a/Museo_della_Valle_di_Blenio_01.jpg"
+      ],
+      "links": []
+    },
+    {
+      "id": "ciclabile-blenio",
+      "title": "Pista ciclabile di fondovalle Blenio",
+      "emoji": "🚲",
+      "kind": "bici",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 25,
+        "km": 19.3,
+        "to": "Acquarossa"
+      },
+      "lat": 46.45503,
+      "lon": 8.94228,
+      "stats": {
+        "km": 20,
+        "up": 100,
+        "time": "2-3h",
+        "alt": "~400 m",
+        "type": "da punto a punto"
+      },
+      "rating": 4.4,
+      "why": "Piatta, lontana dal traffico: la prima uscita in bici dei bambini si fa qui.",
+      "desc": "Percorso pianeggiante lungo il fondovalle tra Biasca e Acquarossa, lontano dalle auto. Va bene anche con il passeggino o con la bici senza pedali.",
+      "tags": [
+        "piatta",
+        "sicura",
+        "passeggino",
+        "lungo fiume"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": []
+    },
+    {
+      "id": "cinema-blenio",
+      "title": "Cinema Teatro Blenio",
+      "emoji": "🎬",
+      "kind": "pioggia",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 26,
+        "km": 20.0,
+        "to": "Acquarossa"
+      },
+      "lat": 46.45088,
+      "lon": 8.94105,
+      "stats": {
+        "time": "2h",
+        "alt": "~500 m"
+      },
+      "rating": 3.5,
+      "why": "Quando piove per il terzo giorno di fila.",
+      "desc": "Cinema ad Acquarossa con proiezioni per famiglie. Controllare la programmazione prima di mettersi in macchina.",
+      "tags": [
+        "cinema",
+        "famiglie",
+        "pioggia"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "links": []
+    },
+    {
+      "id": "bike-park-nara",
+      "title": "Bike Park Nara — Black Wood Line",
+      "emoji": "🚵",
+      "kind": "bici",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 45,
+        "km": 16.1,
+        "to": "Nara"
+      },
+      "lat": 46.4657,
+      "lon": 8.88463,
+      "stats": {
+        "time": "giornata",
+        "alt": "1400-2000 m"
+      },
+      "rating": 4.6,
+      "featured": true,
+      "why": "Il primo flow trail del Ticino servito da impianto di risalita a uso esclusivo MTB.",
+      "desc": "Un flow trail (Black Wood Line, difficoltà media, con linee da principiante e varianti per esperti) più quattro enduro trail, due dei quali fanno parte della rete SvizzeraMobile. Si sale in seggiovia e si scende pedalando. È la cosa migliore della zona per un ragazzo che va in bici.",
+      "tags": [
+        "flow trail",
+        "enduro",
+        "risalita",
+        "MTB",
+        "tutti i livelli"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "Blenio Bike",
+          "kind": "web",
+          "url": "https://bleniobike.ch/en/bike-park-nara-2/"
+        },
+        {
+          "label": "Percorsi MTB",
+          "kind": "info",
+          "url": "https://nara.ch/estate/attivita-estate/mtb/"
+        }
+      ]
+    },
+    {
+      "id": "castelli-bellinzona",
+      "title": "Castelli di Bellinzona + trenino Artù",
+      "emoji": "🏰",
+      "kind": "cultura",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 58,
+        "km": 55.4,
+        "to": "Bellinzona"
+      },
+      "lat": 46.1929,
+      "lon": 9.02175,
+      "stats": {
+        "time": "mezza giornata / giornata",
+        "alt": "230 m"
+      },
+      "rating": 4.8,
+      "why": "Tre castelli UNESCO e un trenino che li collega: funziona su tutte le età.",
+      "desc": "Patrimonio UNESCO. I bambini adorano il trenino Artù che collega i castelli, le merlature e i ponti levatoi. Ristoranti e aree picnic. Da qui parte anche la caccia al tesoro Maestro Martino.",
+      "tags": [
+        "UNESCO",
+        "trenino",
+        "caccia al tesoro",
+        "3 castelli"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "warn": "Quasi un'ora di macchina: è una gita di giornata intera, non un ripiego.",
+      "links": [
+        {
+          "label": "Caccia al tesoro",
+          "kind": "info",
+          "url": "https://www.bellinzonaevalli.ch/it/activities/caccia-al-tesoro-maestro-martino.html"
+        }
+      ]
+    }
+  ]
+}

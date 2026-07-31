@@ -1,0 +1,28 @@
+/* Mappa Leaflet: contenitore, pin e fumetti.
+   Il CSS di Leaflet viene caricato dal modulo js/ui/map.js al primo uso. */
+
+.map {
+  height: min(72vh, 640px); border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--border); box-shadow: var(--shadow); background: var(--surface-2);
+}
+
+.marker-pin {
+  width: 30px; height: 30px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+  border: 2px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35);
+  display: grid; place-items: center;
+}
+.marker-pin span { transform: rotate(45deg); font-size: .82rem; line-height: 1; }
+
+/* I fumetti di Leaflet hanno sempre sfondo chiaro, anche in tema scuro:
+   qui i colori sono fissi di proposito. */
+.leaflet-popup-content { margin: .7rem .85rem; font-family: var(--font); }
+.pop h4 { font-size: .95rem; margin-bottom: .2rem; line-height: 1.3; color: #24261f; }
+.pop p { font-size: .8rem; color: #5f6357; margin-bottom: .45rem; }
+.pop button {
+  font: inherit; font-size: .8rem; cursor: pointer; border: 0; border-radius: 6px;
+  background: #2d5a3f; color: #fff; padding: .3rem .65rem; font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .map { height: 65vh; }
+}

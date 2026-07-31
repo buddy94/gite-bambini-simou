@@ -1,0 +1,653 @@
+{
+  "title": "Arrampicata, alpinismo e capanne",
+  "activities": [
+    {
+      "id": "capanna-gorda",
+      "title": "Capanna Gorda e Punta di Larescia",
+      "emoji": "🛖",
+      "kind": "capanna",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 8,
+        "km": 4.0,
+        "to": "Camperio"
+      },
+      "lat": 46.49801,
+      "lon": 8.91093,
+      "stats": {
+        "km": 16.9,
+        "up": 1093,
+        "time": "5-6h",
+        "alt": "~1900 m",
+        "type": "da punto a punto"
+      },
+      "rating": 4.5,
+      "featured": true,
+      "why": "8 minuti di macchina alla partenza: la capanna è letteralmente dietro casa.",
+      "desc": "Da Camperio si sale alla Capanna Gorda. Da li' partono gite facili adatte a tutti in primavera, estate e autunno, come la Punta di Larescia o il 'Nido d'Aquila'. Il percorso completo fino alla Punta di Larescia è impegnativo, ma la sola salita alla capanna è alla portata di un ragazzo allenato.",
+      "tags": [
+        "capanna",
+        "vicinissimo",
+        "panorama",
+        "Nido d'Aquila"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/camperio-capanna-gorda-punta-di-larescia"
+        }
+      ]
+    },
+    {
+      "id": "palestra-roccia-olivone",
+      "title": "Palestra di roccia — Centro POLI Olivone",
+      "emoji": "🧗",
+      "kind": "arrampicata",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 15,
+        "km": 10.1,
+        "to": "Olivone"
+      },
+      "lat": 46.5304,
+      "lon": 8.93845,
+      "stats": {
+        "time": "1-2h",
+        "alt": "890 m"
+      },
+      "rating": 4.0,
+      "why": "Il posto dove far provare l'arrampicata ai bambini senza esporli a niente.",
+      "desc": "Nella vecchia struttura polisportiva restaurata del Centro POLI c'è una palestra di roccia, insieme alla piscina, allo snack bar e al parco giochi. È il primo gradino: da qui i ragazzi possono poi passare alle falesie vere della bassa valle.",
+      "tags": [
+        "indoor",
+        "principianti",
+        "bambini",
+        "vicino"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "warn": "Verificare orari e accesso alla palestra di roccia prima di andare.",
+      "links": []
+    },
+    {
+      "id": "via-alta-carassino",
+      "title": "Via Alta Val Carassino",
+      "emoji": "⛰️",
+      "kind": "alpinismo",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "alpinistico",
+      "drive": {
+        "min": 19,
+        "km": 13.4,
+        "to": "Aquila / Val Carassino"
+      },
+      "lat": 46.49531,
+      "lon": 9.00763,
+      "stats": {
+        "km": 14.2,
+        "up": 948,
+        "time": "2 giorni",
+        "alt": "~2500 m",
+        "type": "anello"
+      },
+      "rating": 5.0,
+      "featured": true,
+      "why": "Ferrata e roccia con partenza a 19 minuti da casa. È la più vicina cosa seria che ci sia.",
+      "desc": "Anello alpinistico in Val Carassino con tratti attrezzati di via ferrata e passaggi di arrampicata. Appoggio alla Capanna Adula UTOE. Quasi mille metri di dislivello su terreno alpino: serve esperienza, kit da ferrata e valutazione meteo seria.",
+      "tags": [
+        "via ferrata",
+        "roccia",
+        "capanna",
+        "2 giorni"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Terreno alpino. Kit da ferrata obbligatorio, esperienza necessaria, meteo da verificare.",
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/via-alta-val-carassino"
+        }
+      ]
+    },
+    {
+      "id": "adula",
+      "title": "Adula / Rheinwaldhorn (3402 m) — la cima più alta del Ticino",
+      "emoji": "🏔️",
+      "kind": "alpinismo",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "alpinistico",
+      "drive": {
+        "min": 19,
+        "km": 13.4,
+        "to": "Aquila / Val Carassino"
+      },
+      "lat": 46.49375,
+      "lon": 9.04021,
+      "stats": {
+        "up": 1600,
+        "time": "2 giorni",
+        "alt": "3402 m",
+        "type": "andata e ritorno"
+      },
+      "rating": 4.9,
+      "featured": true,
+      "why": "La montagna più alta del Ticino si sale partendo dalla tua valle.",
+      "desc": "Dalla Capanna Adula UTOE (costruita nel 1923 dall'UTOE Bellinzona, ai piedi della Cima della Negra) si accede al Ghiacciaio di Bresciana e si sale in vetta a 3402 m. Percorso su ghiacciaio e roccia: alpinismo vero. La cima è raggiungibile da cinque rifugi in direzioni diverse.",
+      "tags": [
+        "3402 m",
+        "ghiacciaio",
+        "capanna",
+        "cima più alta TI"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Alpinismo su ghiacciaio: corda, ramponi, piccozza ed esperienza di crepacci. Con guida se non si è autonomi.",
+      "links": [
+        {
+          "label": "CAS / SAC",
+          "kind": "info",
+          "url": "https://www.sac-cas.ch/it/capanne-e-escursioni/portale-escursionistico-del-cas/adula-1488/alpinismo/"
+        },
+        {
+          "label": "Capanna Adula UTOE",
+          "kind": "web",
+          "url": "https://adula-utoe.ch/en/"
+        }
+      ]
+    },
+    {
+      "id": "capanna-bovarina",
+      "title": "Capanna Bovarina e Lago Retico",
+      "emoji": "🛖",
+      "kind": "capanna",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 19,
+        "km": 13.4,
+        "to": "Campo Blenio"
+      },
+      "lat": 46.56004,
+      "lon": 8.8886,
+      "stats": {
+        "km": 8.0,
+        "up": 717,
+        "time": "4-5h",
+        "alt": "1870 m",
+        "type": "andata e ritorno"
+      },
+      "rating": 4.3,
+      "why": "La capanna più comoda da raggiungere dalla valle, con un lago alpino sopra.",
+      "desc": "Struttura moderna in legno nell'alta Blenio, vicino al confine grigionese. Ci si arriva da Campo Blenio (10,5 km, 665 m di dislivello, ~4h). Da li' si sale al Lago Retico, o si prosegue verso Cima di Garina, Cima Bianca, Pizzo Scopi e Capanna Scaletta.",
+      "tags": [
+        "capanna",
+        "lago alpino",
+        "base per cime"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/capanna-bovarina-lago-retico"
+        },
+        {
+          "label": "CAS / SAC",
+          "kind": "info",
+          "url": "https://www.sac-cas.ch/it/capanne-e-escursioni/portale-escursionistico-del-cas/capanna-bovarina-2147000043/escursionismo-alpino/da-campo-blenio-1713/"
+        }
+      ]
+    },
+    {
+      "id": "greina",
+      "title": "Altipiano della Greina",
+      "emoji": "🏜️",
+      "kind": "alpinismo",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 20,
+        "km": 13.8,
+        "to": "Ghirone / Pian Geirett"
+      },
+      "lat": 46.61053,
+      "lon": 8.95973,
+      "stats": {
+        "km": 26.2,
+        "up": 1570,
+        "time": "2-3 giorni",
+        "alt": "2350 m",
+        "type": "anello"
+      },
+      "rating": 5.0,
+      "featured": true,
+      "why": "Un altopiano che sembra la Mongolia, in fondo alla tua valle. 5.0 su AllTrails.",
+      "desc": "Il giro dell'Altipiano della Greina è il trekking classico della Blenio: piana d'alta quota, fiumi che serpeggiano, silenzio. Si dorme in capanna (Motterascio, Scaletta, Terri). La prima tappa da Ghirone alla Capanna Michela/Motterascio è già da sola una gran giornata: 11 km e 1369 m di dislivello, valutata 4.9.",
+      "tags": [
+        "altipiano",
+        "trekking",
+        "capanne",
+        "silenzio"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Alta quota, niente ripari intermedi. Prenotare le capanne e controllare il meteo.",
+      "links": [
+        {
+          "label": "AllTrails giro completo",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/giro-altipiano-greina"
+        },
+        {
+          "label": "AllTrails tappa 1",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/giro-altipiano-greina-tappa-1-ghirone-capanna-michela-motterascio"
+        }
+      ]
+    },
+    {
+      "id": "capanna-scaletta",
+      "title": "Capanna Scaletta e Sentiero degli Stambecchi",
+      "emoji": "🐐",
+      "kind": "capanna",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 20,
+        "km": 13.8,
+        "to": "Ghirone"
+      },
+      "lat": 46.60775,
+      "lon": 8.94031,
+      "stats": {
+        "up": 900,
+        "time": "4-5h",
+        "alt": "2205 m",
+        "type": "andata e ritorno"
+      },
+      "rating": 4.5,
+      "why": "Il Sentiero degli Stambecchi passa di qui, e gli stambecchi ci sono davvero.",
+      "desc": "Snodo di sentieri verso il Passo della Greina, che collega Ticino e Grigioni e porta a Motterascio, Terri e Medel. Il Sentiero degli Stambecchi collega Scaletta e Bovarina.",
+      "tags": [
+        "stambecchi",
+        "capanna",
+        "Greina",
+        "alta quota"
+      ],
+      "season": [
+        "estate"
+      ],
+      "links": [
+        {
+          "label": "Mappa stambecchi (PDF)",
+          "kind": "info",
+          "url": "https://www.ticino.ch/pictures/stambecchi.pdf"
+        }
+      ]
+    },
+    {
+      "id": "falesia-semione",
+      "title": "Falesia di Semione",
+      "emoji": "🧗",
+      "kind": "arrampicata",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 34,
+        "km": 26.2,
+        "to": "Semione"
+      },
+      "lat": 46.40814,
+      "lon": 8.97186,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "~400 m"
+      },
+      "rating": 4.2,
+      "why": "La falesia più vicina che sia davvero una falesia, non una palestra.",
+      "desc": "Settore di arrampicata sportiva nella bassa Blenio, su gneiss. È il posto giusto per portare un ragazzo alla prima esperienza su roccia vera dopo la palestra di Olivone. Quota bassa: si arrampica bene in primavera e autunno, d'estate meglio la mattina presto.",
+      "tags": [
+        "gneiss",
+        "sportiva",
+        "monotiri",
+        "quota bassa"
+      ],
+      "season": [
+        "primavera",
+        "autunno"
+      ],
+      "warn": "Verificare gradi e attrezzatura su theCrag prima di andare: le relazioni cambiano.",
+      "links": [
+        {
+          "label": "theCrag",
+          "kind": "web",
+          "url": "https://www.thecrag.com/en/climbing/switzerland/alpen/tessin/valle-de-blenia-leventina/area/8657861163"
+        }
+      ]
+    },
+    {
+      "id": "cima-gana-bianca",
+      "title": "Cima di Gana Bianca",
+      "emoji": "⛰️",
+      "kind": "alpinismo",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "alpinistico",
+      "drive": {
+        "min": 35,
+        "km": 27.0,
+        "to": "Malvaglia"
+      },
+      "lat": 46.42972,
+      "lon": 9.04211,
+      "stats": {
+        "km": 13.0,
+        "up": 1089,
+        "time": "7-8h",
+        "alt": "2842 m",
+        "type": "andata e ritorno"
+      },
+      "rating": 5.0,
+      "why": "Cima vera con passaggi di arrampicata, valutata 5.0.",
+      "desc": "Dalla Val Malvaglia si sale alla Cima di Gana Bianca. Oltre mille metri di dislivello con tratti di arrampicata facile. Giornata lunga e impegnativa.",
+      "tags": [
+        "cima",
+        "arrampicata facile",
+        "lungo"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Passaggi di arrampicata: serve piede fermo e assenza di vertigini.",
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/cima-di-gana-bianca"
+        }
+      ]
+    },
+    {
+      "id": "poncione-nara",
+      "title": "Poncione di Nara – Pizzo di Nara – Motto Crostel",
+      "emoji": "⛰️",
+      "kind": "alpinismo",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 45,
+        "km": 16.1,
+        "to": "Nara"
+      },
+      "lat": 46.4657,
+      "lon": 8.88463,
+      "stats": {
+        "km": 11.9,
+        "up": 817,
+        "time": "5-6h",
+        "alt": "2199 m",
+        "type": "anello"
+      },
+      "rating": 3.5,
+      "why": "Cresta panoramica sopra la stazione del Nara, con la seggiovia che taglia la salita.",
+      "desc": "Anello di cresta che collega Poncione di Nara, Pizzo di Nara e Motto Crostel. Usando la seggiovia si risparmiano diverse centinaia di metri di dislivello. Tratti di arrampicata facile.",
+      "tags": [
+        "cresta",
+        "seggiovia",
+        "panorama"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/poncione-di-nara-pizzo-di-nara-mottarone-motto-crostel"
+        },
+        {
+          "label": "nara.ch",
+          "kind": "web",
+          "url": "https://nara.ch/"
+        }
+      ]
+    },
+    {
+      "id": "luzzone-arrampicata",
+      "title": "Diga del Luzzone — la parete artificiale più alta del mondo",
+      "emoji": "🧗",
+      "kind": "arrampicata",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 47,
+        "km": 20.5,
+        "to": "Diga del Luzzone"
+      },
+      "lat": 46.5705,
+      "lon": 8.98306,
+      "stats": {
+        "up": 165,
+        "time": "3-5h",
+        "alt": "1600 m",
+        "type": "5 tiri"
+      },
+      "rating": 4.9,
+      "featured": true,
+      "why": "165 metri di via su una diga, con 600 prese di resina. Non ce n'è un'altra così al mondo.",
+      "desc": "Cinque tiri sulla parete della diga, gradi 5b, 5c, 6a, 6a+, 6a+, protetti a spit. Aperta da maggio a ottobre, entrata 20 franchi. In cima c'è il ristorante. Il sole battente e la disposizione delle prese la rendono adatta a chi arrampica già bene: è esposta e continua, non è una falesia da primo giorno.",
+      "tags": [
+        "record mondiale",
+        "5 tiri",
+        "6a+",
+        "spit",
+        "maggio-ottobre"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "warn": "Solo per chi arrampica in autonomia sul 6a. Entrata a pagamento, verificare apertura.",
+      "links": [
+        {
+          "label": "ticino.ch",
+          "kind": "info",
+          "url": "https://www.ticino.ch/en/commons/details/Sport-climbing-Luzzone-Dam/97179.html"
+        },
+        {
+          "label": "theCrag",
+          "kind": "web",
+          "url": "https://www.thecrag.com/en/climbing/switzerland/diga-del-luzzone"
+        },
+        {
+          "label": "Prenota",
+          "kind": "web",
+          "url": "https://booking.bellinzonaevalli.ch/it/products/MYS_CM-b62ab342-c7ad-4553-8a7f-4176bb28a220"
+        }
+      ]
+    },
+    {
+      "id": "lago-luzzone-terri",
+      "title": "Lago Luzzone – Capanna Terri",
+      "emoji": "🛖",
+      "kind": "capanna",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 47,
+        "km": 20.5,
+        "to": "Diga del Luzzone"
+      },
+      "lat": 46.5705,
+      "lon": 8.98306,
+      "stats": {
+        "km": 12.9,
+        "up": 915,
+        "time": "4h30",
+        "alt": "~2170 m",
+        "type": "da punto a punto"
+      },
+      "rating": 5.0,
+      "why": "Cinque stelle piene su AllTrails, con cascate lungo il percorso.",
+      "desc": "Dalla diga del Luzzone si risale verso la Capanna Terri, sul versante grigionese della Greina. Boschi, lago, fiumi e cascate.",
+      "tags": [
+        "capanna",
+        "cascata",
+        "lago",
+        "Greina"
+      ],
+      "season": [
+        "estate"
+      ],
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/lago-luzzone-capanna-terri"
+        }
+      ]
+    },
+    {
+      "id": "boulder-chironico",
+      "title": "Bouldering a Chironico",
+      "emoji": "🪨",
+      "kind": "arrampicata",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 57,
+        "km": 49.4,
+        "to": "Chironico"
+      },
+      "lat": 46.42335,
+      "lon": 8.8442,
+      "stats": {
+        "time": "giornata",
+        "alt": "~800 m"
+      },
+      "rating": 4.8,
+      "why": "Uno dei settori boulder più famosi d'Europa è a un'ora da casa.",
+      "desc": "Bosco di massi di gneiss sopra Chironico, meta di boulderisti da tutto il continente. Non serve corda: crash pad, scarpette e basta. Ci sono blocchi facili per iniziare accanto a linee durissime. Migliore da ottobre ad aprile, d'estate fa caldo.",
+      "tags": [
+        "boulder",
+        "gneiss",
+        "fama internazionale",
+        "no corda"
+      ],
+      "season": [
+        "primavera",
+        "autunno",
+        "inverno"
+      ],
+      "warn": "Serve crash pad. Rispettare le regole di accesso e i divieti locali di parcheggio.",
+      "links": [
+        {
+          "label": "AllTrails (avvicinamento)",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/chironico-laghetto"
+        }
+      ]
+    },
+    {
+      "id": "falesie-leventina",
+      "title": "Falesie della Leventina (Bodio–Sobrio, Faido, Prato)",
+      "emoji": "🧗",
+      "kind": "arrampicata",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 63,
+        "km": 57.2,
+        "to": "Faido"
+      },
+      "lat": 46.48405,
+      "lon": 8.81193,
+      "stats": {
+        "time": "giornata",
+        "alt": "400-1000 m"
+      },
+      "rating": 4.3,
+      "why": "Il Ticino ha circa 70 siti di granito e gneiss, il record delle Alpi. Qui ne inizia una buona fetta.",
+      "desc": "Il settore Bodio–Sobrio si raggiunge parcheggiando al Tennis Club di Bodio e seguendo il sentiero verso Sobrio: pareti verticali fessurate e tratti compatti. A Prato Leventina c'è una bella falesia nel bosco divisa in tre settori, con vie facili ma strapiombanti e tetti. Faido ha altri settori.",
+      "tags": [
+        "gneiss",
+        "più settori",
+        "bosco",
+        "monotiri"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "warn": "Oltre un'ora di macchina: è una giornata intera. Guida consigliata: Ticino Rock.",
+      "links": [
+        {
+          "label": "Falesia.it",
+          "kind": "web",
+          "url": "https://www.falesia.it/crag/343/val-leventina.html"
+        },
+        {
+          "label": "theCrag Prato",
+          "kind": "web",
+          "url": "https://www.thecrag.com/en/climbing/switzerland/alpen/tessin/valle-de-blenia-leventina/area/2824007403"
+        }
+      ]
+    }
+  ]
+}
