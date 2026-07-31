@@ -449,6 +449,166 @@
       ],
       "toddler": "Le spianate e i cortili dei tre castelli sono in gran parte pianeggianti e passeggino-friendly, e il trenino Artù che li collega è un'attrazione in sé senza bisogno di camminare. Nelle torri e sulle merlature tenere il bimbo per mano o in braccio, non sempre c'è una barriera bassa.",
       "stroller": true
+    },
+    {
+      "id": "bogn-sedrun",
+      "title": "Bogn Sedrun — bagni e wellness",
+      "emoji": "♨️",
+      "kind": "pioggia",
+      "ages": [
+        "0-4",
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 50,
+        "km": 42.9,
+        "to": "Sedrun"
+      },
+      "lat": 46.6816,
+      "lon": 8.7731,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "1400 m",
+        "type": "al coperto"
+      },
+      "why": "Il piano B per la giornata storta: cinquanta minuti di passo e si è al caldo dentro l'acqua.",
+      "desc": "Piscina d'esperienza e centro benessere a Sedrun, oltre il Lucomagno. Vasca sportiva da 25 metri, bagno romano con bagni di vapore, saune interne ed esterne dai 60 ai 90 gradi, vasca per i piccoli, cascata, lettini a bolle e un canale ad acqua corrente con tratto di rapide. C'è anche un campo da beach volley all'aperto.",
+      "toddler": "C'è una vasca bassa per i piccolissimi e il canale ad acqua corrente diverte già a tre-quattro anni. Il viaggio però è lungo: cinquanta minuti di curve di passo all'andata e altrettanti al ritorno, da mettere in conto con un bimbo che dorme male in auto.",
+      "tags": [
+        "oltre il passo",
+        "piscina",
+        "tempo incerto",
+        "sauna",
+        "Grigioni",
+        "Surselva"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "warn": "Chiuso il lunedì; in primavera chiude alcune settimane (nel 2026 dal 4 maggio al 9 giugno). Ultimo ingresso un'ora prima della chiusura. D'inverno il Passo del Lucomagno è chiuso: da Simöu ci si arriva solo girando da Airolo e Andermatt, molte ore in più. Verificare orari e tariffe prima di partire.",
+      "links": [
+        {
+          "label": "bognsedrun.ch",
+          "kind": "info",
+          "url": "https://bognsedrun.ch/en/"
+        },
+        {
+          "label": "graubuenden.ch",
+          "kind": "web",
+          "url": "https://www.graubuenden.ch/en/attractions/bogn-sedrun"
+        }
+      ]
+    },
+    {
+      "id": "center-fontauna",
+      "title": "Center Fontauna, Disentis — minigolf e sport al coperto",
+      "emoji": "⛳",
+      "kind": "pioggia",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 41,
+        "km": 34.6,
+        "to": "Disentis"
+      },
+      "lat": 46.7055,
+      "lon": 8.8515,
+      "stats": {
+        "time": "2-3h",
+        "alt": "1150 m",
+        "type": "centro sportivo"
+      },
+      "why": "Se il cielo tiene si gioca a minigolf guardando l'abbazia, se cede si entra: palestra d'arrampicata, tennis coperto, badminton.",
+      "desc": "Centro sportivo di Disentis con campo da minigolf all'aperto (le mazze si ritirano alla caffetteria) e, sotto lo stesso tetto, palestra di arrampicata e boulder, tennis coperto e all'aperto, badminton, sala fitness, pista di ghiaccio e il gioco a enigmi \"Missiun Disentis\". La caffetteria Onda Gada fa da base per l'attesa.",
+      "tags": [
+        "oltre il passo",
+        "minigolf",
+        "tempo incerto",
+        "arrampicata indoor",
+        "Grigioni"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "warn": "Il minigolf è qui a Disentis, non a Sedrun: dal Bogn Sedrun sono altri 8 km. Il campo funziona solo quando è libero dalla neve. Non c'è piscina. Orari: 9-22 dal lunedì al venerdì, 9-18 sabato, domenica e festivi. Si arriva dal Lucomagno, chiuso d'inverno.",
+      "links": [
+        {
+          "label": "centerfontauna.ch",
+          "kind": "info",
+          "url": "https://www.centerfontauna.ch/"
+        },
+        {
+          "label": "disentis-sedrun.ch",
+          "kind": "web",
+          "url": "https://www.disentis-sedrun.ch/en/entdecken/excursion-destinations/minigolfanlage-center-fontauna"
+        }
+      ]
+    },
+    {
+      "id": "abbazia-disentis",
+      "title": "Abbazia benedettina di Disentis",
+      "emoji": "⛪",
+      "kind": "cultura",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 43,
+        "km": 35.2,
+        "to": "Disentis"
+      },
+      "lat": 46.7067,
+      "lon": 8.85525,
+      "stats": {
+        "time": "1-2h",
+        "alt": "1150 m",
+        "type": "visita"
+      },
+      "why": "Milletrecento anni di storia in fondo alla discesa del passo, e il museo è aperto tutti i giorni.",
+      "desc": "Il monastero benedettino che domina Disentis nasce attorno al 720 dal monaco franco Sigisberto con l'aiuto di Placido, signore del luogo: è una delle abbazie ancora attive più antiche della Svizzera. Nell'ex sala capitolare il museo racconta la Surselva — arte sacra dal Duecento in poi, paramenti, la prima mitra di un abate di Disentis, un codice di canto gregoriano, minerali e fauna della valle. Visite guidate su richiesta.",
+      "tags": [
+        "oltre il passo",
+        "abbazia",
+        "museo",
+        "se piove",
+        "Grigioni",
+        "Surselva"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno",
+        "inverno"
+      ],
+      "warn": "Museo aperto tutti i giorni 8:30-17:00, ma verificare prima: è pur sempre un monastero in attività. Si arriva dal Lucomagno, chiuso d'inverno.",
+      "links": [
+        {
+          "label": "Kloster Disentis",
+          "kind": "info",
+          "url": "https://www.graubuenden.ch/en/attractions/kloster-disentis"
+        },
+        {
+          "label": "Museo del Monastero",
+          "kind": "web",
+          "url": "https://portacultura.gr.ch/home-it/istituzioni/klostermuseum-disentis/"
+        }
+      ]
     }
   ]
 }

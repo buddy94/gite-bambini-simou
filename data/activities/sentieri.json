@@ -1092,6 +1092,152 @@
         }
       ],
       "toddler": "La funicolare più ripida al mondo è già di per sé l'attrazione; il giro del lago è quasi pianeggiante (125 m su 6,8 km) ma non serve completarlo, si cammina in riva quanto il bimbo regge e si torna indietro. Zaino porta-bimbo consigliato, il fondo non è garantito per il passeggino; conta come gita di giornata intera per la distanza (oltre un'ora di auto)."
+    },
+    {
+      "id": "lago-canali",
+      "title": "Lago dei Canali",
+      "emoji": "🏞️",
+      "kind": "sentiero",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 15,
+        "km": 10.6,
+        "to": "Acquacalda (Infocentro Casaccia)"
+      },
+      "lat": 46.5381,
+      "lon": 8.792,
+      "stats": {
+        "km": 8,
+        "up": 370,
+        "time": "3h",
+        "alt": "2180 m",
+        "type": "andata e ritorno"
+      },
+      "why": "Il laghetto d'alta quota che si raggiunge in poco più di un'ora di salita, con partenza a un quarto d'ora da casa.",
+      "desc": "Dal parcheggio dell'Infocentro Casaccia (1809 m) si passa il ponte di legno sul Brenno del Lucomagno e si risale il vallone del Riale dei Canali fino al piano dove sta il lago, a 2180 m. Chi lo fa riferisce 1h15-1h25 di salita. È la prima tappa della stessa via che porta al Passo delle Colombe e al Passo del Sole: chi ha ancora gambe prosegue, chi no si ferma qui e ha già la sua giornata. Km, dislivello e tempi sono stimati sulla carta (quote swisstopo) e sui resoconti di chi l'ha fatta, non da una traccia GPS: prendili come ordine di grandezza.",
+      "tags": [
+        "lago alpino",
+        "oltre il bosco",
+        "si può accorciare",
+        "Riale dei Canali"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Non c'è una traccia AllTrails dedicata: il sentiero è quello dei percorsi naturalistici del Lucomagno. In alta quota la neve resta fino a inizio estate, e il Passo del Lucomagno chiude d'inverno.",
+      "links": [
+        {
+          "label": "sentierilucomagno.ch",
+          "kind": "info",
+          "url": "https://www.sentierilucomagno.ch/"
+        },
+        {
+          "label": "hikr — Lago dei Canali",
+          "kind": "web",
+          "url": "https://www.hikr.org/dir/Lago_dei_Canali_28360/"
+        }
+      ]
+    },
+    {
+      "id": "lago-colombe",
+      "title": "Lago dei Campanitt al Passo delle Colombe",
+      "emoji": "🕊️",
+      "kind": "sentiero",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 15,
+        "km": 10.6,
+        "to": "Acquacalda (Infocentro Casaccia)"
+      },
+      "lat": 46.5394,
+      "lon": 8.775,
+      "stats": {
+        "km": 12,
+        "up": 590,
+        "time": "4h30",
+        "alt": "2381 m",
+        "type": "andata e ritorno"
+      },
+      "why": "Il lago che tutti chiamano \"delle Colombe\", raggiunto per la via diretta invece che con l'anello lungo da cinque ore.",
+      "desc": "Il laghetto sotto il Passo delle Colombe (2381 m) sulle carte si chiama Lago dei Campanitt, dal Pizz di Colómb — i campanili di dolomia bianca che dividono la Val Piora dal Lucomagno. Si sale dall'Infocentro Casaccia lungo il Riale dei Canali, passando dal Lago dei Canali a metà strada, e si torna dalla stessa via. Chi vuole il giro completo con anche il Passo del Sole trova qui in guida l'anello da 13,8 km. Km, dislivello e tempi sono stimati sulla carta (quote swisstopo) e sui resoconti di chi l'ha fatta, non da una traccia GPS: prendili come ordine di grandezza.",
+      "tags": [
+        "lago alpino",
+        "Passo delle Colombe",
+        "Pizzo Colombe",
+        "dolomia"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Non c'è una traccia AllTrails della sola andata e ritorno al lago: le tracce esistenti sono gli anelli lunghi. Neve fino a inizio estate; il Passo del Lucomagno chiude d'inverno.",
+      "links": [
+        {
+          "label": "sentierilucomagno.ch",
+          "kind": "info",
+          "url": "https://www.sentierilucomagno.ch/"
+        },
+        {
+          "label": "AllTrails (anello completo)",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/alpe-casaccia-passo-sole-lago-dei-campanitt"
+        }
+      ]
+    },
+    {
+      "id": "lago-santa-maria",
+      "title": "Giro del Lago di Santa Maria",
+      "emoji": "💠",
+      "kind": "sentiero",
+      "ages": [
+        "0-4",
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 19,
+        "km": 14.9,
+        "to": "Passo del Lucomagno (Ospizio S. Maria)"
+      },
+      "lat": 46.5754,
+      "lon": 8.795,
+      "stats": {
+        "km": 4.3,
+        "up": 40,
+        "time": "1h10",
+        "alt": "1908 m",
+        "type": "anello"
+      },
+      "why": "Quattro chilometri quasi piatti a 1900 metri: il modo più economico di portare i piccoli in alta montagna.",
+      "desc": "Anello attorno al lago artificiale del Lucomagno, appena oltre il valico sul versante grigionese. Si parte dall'Ospizio Santa Maria e si cammina su sterrato lungo la riva, con la cappella bianca e il valico sempre in vista. Quaranta metri di dislivello in tutto: il paesaggio è d'alta quota ma la fatica no.",
+      "toddler": "È la gita d'alta quota più semplice della zona: si parcheggia all'Ospizio e il sentiero parte lì. Il fondo è sterrato compatto — un passeggino robusto passa, uno da città no; lo zaino porta-bimbo resta la scelta comoda. Non serve chiudere l'anello: si va avanti finché il bimbo regge e si torna indietro. Vento e sole a 1900 m picchiano più che a valle, portare cappello e strato in più anche a luglio.",
+      "tags": [
+        "oltre il passo",
+        "lago",
+        "quasi piatto",
+        "diga",
+        "Grigioni"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "warn": "Il Passo del Lucomagno chiude d'inverno. Il lago è un bacino artificiale: il livello cambia, e con l'acqua bassa le rive sono fango e sassi.",
+      "links": [
+        {
+          "label": "komoot — anello del passo",
+          "kind": "web",
+          "url": "https://www.komoot.com/it-it/smarttour/21235094"
+        }
+      ]
     }
   ]
 }

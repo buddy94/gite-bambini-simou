@@ -184,4 +184,6 @@ decide se importarla: un link ricevuto non tocca mai i dati di chi lo apre.
 
 AllTrails · Svizzera Turismo · Bellinzonese e Valli · Pro Natura Lucomagno ·
 ticino.ch · theCrag · Falesia.it · CAS/SAC · nara.ch · Blenio Bike ·
-La Fabbrica del Cioccolato · Ticino per bambini
+La Fabbrica del Cioccolato · Ticino per bambini · swisstopo · hikr ·
+komoot · signalkuppe.com · Grigioni Vacanze · Disentis Sedrun Turismo ·
+Muntognas · Bogn Sedrun · Center Fontauna · Abbazia di Disentis

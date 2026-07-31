@@ -648,6 +648,110 @@
           "url": "https://www.thecrag.com/en/climbing/switzerland/alpen/tessin/valle-de-blenia-leventina/area/2824007403"
         }
       ]
+    },
+    {
+      "id": "pizzo-uomo",
+      "title": "Pizzo dell'Uomo (2663 m)",
+      "emoji": "⛰️",
+      "kind": "alpinismo",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 19,
+        "km": 14.9,
+        "to": "Passo del Lucomagno"
+      },
+      "lat": 46.54456,
+      "lon": 8.77716,
+      "stats": {
+        "km": 11.7,
+        "up": 788,
+        "time": "5-5h30",
+        "alt": "2663 m",
+        "type": "anello"
+      },
+      "rating": 5.0,
+      "why": "Una cima vera con 5.0 pieno e la partenza a venti minuti: si sale, si scende dall'altro versante e si costeggia il Lago di Santa Maria.",
+      "desc": "Anello dal Passo del Lucomagno (1916 m, confine fra Ticino e Grigioni) alla cima del Pizzo dell'Uomo, nel massiccio del Gottardo. Il rientro passa dal versante opposto lungo il Lago di Santa Maria. Sentiero di montagna, niente arrampicata, ma 788 metri di dislivello e cinque ore buone di cammino.",
+      "tags": [
+        "cima",
+        "anello",
+        "Gottardo",
+        "Lago di Santa Maria",
+        "panorama"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Parte del percorso attraversa una piazza di tiro militare: quando ci sono esercitazioni i sentieri sono chiusi ed è vietato passare. Controllare il bollettino prima di partire. Il Passo del Lucomagno chiude d'inverno.",
+      "links": [
+        {
+          "label": "AllTrails",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/passo-del-lucomagno-pizzo-dell-uomo-lago-di-santa-maria"
+        },
+        {
+          "label": "Avvisi di tiro (Esercito svizzero)",
+          "kind": "info",
+          "url": "https://www.vtg.admin.ch/it/avvisi-di-tiro"
+        }
+      ]
+    },
+    {
+      "id": "pizzo-sole",
+      "title": "Pizzo del Sole (2773 m) — via normale dal Lucomagno",
+      "emoji": "☀️",
+      "kind": "alpinismo",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "alpinistico",
+      "drive": {
+        "min": 15,
+        "km": 10.6,
+        "to": "Acquacalda (Infocentro Casaccia)"
+      },
+      "lat": 46.52507,
+      "lon": 8.76789,
+      "stats": {
+        "km": 16,
+        "up": 1077,
+        "time": "7h",
+        "alt": "2773 m",
+        "type": "anello"
+      },
+      "why": "La piramide che si vede dal piano dei Canali, salita dal versante di casa invece che girando in Leventina.",
+      "desc": "Dall'Infocentro Casaccia si passa il ponte di legno sul Brenno e si sale costeggiando il corso d'acqua verso il Passo del Sole, toccando il piano del Lago dei Canali da dove la piramide del Pizzo del Sole si vede intera. Poco dopo il lago si lascia il sentiero del passo e si punta a sud alla Bassa di Söu (2445 m); da lì una fascia detritica e poi la cresta di blocchi portano in vetta. Si scende per la cresta ovest verso il Pécianett, chiudendo l'anello. Sedici chilometri e 1077 metri di dislivello: la cresta finale non è più un sentiero.",
+      "tags": [
+        "cima",
+        "cresta",
+        "Lago dei Canali",
+        "Bassa di Söu",
+        "poco frequentata"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Gli ultimi metri di cresta sono su blocchi e tracce di sentiero, con passaggi che chiedono l'uso delle mani: servono passo sicuro e assenza di vertigini. In discesa un lungo traverso su erba scivolosa. Parcheggio a Casaccia a pagamento (5 CHF). Nessuna traccia AllTrails per questo versante: quella esistente sale da Osco, in Leventina, con 15,6 km e 1123 m. Neve fino a inizio estate; il Passo del Lucomagno chiude d'inverno.",
+      "links": [
+        {
+          "label": "signalkuppe.com (con traccia GPS)",
+          "kind": "web",
+          "url": "https://www.signalkuppe.com/escursionismo/2019/09/28/pizzo-del-sole/"
+        },
+        {
+          "label": "hikr — Pizzo del Sole",
+          "kind": "web",
+          "url": "https://www.hikr.org/tour/post17225.html"
+        },
+        {
+          "label": "AllTrails (versante Leventina)",
+          "kind": "alltrails",
+          "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/somprei-pizzo-de-sole"
+        }
+      ]
     }
   ]
 }

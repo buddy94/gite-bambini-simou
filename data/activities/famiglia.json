@@ -1023,6 +1023,56 @@
           "url": "https://minimeexplorer.ch/2020/07/08/dandrio-val-malvaglia/"
         }
       ]
+    },
+    {
+      "id": "seilpark-medelin",
+      "title": "Parco avventura Curtin Medelin (Val Medel)",
+      "emoji": "🌉",
+      "kind": "avventura",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 36,
+        "km": 30.8,
+        "to": "Curaglia (Val Medel)"
+      },
+      "lat": 46.680321,
+      "lon": 8.855593,
+      "stats": {
+        "time": "2-3h",
+        "alt": "1250 m",
+        "type": "parco avventura"
+      },
+      "why": "Il posto più vicino oltre il passo, ed è una gola con tirolesi e ponti sospesi sopra il Reno appena nato.",
+      "desc": "Percorso avventura attrezzato nella gola del Medelserrhein, fra Disentis e Curaglia: arrampicata, calate in corda doppia, tirolesi da una parete all'altra, ponte tibetano e un tratto di via ferrata, tutto sospeso sopra l'acqua. Si prenota solo tramite la scuola di alpinismo Muntognas, che fornisce il materiale e le guide.",
+      "tags": [
+        "oltre il passo",
+        "tirolese",
+        "via ferrata",
+        "ponte tibetano",
+        "gola",
+        "Grigioni"
+      ],
+      "season": [
+        "estate",
+        "autunno"
+      ],
+      "warn": "Solo su prenotazione tramite Muntognas: non si arriva e si entra. Età minima 8 anni. Tariffe indicative CHF 38 adulti / 32 bambini, da CHF 29 a persona per gruppi da 15. Si arriva passando dal Lucomagno, chiuso d'inverno.",
+      "links": [
+        {
+          "label": "muntognas.ch",
+          "kind": "info",
+          "url": "https://www.muntognas.ch/en/erlebnis/adventure-rope-park/"
+        },
+        {
+          "label": "Val Medel",
+          "kind": "web",
+          "url": "https://valmedel.info/beitrag/seilpark-curtin-medelin/"
+        }
+      ]
     }
   ]
 }
