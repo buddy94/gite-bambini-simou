@@ -203,6 +203,10 @@
   font-size: .8rem; color: var(--text-faint); display: grid; gap: .35rem;
 }
 .foot .warn { color: var(--text-soft); }
+.foot .signoff {
+  text-align: center; font-style: italic; color: var(--text-faint);
+  margin-top: .3rem; letter-spacing: .01em;
+}
 
 /* ── Descrizione della fascia scelta ──────────────────────────────
    Su mobile le fasce sono una riga di card strette senza descrizione:
