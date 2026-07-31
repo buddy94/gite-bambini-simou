@@ -12,7 +12,7 @@ import time
 import urllib.parse
 import urllib.request
 
-UA = "GuidaSimou/1.0 (https://github.com/buddy94/guida-simou)"
+UA = "GuidaSimou/1.0 (https://github.com/buddy94/gite-simou)"
 
 # id -> query Nominatim. Ordine irrilevante.
 PLACES = {

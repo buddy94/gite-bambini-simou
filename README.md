@@ -5,7 +5,7 @@ Gite, sentieri, acqua, animali, arrampicata, alpinismo, bici e attività al cope
 per **piccolissimi 0-4**, **bambini 4-9**, **ragazzi 10-16** e **adulti**, con i
 **tempi reali in auto** calcolati porta a porta da casa.
 
-👉 **[Vedi il sito](https://buddy94.github.io/gite-bambini-simou/)**
+👉 **[Vedi il sito](https://buddy94.github.io/gite-simou/)**
 
 ---
 
