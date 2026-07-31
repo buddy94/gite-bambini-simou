@@ -38,6 +38,50 @@
       "links": []
     },
     {
+      "id": "campo-blenio-kinderland",
+      "title": "Campo Blenio-Ghirone — Kinderland e pista di ghiaccio",
+      "emoji": "⛸️",
+      "kind": "inverno",
+      "ages": [
+        "0-4",
+        "4-9"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 19,
+        "km": 13.4,
+        "to": "Campo Blenio"
+      },
+      "lat": 46.55706,
+      "lon": 8.93538,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "1200-1900 m"
+      },
+      "why": "Tappeto mobile per i primi scivoloni, slittino di fianco e una pista di ghiaccio: d'inverno è la cosa più vicina a misura di piccolissimi.",
+      "desc": "La stazione di Campo Blenio-Ghirone ha un Kinderland con tappeto mobile per chi prova gli sci la prima volta, e accanto uno spazio dove scendere con bob o slittino senza saper sciare. C'è anche una pista di ghiaccio all'aperto di 180 m², aperta da dicembre a metà marzo tempo permettendo, con noleggio pattini. Sul posto ristorante, scuola sci e un ampio parcheggio vicino agli impianti.",
+      "toddler": "Il tappeto mobile e lo spazio slittino accanto sono fatti apposta per chi non scia: un bimbo di 2-3 anni può scivolare seduto senza lezioni. Verificare l'età minima del Kinderland e gli orari della pista di ghiaccio, cambiano di stagione in stagione.",
+      "stroller": false,
+      "season": [
+        "inverno"
+      ],
+      "tags": [
+        "kinderland",
+        "tappeto mobile",
+        "slittino",
+        "pista di ghiaccio",
+        "dicembre-marzo"
+      ],
+      "warn": "Dicembre-marzo e solo con neve. Orari ed età minima cambiano ogni stagione.",
+      "links": [
+        {
+          "label": "Ticino per bambini",
+          "kind": "info",
+          "url": "https://www.ticinoperbambini.ch/Campo-Blenio-Ghirone-2bae8a00"
+        }
+      ]
+    },
+    {
       "id": "eventi-blenio",
       "title": "Eventi in valle",
       "emoji": "🎪",
@@ -129,11 +173,6 @@
       ],
       "warn": "Per le visite va telefonato prima: +41 79 518 99 79 / +41 91 872 15 13.",
       "links": [
-        {
-          "label": "lafabbricadelcioccolato.ch",
-          "kind": "web",
-          "url": "https://www.lafabbricadelcioccolato.ch/"
-        },
         {
           "label": "ticino.ch",
           "kind": "info",
@@ -269,6 +308,51 @@
       "stroller": true
     },
     {
+      "id": "mercatino-malvaglia",
+      "title": "Mercatino di Natale di Malvaglia",
+      "emoji": "🎄",
+      "kind": "cultura",
+      "ages": [
+        "0-4",
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 35,
+        "km": 27.0,
+        "to": "Malvaglia"
+      },
+      "lat": 46.40694,
+      "lon": 8.98333,
+      "stats": {
+        "time": "2-3h",
+        "alt": "~600 m"
+      },
+      "why": "Mercatino di paese piccolo, tutto in piazza: niente da camminare e uno spettacolo per bambini.",
+      "desc": "Mercatino di Natale in Piazza Municipio a Malvaglia, organizzato da artigiani e commercianti locali con i comuni di Serravalle, Acquarossa e Blenio. Bancarelle, musica dal vivo dei pifferai, intrattenimento itinerante e uno spettacolo per bambini del Teatro del Fantastico.",
+      "toddler": "Piazza di paese, tutto a livello di passeggino, nessun percorso da fare. Copritevi: a dicembre in valle fa freddo e si sta fermi.",
+      "stroller": true,
+      "season": [
+        "inverno"
+      ],
+      "tags": [
+        "mercatino di natale",
+        "musica",
+        "spettacolo bambini",
+        "dicembre"
+      ],
+      "warn": "Le date cambiano ogni anno: verificare su blenioviva.ch prima di partire.",
+      "links": [
+        {
+          "label": "blenioviva.ch",
+          "kind": "web",
+          "url": "https://www.blenioviva.ch/it/eventi/mercatino-di-natale-a-malvaglia-79615"
+        }
+      ]
+    },
+    {
       "id": "bike-park-nara",
       "title": "Bike Park Nara — Black Wood Line",
       "emoji": "🚵",
@@ -311,9 +395,9 @@
           "url": "https://bleniobike.ch/en/bike-park-nara-2/"
         },
         {
-          "label": "Percorsi MTB",
-          "kind": "info",
-          "url": "https://nara.ch/estate/attivita-estate/mtb/"
+          "label": "Nara Bike Park",
+          "kind": "web",
+          "url": "https://narabikepark.ch/"
         }
       ]
     },

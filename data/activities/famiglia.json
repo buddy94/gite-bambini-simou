@@ -264,6 +264,96 @@
       "stroller": true
     },
     {
+      "id": "azienda-alneid",
+      "title": "Azienda Alnéid — le mucche di Campo Blenio",
+      "emoji": "🐄",
+      "kind": "animali",
+      "ages": [
+        "0-4",
+        "4-9"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 19,
+        "km": 13.3,
+        "to": "Campo Blenio"
+      },
+      "lat": 46.55706,
+      "lon": 8.93538,
+      "stats": {
+        "time": "1h",
+        "alt": "1217 m"
+      },
+      "why": "Mucche da vedere da vicino e formaggi dell'alpe in vendita self-service, a un quarto d'ora da casa.",
+      "desc": "Azienda agricola familiare a Campo Blenio con mucche da latte. Offre visite didattiche con degustazione nell'ambito del programma 'Scuola in fattoria', un punto vendita self-service con i formaggi dell'Alpe Predasca e salumeria, e la possibilità di fare picnic con i prodotti dell'azienda.",
+      "toddler": "Le visite didattiche sembrano pensate per gruppi e scuole: per passare con un bimbo piccolo conviene telefonare prima. Il punto vendita self-service resta comunque un modo facile per vedere le mucche da vicino senza prenotare niente.",
+      "stroller": true,
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "tags": [
+        "mucche",
+        "fattoria",
+        "vendita diretta",
+        "picnic"
+      ],
+      "warn": "Per le visite conviene contattare prima l'azienda.",
+      "links": [
+        {
+          "label": "aziendaalneid.ch",
+          "kind": "web",
+          "url": "https://www.aziendaalneid.ch/"
+        }
+      ]
+    },
+    {
+      "id": "alpe-bolla-carassina",
+      "title": "Alpe Bolla Carassina",
+      "emoji": "🐖",
+      "kind": "animali",
+      "ages": [
+        "0-4",
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 20,
+        "km": 14.3,
+        "to": "Carassina (Campo Blenio)"
+      },
+      "lat": 46.565,
+      "lon": 8.945,
+      "stats": {
+        "time": "10 min a piedi da Carassina",
+        "alt": "~1500 m"
+      },
+      "why": "Un alpeggio vero, con mucche, maiali e galline, e la macchina che arriva quasi in cima.",
+      "desc": "Alpeggio sopra Campo Blenio, aperto da giugno a settembre. Si arriva in auto a Carassina e si cammina una decina di minuti; in alternativa 30 minuti a piedi da Campo Blenio o il postbus Campo Blenio–Ghirone–Luzzone. Ci sono mucche da latte, maiali e galline ovaiole, e si vendono burro e formaggio prodotti sull'alpe.",
+      "toddler": "Gli ultimi dieci minuti sono su sentiero non asfaltato: meglio lo zaino porta-bimbo del passeggino. La scheda ufficiale la segnala come accessibile anche a persone con disabilità.",
+      "stroller": false,
+      "season": [
+        "estate"
+      ],
+      "tags": [
+        "alpeggio",
+        "mucche",
+        "maiali",
+        "galline",
+        "giugno-settembre"
+      ],
+      "warn": "Aperto solo da giugno a settembre. Entrata a pagamento: verificare prima.",
+      "links": [
+        {
+          "label": "Contadini Svizzeri",
+          "kind": "info",
+          "url": "https://www.ricerca.contadinisvizzeri.ch/it/farm/alpe-bolla-carassina-1162"
+        }
+      ]
+    },
+    {
       "id": "bleniocavalli",
       "title": "Fattoria Bleniocavalli",
       "emoji": "🐎",
@@ -287,7 +377,7 @@
       },
       "rating": 4.3,
       "why": "Battesimo della sella a venti minuti da casa.",
-      "desc": "A Lottigna, passeggiate a cavallo anche per bambini. Contattare per orari e disponibilita'.",
+      "desc": "A Lottigna, passeggiate a cavallo anche per bambini. Contattare per orari e disponibilità.",
       "tags": [
         "cavalli",
         "battesimo sella",
@@ -300,6 +390,50 @@
       ],
       "links": [],
       "toddler": "Il battesimo della sella è pensato più per 3-4 anni che per un lattante: chiedere al momento della prenotazione l'età minima accettata dal maneggio. Per i più piccoli resta comunque possibile vedere e accarezzare i cavalli."
+    },
+    {
+      "id": "parchi-acquarossa",
+      "title": "Parchi giochi del Comune di Acquarossa",
+      "emoji": "🛝",
+      "kind": "avventura",
+      "ages": [
+        "0-4",
+        "4-9"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 25,
+        "km": 19.6,
+        "to": "Comprovasco"
+      },
+      "lat": 46.45508,
+      "lon": 8.938,
+      "stats": {
+        "time": "30 min - 2h",
+        "alt": "~500 m"
+      },
+      "why": "Piccoli parchi sparsi tra i villaggi: comodi per una sosta mentre si fanno le commissioni in paese.",
+      "desc": "Il Comune di Acquarossa elenca le aree di svago con parco giochi delle sue frazioni: Castro (via Giovanni Genucchi), Corzoneso (Boscero e Corzoneso Alto), Dongio (via Crespogno), Leontica-Comprovasco (presso le scuole elementari), Motto (via Intragagno) e Ponto Valentino (via Lìmat e via San Francesco).",
+      "toddler": "Il Comune pubblica solo gli indirizzi, non che giochi ci sono: verificare sul posto se sono adatti ai più piccoli. Quello di Comprovasco è il più comodo se ci si ferma per la spesa.",
+      "stroller": true,
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "tags": [
+        "parco giochi",
+        "rete comunale",
+        "sosta veloce"
+      ],
+      "warn": "Il tipo di giochi installati non è documentato dal Comune: da verificare sul posto.",
+      "links": [
+        {
+          "label": "Comune di Acquarossa",
+          "kind": "info",
+          "url": "https://www.acquarossa.ch/tempo-libero/aree-di-svago-parco-giochi/"
+        }
+      ]
     },
     {
       "id": "somarelli",
@@ -383,6 +517,50 @@
       "toddler": "Si sale in funivia, non serve camminare: il testo segnala esplicitamente passeggiate tranquille in quota adatte anche ai più piccoli. Zaino porta-bimbo più comodo del passeggino sul sentiero in cima; verificare gli orari della funivia prima di partire."
     },
     {
+      "id": "al-boschetto",
+      "title": "Area di svago Al Boschetto",
+      "emoji": "🛝",
+      "kind": "avventura",
+      "ages": [
+        "0-4",
+        "4-9"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 35,
+        "km": 27.0,
+        "to": "Malvaglia"
+      },
+      "lat": 46.40694,
+      "lon": 8.98333,
+      "stats": {
+        "time": "1-3h",
+        "alt": "~600 m"
+      },
+      "why": "Parco giochi, tavoli da picnic e bagni pubblici nello stesso posto: con un bimbo piccolo i bagni cambiano la giornata.",
+      "desc": "Area di svago comunale a Malvaglia, nel verde accanto al campo di calcio del paese: parco giochi, tavoli da picnic, griglia a legna e servizi igienici con acqua potabile.",
+      "toddler": "Bagni pubblici e area picnic tolgono il pensiero principale di una gita con un bimbo piccolo. Tutto in piano, passeggino senza problemi.",
+      "stroller": true,
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "tags": [
+        "parco giochi",
+        "picnic",
+        "bagni pubblici",
+        "griglia"
+      ],
+      "links": [
+        {
+          "label": "Comune di Serravalle",
+          "kind": "info",
+          "url": "https://www.serravalle.ch/Scopri-il-comune/Sport-tempo-libero-e-agevolazioni-comunali/Area-di-svago-al-Boschetto-1e2fde00"
+        }
+      ]
+    },
+    {
       "id": "rafting-brenno",
       "title": "Rafting sul Brenno e sul Ticino",
       "emoji": "🛶",
@@ -421,6 +599,97 @@
           "label": "Biasca e Riviera",
           "kind": "info",
           "url": "https://www.bellinzonaevalli.ch/en/discover/destinations/biasca-riviera.html"
+        }
+      ]
+    },
+    {
+      "id": "pozzone-iragna",
+      "title": "Pozzone di Iragna",
+      "emoji": "🌊",
+      "kind": "acqua",
+      "ages": [
+        "0-4",
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 43,
+        "km": 35.9,
+        "to": "Iragna"
+      },
+      "lat": 46.32892,
+      "lon": 8.96723,
+      "stats": {
+        "time": "2 min a piedi dal parcheggio",
+        "alt": "~300 m"
+      },
+      "why": "Il bagno naturale più comodo della zona: due minuti dal parcheggio, con un parco giochi lì accanto.",
+      "desc": "Tre piccole cascate scavano la roccia e formano una grande pozza ai loro piedi, accanto al centro di Iragna. Si parcheggia all'Osteria al Pozz e si segue la via lungo il fiume: due minuti. Poco distante c'è un grande parco giochi.",
+      "toddler": "Percorso brevissimo e pianeggiante, il passeggino arriva quasi in riva. La pozza però è profonda e alimentata da un torrente di montagna: i piccoli vanno tenuti per mano o in braccio, non è un bagno sorvegliato.",
+      "stroller": true,
+      "season": [
+        "estate"
+      ],
+      "tags": [
+        "pozza naturale",
+        "cascata",
+        "parco giochi vicino",
+        "accesso brevissimo"
+      ],
+      "warn": "Pozza profonda e non sorvegliata, acqua gelida. Non è una piscina.",
+      "links": [
+        {
+          "label": "Cascate Trekking",
+          "kind": "web",
+          "url": "https://www.cascatetrekking.com/cascate/svizzera/ticino/riviera-pozzone-di-iragna/"
+        }
+      ]
+    },
+    {
+      "id": "santa-petronilla",
+      "title": "Cascata di Santa Petronilla",
+      "emoji": "💦",
+      "kind": "acqua",
+      "ages": [
+        "0-4",
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 44,
+        "km": 33.4,
+        "to": "Biasca"
+      },
+      "lat": 46.36806,
+      "lon": 8.97806,
+      "stats": {
+        "time": "20-30 min a piedi",
+        "alt": "293 m"
+      },
+      "why": "Cascata e pozze a due passi dal centro di Biasca, con una chiesa romanica lungo la salita.",
+      "desc": "Dal centro di Biasca un percorso di 20-30 minuti passa dalla chiesa dei Santi Pietro e Paolo, sale lungo la Via Crucis all'ombra dei castagni e arriva al ponte sotto la cascata, formata dal torrente Ri della Froda. Alla base ci sono pozze naturali con acqua verde dove rinfrescarsi, con vista su Blenio, Leventina e Riviera.",
+      "toddler": "Buona parte del tragitto è su sterrato e regge il passeggino, anche se in salita; la variante nel bosco lungo la Via Crucis è più bella ma non adatta alle ruote. Le pozze appena a monte del ponte sono piccole e più adatte ai bambini, ma vanno sorvegliati sempre: l'acqua resta gelida anche in agosto.",
+      "stroller": true,
+      "season": [
+        "estate"
+      ],
+      "tags": [
+        "cascata",
+        "pozze naturali",
+        "via crucis",
+        "romanico",
+        "sterrato"
+      ],
+      "warn": "Acqua molto fredda e rocce bagnate scivolose. Sorvegliare sempre i bambini.",
+      "links": [
+        {
+          "label": "Bellinzonese e Valli",
+          "kind": "info",
+          "url": "https://www.bellinzonaevalli.ch/en/commons/details/Santa-Petronilla-Waterfall/130542.html"
         }
       ]
     },
@@ -511,7 +780,7 @@
       "season": [
         "estate"
       ],
-      "warn": "Solo con guida certificata. Eta' minima e requisiti variano per tour: chiedere prima.",
+      "warn": "Solo con guida certificata. Età minima e requisiti variano per tour: chiedere prima.",
       "links": [
         {
           "label": "Canyoning in Ticino",
