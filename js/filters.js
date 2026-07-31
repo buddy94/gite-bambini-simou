@@ -1,7 +1,7 @@
 /* Filtro e ordinamento: funzioni pure sullo stato corrente. */
 
 import { DIFFS, DRIVE_MAX } from './config.js';
-import { state, favs } from './store.js';
+import { state } from './store.js';
 
 /** Applica tutti i filtri attivi e ordina secondo `state.sort`. */
 export function apply(activities) {
@@ -18,7 +18,6 @@ function matches(a, words) {
   if (state.kinds.size && !state.kinds.has(a.kind)) return false;
   if (state.diffs.size && !state.diffs.has(a.difficulty)) return false;
   if (state.seasons.size && !a.season.some(s => state.seasons.has(s))) return false;
-  if (state.favOnly && !favs.has(a.id)) return false;
   if (words.length && !words.every(w => haystack(a).includes(w))) return false;
   return true;
 }

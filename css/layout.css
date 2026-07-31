@@ -152,6 +152,21 @@
 .count { font-size: .86rem; color: var(--text-soft); }
 .count strong { color: var(--text); }
 
+/* Vista preferiti: i filtri non servono, ma la barra resta perché contiene
+   il selettore di vista — senza, non si tornerebbe indietro. */
+.filters.compact .search,
+.filters.compact #clearBtn,
+.filters.compact .frow-drive,
+.filters.compact .more,
+.filters.compact .frow-meta { display: none; }
+.filters.compact {
+  /* senza filtri dentro resta solo il selettore: si comporta da barretta,
+     non da riquadro vuoto */
+  padding: .5rem .6rem;
+  background: transparent; border-color: transparent; box-shadow: none;
+}
+.filters.compact .view-toggle { margin-left: auto; background: var(--surface); }
+
 .empty { text-align: center; color: var(--text-soft); padding: 3rem 1rem; font-size: .95rem; }
 
 /* ── Consigli pratici ─────────────────────────────────────────── */

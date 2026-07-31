@@ -23,6 +23,7 @@ nessuna dipendenza da installare. Si apre `index.html` da un server statico e fu
 │   ├── layout.css              # intestazione, fasce d'età, filtri, footer
 │   ├── cards.css               # griglia schede + etichette (pill)
 │   ├── detail.css              # finestra di dettaglio
+│   ├── favorites.css           # lista preferiti
 │   └── map.css                 # contenitore mappa, pin, fumetti
 │
 ├── js/
@@ -38,6 +39,7 @@ nessuna dipendenza da installare. Si apre `index.html` da un server statico e fu
 │       ├── controls.js         # costruzione e binding dei controlli
 │       ├── cards.js            # render della griglia
 │       ├── detail.js           # finestra di dettaglio
+│       ├── favorites.js        # lista preferiti e riordino
 │       └── map.js              # Leaflet, caricato solo quando serve
 │
 ├── data/
@@ -64,7 +66,9 @@ nessuna dipendenza da installare. Si apre `index.html` da un server statico e fu
 - **Ricerca** libera su titolo, descrizione, note e tag
 - **Filtri** per tipo, difficoltà, stagione e tempo massimo in auto
 - **Mappa interattiva** (Leaflet + OpenStreetMap) con pin colorati per tipo
-- **Preferiti** salvati sul dispositivo
+- **Preferiti** salvati sul dispositivo, con vista dedicata: si riordinano
+  trascinando (o con le frecce da tastiera), mostrano quanto si guida in tutto
+  e si condividono con un link
 - **Link condivisibili**: i filtri finiscono nell'URL, le schede hanno un `#a/<id>`
 - **Tema chiaro/scuro**, mobile-first
 - **Offline**: dopo la prima visita la guida resta leggibile senza rete (mappa esclusa)
@@ -147,6 +151,32 @@ di ogni gita, e sposta molto: entro 40 minuti ci sta quasi tutta la valle fino a
 Biasca, ma **non** Bellinzona (58 min), il Ritom (63 min), Faido (63 min), il Nara
 (45 min) o la diga del Luzzone (47 min). Il sito lo dice apertamente invece di
 arrotondare per difetto — il filtro parte da 45 minuti e si può alzare.
+
+---
+
+## Preferiti
+
+Vivono in `localStorage` sotto la chiave `simou:favs`, come array di id **in
+ordine**: l'ordine è quello che l'utente decide trascinando, e trasforma un
+elenco in un programma. Niente account, niente server: restano sul dispositivo.
+
+Il riordino usa i Pointer Events e non l'API drag-and-drop di HTML5, che sul
+telefono non funziona — così mouse, dito e penna passano dalla stessa strada.
+Due dettagli imparati facendolo:
+
+- gli ascoltatori di `pointermove`/`pointerup` stanno su `window`, non sulla
+  maniglia: spostare la voce nel DOM rilascia la cattura del puntatore, e il
+  `pointerup` finale non arriverebbe mai all'elemento di partenza;
+- la posizione di destinazione si calcola confrontando il puntatore con i
+  **centri** delle altre voci, non chiedendo "dentro quale riga sono": così
+  funziona anche quando il puntatore salta di netto da una riga all'altra.
+
+C'è anche il riordino da tastiera (frecce su/giù sulla maniglia), perché
+trascinare non è un'opzione per tutti.
+
+Il pulsante "Copia link della lista" produce un `?lista=id1,id2,...`. Chi lo
+apre vede quella selezione con un avviso che non sono i suoi preferiti, e
+decide se importarla: un link ricevuto non tocca mai i dati di chi lo apre.
 
 ---
 

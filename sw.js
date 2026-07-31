@@ -7,7 +7,7 @@
 
    Le tile della mappa e Leaflet NON sono in cache: la mappa richiede rete. */
 
-const CACHE = 'simou-v2';
+const CACHE = 'simou-v3';
 
 const SHELL = [
   './',
@@ -19,6 +19,7 @@ const SHELL = [
   './css/cards.css',
   './css/detail.css',
   './css/map.css',
+  './css/favorites.css',
   './js/main.js',
   './js/config.js',
   './js/data.js',
@@ -31,6 +32,7 @@ const SHELL = [
   './js/ui/cards.js',
   './js/ui/detail.js',
   './js/ui/map.js',
+  './js/ui/favorites.js',
 ];
 
 self.addEventListener('install', event => {

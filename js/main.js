@@ -8,10 +8,11 @@ import { apply, secondaryCount } from './filters.js';
 import { writeUrl, readUrl, hashId } from './url.js';
 import { $ } from './ui/dom.js';
 import { initTheme } from './ui/theme.js';
-import { buildControls, syncControls } from './ui/controls.js';
-import { initCards, renderCards, setRerender } from './ui/cards.js';
+import { buildControls, syncControls, paintFavCount, paintView } from './ui/controls.js';
+import { initCards, renderCards, setFavChangeHandler } from './ui/cards.js';
 import { initDetail, openDetail } from './ui/detail.js';
 import { initMap, renderMap } from './ui/map.js';
+import { initFavorites, renderFavorites } from './ui/favorites.js';
 
 let data = null;
 
@@ -31,7 +32,8 @@ async function start() {
   initCards(data.meta, openDetail);
   initDetail(data);
   initMap(data.meta);
-  setRerender(render);
+  initFavorites(data, openDetail);
+  setFavChangeHandler(paintFavCount);
 
   subscribe(render);
   addEventListener('hashchange', openFromHash);
@@ -45,6 +47,25 @@ async function start() {
 }
 
 function render() {
+  const showing = state.view;
+
+  $('#results').hidden = showing !== 'cards';
+  $('#map').hidden = showing !== 'map';
+  $('#favs').hidden = showing !== 'favs';
+  paintView();
+  paintFavCount();
+
+  // Nella vista preferiti i filtri non servono, ma la barra resta: contiene
+  // il selettore di vista, ed è l'unico modo per tornare indietro.
+  $('.filters').classList.toggle('compact', showing === 'favs');
+
+  if (showing === 'favs') {
+    $('#empty').hidden = true;
+    renderFavorites();
+    writeUrl();
+    return;
+  }
+
   const list = apply(data.activities);
 
   $('#activeCount').textContent = secondaryCount() || '';
@@ -52,11 +73,7 @@ function render() {
     (state.maxDrive < DRIVE_MAX ? ` entro ${state.maxDrive} min di auto` : '');
   $('#empty').hidden = list.length > 0;
 
-  const showMap = state.view === 'map';
-  $('#results').hidden = showMap;
-  $('#map').hidden = !showMap;
-
-  if (showMap) renderMap(list, openDetail);
+  if (showing === 'map') renderMap(list, openDetail);
   else renderCards(list);
 
   writeUrl();

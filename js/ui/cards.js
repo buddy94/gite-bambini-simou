@@ -2,7 +2,7 @@
    quando l'ordinamento è per vicinanza. */
 
 import { DRIVE_BANDS, DRIVE_FAR } from '../config.js';
-import { state, favs } from '../store.js';
+import { state, favs, emit } from '../store.js';
 import { $, esc, fmtKm } from './dom.js';
 
 let meta = null;
@@ -17,9 +17,10 @@ export function initCards(dataMeta, openDetail) {
     const fav = e.target.closest('.fav');
     if (fav) {
       e.stopPropagation();
-      fav.textContent = favs.toggle(fav.dataset.id) ? '★' : '☆';
-      fav.setAttribute('aria-pressed', favs.has(fav.dataset.id));
-      if (state.favOnly) onRerender();
+      const now = favs.toggle(fav.dataset.id);
+      fav.textContent = now ? '★' : '☆';
+      fav.setAttribute('aria-pressed', now);
+      onFavChange();
       return;
     }
     const card = e.target.closest('.card');
@@ -35,10 +36,10 @@ export function initCards(dataMeta, openDetail) {
   });
 }
 
-/* Il rerender dopo un toggle dei preferiti viene iniettato da main.js:
-   cards.js non conosce il ciclo di render dell'applicazione. */
-let onRerender = () => {};
-export const setRerender = fn => { onRerender = fn; };
+/* Cosa fare dopo un toggle della stella (aggiornare il contatore sul pulsante
+   Preferiti): iniettato da main.js, cards.js non conosce il resto dell'app. */
+let onFavChange = () => {};
+export const setFavChangeHandler = fn => { onFavChange = fn; };
 
 export function renderCards(list) {
   const box = $('#results');

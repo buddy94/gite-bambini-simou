@@ -3,7 +3,7 @@
    una fascia o un tipo nuovo compaiono da soli. */
 
 import { DIFFS, SEASONS, SEASON_EMOJI, SORTS, DRIVE_DEFAULT, DRIVE_MAX } from '../config.js';
-import { state, toggleIn, resetState, emit } from '../store.js';
+import { state, toggleIn, resetState, emit, favs } from '../store.js';
 import { secondaryCount } from '../filters.js';
 import { $, $$, chip, esc, capitalize } from './dom.js';
 
@@ -84,12 +84,6 @@ function bind() {
     emit();
   });
 
-  $('#favBtn').addEventListener('click', e => {
-    state.favOnly = !state.favOnly;
-    e.currentTarget.setAttribute('aria-pressed', state.favOnly);
-    emit();
-  });
-
   $('#clearBtn').addEventListener('click', () => {
     resetState();
     syncControls();
@@ -100,8 +94,9 @@ function bind() {
     const btn = e.target.closest('.vt');
     if (!btn) return;
     state.view = btn.dataset.view;
-    $$('.vt').forEach(b => b.classList.toggle('active', b === btn));
-    emit();
+    // uscire dalla vista preferiti scarta la lista condivisa che si stava guardando
+    if (state.view !== 'favs') state.sharedList = null;
+    emit();   // il render ridipinge il selettore
   });
 }
 
@@ -114,19 +109,31 @@ function bindChipGroup(sel, set) {
   });
 }
 
+/** Il contatore sul pulsante Preferiti. */
+export function paintFavCount() {
+  $('#favCount').textContent = favs.size ? `(${favs.size})` : '';
+}
+
+/* Quale vista è evidenziata. Va rifatto a ogni render e non solo al clic:
+   la vista si cambia anche da dentro le viste stesse (dal link condiviso,
+   dal pulsante della lista vuota) e da un link con ?vista=. */
+export function paintView() {
+  $$('.vt').forEach(b => b.classList.toggle('active', b.dataset.view === state.view));
+}
+
 /** Riallinea i controlli allo stato: dopo un reset o una lettura dall'URL. */
 export function syncControls() {
   $('#q').value = state.q;
   $('#drive').value = state.maxDrive;
   paintDrive();
-  $('#favBtn').setAttribute('aria-pressed', state.favOnly);
   $$('.age-card').forEach(b => b.setAttribute('aria-pressed', state.ages.has(b.dataset.age)));
   paintChips('#kindChips', state.kinds);
   paintChips('#diffChips', state.diffs);
   paintChips('#seasonChips', state.seasons);
   $$('#sortChips .chip').forEach(c =>
     c.setAttribute('aria-pressed', c.dataset.sort === state.sort));
-  $$('.vt').forEach(b => b.classList.toggle('active', b.dataset.view === state.view));
+  paintView();
+  paintFavCount();
   if (secondaryCount()) $('#moreFilters').open = true;
 }
 

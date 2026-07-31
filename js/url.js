@@ -1,5 +1,8 @@
 /* Stato dei filtri nell'URL: un link condiviso riapre la stessa selezione.
-   Il dettaglio usa il fragment (#a/<id>), i filtri la query string. */
+   Il dettaglio usa il fragment (#a/<id>), i filtri la query string.
+
+   `lista=` è a parte: contiene una selezione di preferiti mandata da qualcun
+   altro. Non tocca i preferiti di chi apre il link finché non lo chiede. */
 
 import { SORTS, DRIVE_DEFAULT, DRIVE_MAX } from './config.js';
 import { state } from './store.js';
@@ -11,9 +14,13 @@ const SETS = [
   ['stag', 'seasons'],
 ];
 
+const VIEWS = { map: 'map', preferiti: 'favs' };
+const VIEW_PARAM = { map: 'map', favs: 'preferiti' };
+
 /** Scrive lo stato corrente nella query string. */
 export function writeUrl() {
   if (location.hash.startsWith('#a/')) return;   // il dettaglio ha la precedenza
+  if (state.sharedList) return;                  // non riscrivere il link condiviso
 
   const p = new URLSearchParams();
   if (state.q) p.set('q', state.q);
@@ -22,8 +29,7 @@ export function writeUrl() {
   }
   if (state.maxDrive !== DRIVE_DEFAULT) p.set('auto', state.maxDrive);
   if (state.sort !== 'drive') p.set('ord', state.sort);
-  if (state.favOnly) p.set('fav', '1');
-  if (state.view !== 'cards') p.set('vista', state.view);
+  if (VIEW_PARAM[state.view]) p.set('vista', VIEW_PARAM[state.view]);
 
   const qs = p.toString();
   history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
@@ -42,8 +48,14 @@ export function readUrl() {
   const drive = Number(p.get('auto'));
   if (Number.isFinite(drive) && drive > 0) state.maxDrive = Math.min(drive, DRIVE_MAX);
   if (SORTS[p.get('ord')]) state.sort = p.get('ord');
-  state.favOnly = p.get('fav') === '1';
-  if (p.get('vista') === 'map') state.view = 'map';
+  if (VIEWS[p.get('vista')]) state.view = VIEWS[p.get('vista')];
+
+  // una lista condivisa apre direttamente la vista preferiti
+  const shared = (p.get('lista') || '').split(',').map(s => s.trim()).filter(Boolean);
+  if (shared.length) {
+    state.sharedList = shared;
+    state.view = 'favs';
+  }
 }
 
 /** id dell'attività nel fragment, se presente. */

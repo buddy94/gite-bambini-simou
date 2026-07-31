@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="css/cards.css">
 <link rel="stylesheet" href="css/detail.css">
 <link rel="stylesheet" href="css/map.css">
+<link rel="stylesheet" href="css/favorites.css">
 </head>
 <body>
 
@@ -47,10 +48,11 @@
       <div class="view-toggle" id="viewToggle" role="group" aria-label="Vista">
         <button class="vt active" data-view="cards" type="button">▦ Schede</button>
         <button class="vt" data-view="map" type="button">🗺️ Mappa</button>
+        <button class="vt" data-view="favs" type="button">★ Preferiti <span id="favCount"></span></button>
       </div>
     </div>
 
-    <div class="frow">
+    <div class="frow frow-drive">
       <label class="drive">
         <span class="drive-label">Massimo in auto: <strong id="driveVal">45 min</strong></span>
         <input type="range" id="drive" min="10" max="70" step="5" value="45">
@@ -69,12 +71,12 @@
 
     <div class="frow frow-meta">
       <p class="count" id="count" role="status"></p>
-      <button class="btn-fav" id="favBtn" type="button" aria-pressed="false">☆ Solo preferiti</button>
     </div>
   </section>
 
   <section id="results" class="results" aria-live="polite"></section>
   <div id="map" class="map" hidden></div>
+  <section id="favs" class="favs" aria-label="I tuoi preferiti" hidden></section>
 
   <p class="empty" id="empty" hidden>
     Niente che corrisponda. Prova ad alzare il tempo massimo in auto o ad azzerare i filtri.
@@ -122,6 +124,12 @@
         <h3>📶 Il segnale non c'è ovunque</h3>
         <p>Questa pagina resta consultabile anche offline dopo la prima visita, mappa
         esclusa. Scarica prima l'app delle cacce al tesoro e le tracce che ti servono.</p>
+      </article>
+      <article>
+        <h3>★ I preferiti sono il tuo piano</h3>
+        <p>La stella su una scheda la salva in <em>Preferiti</em>. Lì puoi trascinare
+        le voci per metterle nell'ordine in cui vuoi farle, e copiare un link della
+        lista da mandare a chi è in vacanza con te. Resta tutto su questo dispositivo.</p>
       </article>
       <article>
         <h3>🔗 I link si possono condividere</h3>

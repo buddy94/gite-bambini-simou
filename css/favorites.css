@@ -1,0 +1,119 @@
+/* Vista "Preferiti": lista ordinata e riordinabile. */
+
+.favs { display: grid; gap: 1rem; }
+
+/* ── Riepilogo e strumenti ────────────────────────────────────── */
+.fv-head {
+  display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between;
+  align-items: center;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: .9rem 1.05rem; box-shadow: var(--shadow);
+}
+.fv-sum { display: flex; flex-wrap: wrap; gap: 1.4rem; }
+.fv-sum div { display: grid; }
+.fv-sum b { font-size: 1.35rem; font-weight: 800; line-height: 1.1; letter-spacing: -.02em; }
+.fv-sum span { font-size: .76rem; color: var(--text-faint); }
+
+.fv-tools { display: flex; flex-wrap: wrap; gap: .45rem; }
+.fv-btn {
+  font: inherit; font-size: .84rem; font-weight: 600; cursor: pointer;
+  color: var(--text-soft); background: var(--surface-2);
+  border: 1.5px solid var(--border); border-radius: var(--radius-sm);
+  padding: .45rem .8rem; white-space: nowrap; transition: all .13s;
+}
+.fv-btn:hover { border-color: var(--border-strong); color: var(--text); }
+.fv-btn.primary { background: var(--green-700); border-color: var(--green-700); color: #fff; }
+.fv-btn.primary:hover { background: var(--green-800); color: #fff; }
+.fv-btn.danger:hover { border-color: var(--red); color: var(--red); }
+
+.fv-hint, .fv-note, .fv-foot {
+  font-size: .82rem; color: var(--text-faint); line-height: 1.5;
+}
+.fv-note { color: var(--orange); }
+
+/* ── Lista condivisa ──────────────────────────────────────────── */
+.fv-shared {
+  background: rgba(37,99,235,.08); border: 1px solid rgba(37,99,235,.25);
+  border-radius: var(--radius); padding: .9rem 1.05rem;
+  display: grid; gap: .7rem;
+}
+.fv-shared p { font-size: .89rem; line-height: 1.5; color: var(--text-soft); }
+.fv-shared strong { color: var(--blue); }
+.fv-shared-act { display: flex; flex-wrap: wrap; gap: .45rem; }
+
+/* ── Voci ─────────────────────────────────────────────────────── */
+.fv-list { list-style: none; display: grid; gap: .5rem; }
+
+.fv-item {
+  display: flex; align-items: center; gap: .7rem;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: .65rem .8rem; box-shadow: var(--shadow);
+  transition: box-shadow .13s, border-color .13s;
+  touch-action: pan-y;   /* lascia scorrere la pagina, il trascinamento parte dalla maniglia */
+}
+.fv-item:hover { border-color: var(--border-strong); }
+
+.fv-handle {
+  flex: none; width: 30px; height: 34px; cursor: grab;
+  border: 0; background: transparent; color: var(--text-faint);
+  font-size: 1.1rem; line-height: 1; border-radius: 6px;
+  touch-action: none;    /* la maniglia si prende tutti i gesti */
+}
+.fv-handle:hover { color: var(--text-soft); background: var(--surface-2); }
+.fv-handle:active { cursor: grabbing; }
+
+.fv-num {
+  flex: none; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--green-700); color: #fff;
+  font-size: .76rem; font-weight: 700; display: grid; place-items: center;
+  font-variant-numeric: tabular-nums;
+}
+.fv-emoji { flex: none; font-size: 1.5rem; line-height: 1; }
+
+.fv-main { flex: 1; min-width: 0; display: grid; gap: .3rem; }
+.fv-main h3 {
+  font-size: .97rem; font-weight: 700; line-height: 1.3; letter-spacing: -.01em;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.fv-meta { display: flex; flex-wrap: wrap; gap: .3rem; }
+
+.fv-act { flex: none; display: flex; gap: .25rem; }
+.fv-icon {
+  width: 30px; height: 30px; border-radius: 50%; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface-2);
+  color: var(--text-soft); font-size: .95rem; display: grid; place-items: center;
+  transition: all .13s;
+}
+.fv-icon:hover { border-color: var(--green-500); color: var(--green-700); }
+.fv-icon.danger:hover { border-color: var(--red); color: var(--red); }
+:root[data-theme="dark"] .fv-icon:hover { color: var(--green-300); }
+
+/* ── Durante il trascinamento ─────────────────────────────────── */
+.fv-list.is-dragging .fv-item { transition: transform .16s ease; }
+.fv-item.dragging {
+  transition: none; z-index: 5; position: relative;
+  box-shadow: var(--shadow-lg); border-color: var(--green-500);
+  opacity: .97; cursor: grabbing;
+}
+.fv-list.is-dragging { user-select: none; }
+
+/* ── Lista vuota ──────────────────────────────────────────────── */
+.fv-empty {
+  text-align: center; padding: 3rem 1.5rem;
+  background: var(--surface); border: 1px dashed var(--border-strong);
+  border-radius: var(--radius); display: grid; gap: .55rem; justify-items: center;
+}
+.fv-empty-ico { font-size: 2.6rem; color: var(--gold); line-height: 1; }
+.fv-empty h2 { font-size: 1.15rem; font-weight: 700; }
+.fv-empty p { font-size: .89rem; color: var(--text-soft); max-width: 42ch; line-height: 1.55; }
+.fv-empty .fv-btn { margin-top: .4rem; }
+
+@media (max-width: 640px) {
+  .fv-head { padding: .8rem .85rem; }
+  .fv-sum { gap: 1rem; }
+  .fv-sum b { font-size: 1.15rem; }
+  .fv-item { padding: .6rem .65rem; gap: .5rem; }
+  .fv-emoji { display: none; }        /* spazio prezioso: numero e titolo bastano */
+  .fv-tools { width: 100%; }
+  .fv-tools .fv-btn { flex: 1; }
+}
