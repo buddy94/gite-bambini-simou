@@ -186,11 +186,131 @@
 }
 .foot .warn { color: var(--text-soft); }
 
-/* ── Mobile ───────────────────────────────────────────────────── */
-@media (max-width: 640px) {
-  .hero { padding: 2rem 1rem 1.8rem; }
-  .wrap { padding: 0 .85rem 2.5rem; }
-  .filters { position: static; padding: .8rem .85rem; }
-  .view-toggle { flex: 1 1 100%; }
-  .vt { flex: 1; }
+/* ── Descrizione della fascia scelta ──────────────────────────────
+   Su mobile le fasce sono una riga di card strette senza descrizione:
+   quella di ciò che è selezionato compare qui. */
+.age-hint-live {
+  font-size: .84rem; color: var(--text-soft); line-height: 1.45;
+  margin: -.9rem 0 1.1rem; padding: 0 .15rem;
+}
+
+/* ── Mobile ───────────────────────────────────────────────────────
+   Il sito si usa quasi solo dal telefono, in vacanza, spesso in piedi
+   con una mano sola. Qui l'obiettivo è uno: arrivare alla prima
+   attività senza scorrere, e tenere sempre a portata di pollice
+   ricerca, filtri e cambio vista. */
+@media (max-width: 700px) {
+
+  /* Intestazione ridotta all'osso: il titolo lo si legge una volta sola */
+  .hero { padding: 1.15rem 1rem 1rem; }
+  .kicker { font-size: .66rem; letter-spacing: .1em; margin-bottom: .2rem; }
+  .hero h1 { font-size: 1.65rem; }
+  .hero .sub { font-size: .87rem; margin-top: .2rem; }
+
+  /* I numeri scorrono in orizzontale invece di andare a capo tre volte */
+  .badges {
+    margin-top: .7rem; flex-wrap: nowrap; overflow-x: auto;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    padding-bottom: .15rem;
+  }
+  .badges::-webkit-scrollbar { display: none; }
+  .badges li { flex: none; font-size: .76rem; padding: .22rem .6rem; }
+
+  .hero-tools { top: .55rem; right: .55rem; }
+  .icon-btn { width: 44px; height: 44px; }
+
+  .wrap { padding: 0 .8rem 2.5rem; }
+
+  /* Fasce d'età: da quattro riquadri impilati (600 px) a una riga che
+     scorre (95 px). La descrizione si sposta sotto, per quelle scelte. */
+  .ages {
+    display: flex; gap: .45rem; overflow-x: auto;
+    margin: -1.1rem -.8rem .7rem; padding: 1.1rem .8rem .35rem;
+    scroll-snap-type: x proximity; scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .ages::-webkit-scrollbar { display: none; }
+  .age-card {
+    flex: none; width: 8.6rem; scroll-snap-align: start;
+    padding: .6rem .7rem; gap: .1rem;
+  }
+  .age-card[aria-pressed="true"]::after { top: .4rem; right: .45rem; width: 18px; height: 18px; font-size: .62rem; }
+  .age-emoji { font-size: 1.2rem; }
+  .age-name { font-size: .88rem; }
+  .age-hint { display: none; }        /* ricompare sotto la riga, solo se selezionata */
+  .age-count { font-size: .72rem; }
+
+  /* Barra dei filtri: resta appiccicata in alto anche qui. Scorrendo
+     tra 65 attività, perdere la ricerca è il modo più veloce per
+     rendere la guida inutile. */
+  .filters {
+    position: sticky; top: 0; padding: .55rem .6rem;
+    border-radius: 0; border-left: 0; border-right: 0;
+    margin: 0 -.8rem 1rem; width: calc(100% + 1.6rem);
+  }
+  .frow-main { gap: .45rem; }
+  .search { flex: 1 1 auto; }
+  /* 16px esatti: sotto questa soglia iOS ingrandisce la pagina al focus
+     e poi non la rimpicciolisce più */
+  .search input { font-size: 16px; padding: .62rem .7rem .62rem 2.1rem; min-height: 44px; }
+  #clearBtn { display: none; }        /* c'è "Azzera" dentro il pannello filtri */
+
+  .more { margin-top: .5rem; padding-top: .5rem; }
+  .more summary { min-height: 44px; align-items: center; font-size: .95rem; font-weight: 600; }
+  .frow-drive { margin: .6rem 0 .2rem; }
+  .drive-label { font-size: .88rem; }
+  .drive input[type="range"] { height: 36px; }
+  .chip-groups { grid-template-columns: 1fr; gap: .8rem; }
+  .chip {
+    font-size: .87rem; padding: .55rem .9rem;   /* pollice, non puntatore */
+    min-height: 44px; display: inline-flex; align-items: center;
+  }
+  .frow-meta { margin-top: .45rem; }
+  .count { font-size: .82rem; }
+
+  /* Cambio vista: barra fissa in basso, dove arriva il pollice */
+  .view-toggle {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+    border: 0; border-top: 1px solid var(--border); border-radius: 0;
+    background: var(--surface); box-shadow: 0 -2px 14px rgba(0, 0, 0, .1);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+  .vt {
+    position: relative;
+    flex: 1; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; gap: .08rem;
+    padding: .45rem .3rem; min-height: 54px; font-size: .7rem; font-weight: 600;
+  }
+  .vt-ico { font-size: 1.15rem; line-height: 1.1; }
+  .vt-lbl { white-space: nowrap; }
+  /* il conteggio dei preferiti diventa un bollino sull'icona: in linea
+     manderebbe "Preferiti" a capo su schermi stretti */
+  #favCount {
+    position: absolute; top: .28rem; left: 50%; margin-left: .35rem;
+    background: var(--gold); color: #fff; font-size: .6rem; font-weight: 700;
+    line-height: 1.5; min-width: 1.05rem; text-align: center;
+    border-radius: 999px; padding: 0 .2rem;
+  }
+  #favCount:empty { display: none; }
+  .vt.active { background: transparent; color: var(--green-700); }
+  :root[data-theme="dark"] .vt.active { color: var(--green-300); }
+  .vt.active .vt-ico { transform: scale(1.08); }
+
+  /* spazio perché la barra in basso non copra l'ultima scheda */
+  body { padding-bottom: calc(54px + env(safe-area-inset-bottom, 0px)); }
+
+  .filters.compact { padding: 0; margin-bottom: .5rem; }
+  .filters.compact .view-toggle { margin-left: 0; }
+
+  .tips { margin-top: 1.8rem; }
+  .tips h2 { font-size: 1.15rem; }
+  .tip-grid { grid-template-columns: 1fr; gap: .6rem; }
+  .tip-grid article { padding: .8rem .9rem; }
+}
+
+/* Schermi molto stretti (iPhone SE e simili) */
+@media (max-width: 360px) {
+  .hero h1 { font-size: 1.45rem; }
+  .age-card { width: 8rem; }
+  .vt { font-size: .64rem; }
 }

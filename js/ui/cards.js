@@ -81,7 +81,7 @@ function card(a) {
         <span class="pill pill-drive${a.drive.min > DRIVE_FAR ? ' far' : ''}">🚗 ${a.drive.min} min</span>
         <span class="pill pill-${a.difficulty}">${a.difficulty}</span>
         <span class="pill pill-kind">${kind.emoji} ${esc(kind.label)}</span>
-        ${a.rating ? `<span class="pill pill-kind">★ ${a.rating.toFixed(1)}</span>` : ''}
+        ${a.rating ? `<span class="pill pill-rating">★ ${a.rating.toFixed(1)}</span>` : ''}
         ${a.stroller ? '<span class="pill pill-stroller">🍼 passeggino</span>' : ''}
       </div>
       <p class="why">${esc(a.why)}</p>

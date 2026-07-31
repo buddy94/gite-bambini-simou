@@ -23,6 +23,15 @@
   background: #2d5a3f; color: #fff; padding: .3rem .65rem; font-weight: 600;
 }
 
-@media (max-width: 640px) {
-  .map { height: 65vh; }
+@media (max-width: 700px) {
+  /* a tutta larghezza: sul telefono i margini laterali sono solo mappa in meno */
+  .map {
+    height: calc(100dvh - 200px); min-height: 340px;
+    margin: 0 -.8rem; width: calc(100% + 1.6rem);
+    border-radius: 0; border-left: 0; border-right: 0;
+  }
+  /* i controlli di zoom finiscono sotto il pollice, non in alto a sinistra */
+  .leaflet-top.leaflet-left { top: auto; bottom: 12px; }
+  .leaflet-control-zoom a { width: 38px !important; height: 38px !important; line-height: 38px !important; }
+  .pop button { min-height: 38px; padding: .4rem .9rem; }
 }

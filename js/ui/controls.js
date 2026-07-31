@@ -7,7 +7,10 @@ import { state, toggleIn, resetState, emit, favs } from '../store.js';
 import { secondaryCount } from '../filters.js';
 import { $, $$, chip, esc, capitalize } from './dom.js';
 
+let ages = {};
+
 export function buildControls({ meta, activities }) {
+  ages = meta.ages;
   buildAges(meta, activities);
   buildChips(meta);
   buildHero(meta, activities);
@@ -62,6 +65,7 @@ function bind() {
     const btn = e.target.closest('.age-card');
     if (!btn) return;
     btn.setAttribute('aria-pressed', toggleIn(state.ages, btn.dataset.age));
+    paintAgeHint();
     emit();
   });
 
@@ -111,7 +115,10 @@ function bindChipGroup(sel, set) {
 
 /** Il contatore sul pulsante Preferiti. */
 export function paintFavCount() {
-  $('#favCount').textContent = favs.size ? `(${favs.size})` : '';
+  const el = $('#favCount');
+  // su mobile è un bollino sull'icona, su desktop testo accanto all'etichetta
+  const compact = matchMedia('(max-width: 700px)').matches;
+  el.textContent = favs.size ? (compact ? String(favs.size) : `(${favs.size})`) : '';
 }
 
 /* Quale vista è evidenziata. Va rifatto a ogni render e non solo al clic:
@@ -119,6 +126,16 @@ export function paintFavCount() {
    dal pulsante della lista vuota) e da un link con ?vista=. */
 export function paintView() {
   $$('.vt').forEach(b => b.classList.toggle('active', b.dataset.view === state.view));
+}
+
+/* Su mobile le card delle fasce sono strette e la descrizione non ci sta:
+   quella delle fasce scelte compare sotto la riga. Su schermi larghi
+   l'elemento resta nascosto, la descrizione è già dentro ogni card. */
+function paintAgeHint() {
+  const el = $('#ageHint');
+  const hints = [...state.ages].map(id => ages[id]?.hint).filter(Boolean);
+  el.textContent = hints.join(' ');
+  el.hidden = !hints.length;
 }
 
 /** Riallinea i controlli allo stato: dopo un reset o una lettura dall'URL. */
@@ -132,10 +149,17 @@ export function syncControls() {
   paintChips('#seasonChips', state.seasons);
   $$('#sortChips .chip').forEach(c =>
     c.setAttribute('aria-pressed', c.dataset.sort === state.sort));
+  paintAgeHint();
   paintView();
   paintFavCount();
-  if (secondaryCount()) $('#moreFilters').open = true;
+
+  // Su schermo largo il pannello parte aperto: lo spazio c'è e il tempo in
+  // auto è il filtro che conta di più, non va nascosto dietro un clic. Su
+  // mobile resta chiuso, lì ogni riga in cima è una scheda in meno visibile.
+  $('#moreFilters').open = wide() || secondaryCount() > 0;
 }
+
+const wide = () => matchMedia('(min-width: 701px)').matches;
 
 const paintChips = (sel, set) =>
   $$(`${sel} .chip`).forEach(c => c.setAttribute('aria-pressed', set.has(c.dataset.val)));

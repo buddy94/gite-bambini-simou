@@ -67,7 +67,7 @@ function body(a) {
         <span class="pill pill-drive${a.drive.min > DRIVE_FAR ? ' far' : ''}">🚗 ${a.drive.min} min</span>
         <span class="pill pill-${a.difficulty}">${a.difficulty}</span>
         <span class="pill pill-kind">${kind.emoji} ${esc(kind.label)}</span>
-        ${a.rating ? `<span class="pill pill-kind">★ ${a.rating.toFixed(1)}</span>` : ''}
+        ${a.rating ? `<span class="pill pill-rating">★ ${a.rating.toFixed(1)}</span>` : ''}
         ${a.ages.map(x => `<span class="pill pill-age">${meta.ages[x].emoji} ${esc(meta.ages[x].label)}</span>`).join('')}
       </div>
 

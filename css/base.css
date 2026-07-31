@@ -66,7 +66,11 @@ body {
   color: var(--text);
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
+  /* niente rettangolo grigio sul tap, e nessun ritardo di 300 ms */
+  -webkit-tap-highlight-color: transparent;
 }
+
+button, a, summary, input, label { touch-action: manipulation; }
 
 :focus-visible { outline: none; box-shadow: var(--ring); border-radius: 6px; }
 

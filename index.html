@@ -36,6 +36,7 @@
 
   <!-- Fasce d'età: generate da data/meta.json -->
   <section class="ages" id="ages" aria-label="Scegli per chi"></section>
+  <p class="age-hint-live" id="ageHint" hidden></p>
 
   <section class="filters" aria-label="Filtri">
     <div class="frow frow-main">
@@ -46,21 +47,23 @@
       </div>
       <button class="btn-ghost" id="clearBtn" type="button">Azzera</button>
       <div class="view-toggle" id="viewToggle" role="group" aria-label="Vista">
-        <button class="vt active" data-view="cards" type="button">▦ Schede</button>
-        <button class="vt" data-view="map" type="button">🗺️ Mappa</button>
-        <button class="vt" data-view="favs" type="button">★ Preferiti <span id="favCount"></span></button>
+        <button class="vt active" data-view="cards" type="button">
+          <span class="vt-ico" aria-hidden="true">▦</span><span class="vt-lbl">Schede</span></button>
+        <button class="vt" data-view="map" type="button">
+          <span class="vt-ico" aria-hidden="true">🗺️</span><span class="vt-lbl">Mappa</span></button>
+        <button class="vt" data-view="favs" type="button">
+          <span class="vt-ico" aria-hidden="true">★</span><span class="vt-lbl">Preferiti</span><span id="favCount"></span></button>
       </div>
     </div>
 
-    <div class="frow frow-drive">
-      <label class="drive">
-        <span class="drive-label">Massimo in auto: <strong id="driveVal">45 min</strong></span>
-        <input type="range" id="drive" min="10" max="70" step="5" value="45">
-      </label>
-    </div>
-
     <details class="more" id="moreFilters">
-      <summary>Altri filtri <span class="chip-count" id="activeCount"></span></summary>
+      <summary>Filtri <span class="chip-count" id="activeCount"></span></summary>
+      <div class="frow frow-drive">
+        <label class="drive">
+          <span class="drive-label">Massimo in auto: <strong id="driveVal">45 min</strong></span>
+          <input type="range" id="drive" min="10" max="70" step="5" value="45">
+        </label>
+      </div>
       <div class="chip-groups">
         <div class="chip-group"><h3>Tipo</h3><div class="chips" id="kindChips"></div></div>
         <div class="chip-group"><h3>Difficoltà</h3><div class="chips" id="diffChips"></div></div>

@@ -66,12 +66,56 @@
 .pill-moderato { background: rgba(200,145,47,.15); color: #96690f; border-color: rgba(200,145,47,.3); }
 .pill-impegnativo { background: rgba(194,86,13,.13); color: var(--orange); border-color: rgba(194,86,13,.26); }
 .pill-alpinistico { background: rgba(192,54,44,.12); color: var(--red); border-color: rgba(192,54,44,.26); }
-.pill-kind, .pill-age { background: var(--surface-2); color: var(--text-soft); border-color: var(--border); }
+.pill-kind, .pill-age, .pill-rating {
+  background: var(--surface-2); color: var(--text-soft); border-color: var(--border);
+}
 .pill-stroller { background: rgba(190,24,93,.1); color: var(--pink); border-color: rgba(190,24,93,.22); }
 
 :root[data-theme="dark"] .pill-facile { color: var(--green-300); }
 :root[data-theme="dark"] .pill-moderato { color: var(--gold); }
 
-@media (max-width: 640px) {
-  .results { grid-template-columns: 1fr; }
+/* ── Mobile ───────────────────────────────────────────────────────
+   Scheda orizzontale invece che verticale: sullo stesso schermo ne
+   entrano cinque invece di una e mezza, e scorrere 65 attività
+   diventa possibile. */
+@media (max-width: 700px) {
+  .results { grid-template-columns: 1fr; gap: .5rem; }
+
+  .card { flex-direction: row; align-items: stretch; }
+  .card:hover { transform: none; }        /* niente hover col dito */
+  .card:active { transform: scale(.99); }
+
+  .card-thumb { width: 96px; height: auto; min-height: 104px; flex: none; }
+  .card-thumb.no-img { font-size: 2rem; }
+
+  .card-body { padding: .55rem .65rem .6rem; gap: .3rem; padding-right: 2.9rem; }
+  .card h3 { font-size: .94rem; }
+
+  /* il tipo lo dice già l'emoji nella miniatura; la valutazione resta,
+     serve a decidere */
+  .card-meta .pill-kind { display: none; }
+  .pill { font-size: .7rem; padding: .1rem .45rem; }
+
+  .card .why {
+    font-size: .81rem; line-height: 1.4;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-stats { gap: .1rem .6rem; font-size: .73rem; padding-top: .4rem; }
+  .card-stats span:nth-child(n+4) { display: none; }   /* le prime tre bastano */
+
+  .card.featured::before { font-size: .6rem; padding: .14rem .4rem; }
+
+  /* bersaglio da dito, non da mouse */
+  .fav {
+    top: 0; right: 0; width: 44px; height: 44px; border-radius: 0 var(--radius) 0 12px;
+    background: transparent; box-shadow: none; font-size: 1.15rem;
+  }
+  :root[data-theme="dark"] .fav { background: transparent; }
+  .fav:hover { transform: none; }
+  .fav:active { transform: scale(.9); }
+
+  .group-head { margin: .5rem 0 -.15rem; }
+  .group-head h2 { font-size: 1.02rem; }
+  .group-head span { font-size: .78rem; }
 }

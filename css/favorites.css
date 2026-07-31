@@ -108,12 +108,24 @@
 .fv-empty p { font-size: .89rem; color: var(--text-soft); max-width: 42ch; line-height: 1.55; }
 .fv-empty .fv-btn { margin-top: .4rem; }
 
-@media (max-width: 640px) {
-  .fv-head { padding: .8rem .85rem; }
-  .fv-sum { gap: 1rem; }
+@media (max-width: 700px) {
+  .fv-head { padding: .75rem .8rem; gap: .7rem; }
+  .fv-sum { gap: .9rem; }
   .fv-sum b { font-size: 1.15rem; }
-  .fv-item { padding: .6rem .65rem; gap: .5rem; }
+  .fv-sum span { font-size: .7rem; }
+
+  .fv-item { padding: .5rem .3rem .5rem .1rem; gap: .35rem; }
   .fv-emoji { display: none; }        /* spazio prezioso: numero e titolo bastano */
+  .fv-main h3 { font-size: .92rem; }
+
+  /* maniglia e pulsanti da dito: 44 px pieni */
+  .fv-handle { width: 44px; height: 44px; font-size: 1.25rem; }
+  .fv-icon { width: 40px; height: 40px; }
+  .fv-num { width: 22px; height: 22px; font-size: .72rem; }
+
   .fv-tools { width: 100%; }
-  .fv-tools .fv-btn { flex: 1; }
+  .fv-tools .fv-btn { flex: 1; min-height: 44px; }
+  .fv-shared-act .fv-btn { flex: 1; min-height: 44px; }
+  .fv-empty { padding: 2.2rem 1rem; }
+  .fv-empty .fv-btn { min-height: 44px; padding: .6rem 1.1rem; }
 }
