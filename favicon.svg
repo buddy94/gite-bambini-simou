@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#2d5a3f"/><stop offset="100%" stop-color="#1a3c2a"/></linearGradient></defs><rect width="100" height="100" rx="20" fill="url(#bg)"/><text x="50" y="72" text-anchor="middle" font-size="55">🏔️</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img"
+     aria-label="Guida di Simöu">
+  <!-- Disegnata a mano invece di rimpicciolire l'illustrazione del logo:
+       a 16 px una figura dettagliata diventa poltiglia. Qui restano solo le
+       forme che si riconoscono ancora a quella dimensione — montagna, tetto,
+       casa — con i colori del sito. La casa occupa quasi tutta la larghezza:
+       nella scheda del browser conta la sagoma, non il paesaggio. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2d5a3f"/>
+      <stop offset="1" stop-color="#14301f"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect width="32" height="32" rx="7"/>
+    </clipPath>
+  </defs>
+
+  <rect width="32" height="32" rx="7" fill="url(#sky)"/>
+
+  <g clip-path="url(#round)">
+    <!-- cresta di montagna con la punta innevata -->
+    <path d="M-2 19 L6 10 L11.5 15 L20 6 L34 19 Z" fill="#4a7c59"/>
+    <path d="M20 6 L24.2 10.3 L21.9 11.2 L20.5 10 L18.8 10.9 Z" fill="#f6f3ec"/>
+
+    <!-- casetta: tetto in piode, muri crema, aperture rosso mattone -->
+    <path d="M3.4 18.6 L16 8.8 L28.6 18.6 Z" fill="#8d8577"/>
+    <path d="M3.4 18.6 L28.6 18.6 L27 20.2 L5 20.2 Z" fill="#6f695d"/>
+    <rect x="6.6" y="20.2" width="18.8" height="10.6" fill="#f6f3ec"/>
+    <rect x="13.9" y="24.2" width="4.2" height="6.6" rx=".5" fill="#c2560d"/>
+    <rect x="8.9" y="23" width="3.4" height="3.4" rx=".5" fill="#c2560d"/>
+    <rect x="19.7" y="23" width="3.4" height="3.4" rx=".5" fill="#c2560d"/>
+  </g>
+</svg>

@@ -225,6 +225,54 @@
       "toddler": "Spazio aperto senza percorso obbligato, dove il bambino esplora liberamente: nessun dislivello, si torna all'auto quando si vuole. Terreno naturale (erba, terra), non pensato per il passeggino."
     },
     {
+      "id": "dighe-barchette",
+      "title": "Dighe di sassi e gare di barchette",
+      "emoji": "⛵",
+      "kind": "acqua",
+      "ages": [
+        "0-4",
+        "4-9",
+        "ragazzi"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 15,
+        "km": 10.2,
+        "to": "Acquacalda (Lucomagno)"
+      },
+      "lat": 46.53791,
+      "lon": 8.83466,
+      "stats": {
+        "time": "1-3h",
+        "alt": "1750 m"
+      },
+      "rating": 5.0,
+      "featured": true,
+      "why": "Costa zero, non chiude mai e tiene occupato un bambino più di qualsiasi attrazione a pagamento.",
+      "desc": "Lungo i ruscelli del Lucomagno, tra Acquacalda e i piani sopra il passo, l'acqua scorre bassa tra prati e sassi: le condizioni giuste per sbarrarla. Si sposta qualche pietra, si tappano i buchi con zolle d'erba, si guarda il livello salire — e poi si apre tutto. Le barchette si fanno con una foglia, un pezzo di corteccia o un foglio piegato, e si lasciano correre da un punto di partenza a un traguardo deciso lì per lì. È l'attività che si finisce sempre per fare mentre si aspetta qualcun altro, ed è quasi sempre quella che i bambini ricordano.",
+      "toddler": "Acqua bassa e corrente debole nei rami laterali: si sta seduti in riva e si buttano sassi. Portare un cambio completo, perché finiscono bagnati fino alle ginocchia in ogni caso. Restare sui rami piccoli, non sul corso principale, e mai da soli.",
+      "stroller": false,
+      "season": [
+        "estate"
+      ],
+      "tags": [
+        "ruscello",
+        "gratis",
+        "acqua bassa",
+        "sassi",
+        "barchette",
+        "senza attrezzatura"
+      ],
+      "warn": "L'acqua di montagna è gelida e sale in fretta dopo i temporali. Scegliere sempre un ramo laterale con corrente debole e non lasciare i bambini senza sorveglianza. Smontare la diga prima di andare via.",
+      "links": [
+        {
+          "label": "Centro Pro Natura Lucomagno",
+          "kind": "web",
+          "url": "https://www.pronatura-lucomagno.ch/it/"
+        }
+      ]
+    },
+    {
       "id": "parco-sarracino",
       "title": "Parco Giochi Sarracino",
       "emoji": "🛝",

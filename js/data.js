@@ -22,7 +22,11 @@ export async function loadData() {
 }
 
 async function getJson(url) {
-  const res = await fetch(url);
+  // 'no-cache' non vuol dire "non mettere in cache": vuol dire "chiedi sempre
+  // al server se è cambiato". La risposta è di solito un 304 vuoto, quindi
+  // costa nulla, ma evita che chi ha già aperto la guida resti con le
+  // attività di ieri finché non scade la cache del browser.
+  const res = await fetch(url, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
   return res.json();
 }

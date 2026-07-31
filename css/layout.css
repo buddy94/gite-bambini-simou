@@ -13,9 +13,27 @@
   overflow: hidden;
 }
 .hero-in { max-width: var(--maxw); margin: 0 auto; }
+
+/* Logo e titolo sono un unico bersaglio che riporta all'inizio: sul telefono
+   è il modo più naturale per uscire da un filtro o da una vista. */
+.brand {
+  display: inline-flex; align-items: center; gap: .95rem;
+  text-decoration: none; color: inherit;
+}
+.brand-logo {
+  width: 76px; height: 76px; flex: none; border-radius: 50%;
+  background: rgba(255, 255, 255, .1);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .28);
+  transition: transform .16s;
+}
+.brand:hover .brand-logo { transform: scale(1.05); }
+.brand:active .brand-logo { transform: scale(.98); }
+.brand-txt { display: block; }
+
 .kicker {
+  display: block;
   font-size: .8rem; letter-spacing: .13em; text-transform: uppercase;
-  color: var(--gold-soft); font-weight: 600; margin-bottom: .35rem;
+  color: var(--gold-soft); font-weight: 600; margin-bottom: .2rem;
 }
 .hero h1 {
   font-size: clamp(1.9rem, 6vw, 3rem); font-weight: 800;
@@ -203,9 +221,11 @@
 
   /* Intestazione ridotta all'osso: il titolo lo si legge una volta sola */
   .hero { padding: 1.15rem 1rem 1rem; }
-  .kicker { font-size: .66rem; letter-spacing: .1em; margin-bottom: .2rem; }
-  .hero h1 { font-size: 1.65rem; }
-  .hero .sub { font-size: .87rem; margin-top: .2rem; }
+  .brand { gap: .65rem; }
+  .brand-logo { width: 52px; height: 52px; }
+  .kicker { font-size: .62rem; letter-spacing: .09em; margin-bottom: .1rem; }
+  .hero h1 { font-size: 1.5rem; }
+  .hero .sub { font-size: .85rem; margin-top: .35rem; }
 
   /* I numeri scorrono in orizzontale invece di andare a capo tre volte */
   .badges {

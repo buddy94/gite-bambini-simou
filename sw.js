@@ -7,13 +7,15 @@
 
    Le tile della mappa e Leaflet NON sono in cache: la mappa richiede rete. */
 
-const CACHE = 'simou-v4';
+const CACHE = 'simou-v5';
 
 const SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
   './favicon.svg',
+  './assets/logo-96.png',
+  './assets/logo-192.png',
   './css/base.css',
   './css/layout.css',
   './css/cards.css',
