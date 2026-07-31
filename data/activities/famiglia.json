@@ -484,6 +484,57 @@
       ]
     },
     {
+      "id": "pozza-felice",
+      "title": "Pozza del Felice (Leontica)",
+      "emoji": "🧊",
+      "kind": "acqua",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 31,
+        "km": 23.3,
+        "to": "Leontica"
+      },
+      "lat": 46.45666,
+      "lon": 8.9241,
+      "stats": {
+        "km": 2,
+        "up": 344,
+        "time": "~1h",
+        "alt": "~1300 m",
+        "type": "andata e ritorno"
+      },
+      "why": "Una pozza d'alta quota resa famosa dal romanzo \"La pozza del Felice\" di Fabio Andina: più un'escursione con bagno finale che una gita da spiaggia.",
+      "desc": "Sopra Leontica, il torrente Luinascio ha scavato nella roccia una piccola pozza d'alta quota, ghiacciata d'inverno e accogliente non appena si alzano le temperature. Il Sentiero del Felice che ci arriva parte da tre punti del paese, dura circa un'ora e ha 344 metri di dislivello su una mulattiera ripida: non un bagno da parcheggio, un piccolo trekking con ricompensa.",
+      "toddler": "Sconsigliato sotto i 6-7 anni: il dislivello e la mulattiera ripida non sono pensati per passeggino né per zaino porta-bimbo su un'ora di cammino.",
+      "stroller": false,
+      "season": [
+        "estate"
+      ],
+      "tags": [
+        "pozza d'alta quota",
+        "sentiero tematico",
+        "acqua gelida",
+        "letteratura ticinese"
+      ],
+      "warn": "Acqua molto fredda tutto l'anno, rischio di shock termico anche per gli adulti. Mulattiera ripida: scarpe adatte, non infradito. Nessun servizio lungo il percorso o alla pozza.",
+      "links": [
+        {
+          "label": "Bellinzonese e Valli",
+          "kind": "info",
+          "url": "https://www.bellinzonaevalli.ch/en/hike/details/Leontica-Pozza-del-Felice/801528751.html"
+        },
+        {
+          "label": "ticino.ch",
+          "kind": "info",
+          "url": "https://www.ticino.ch/en/itineraries/details/Leontica-Pozza-del-Felice/149483.html"
+        }
+      ]
+    },
+    {
       "id": "somarelli",
       "title": "Somarelli Corzoneso — trekking con gli asini",
       "emoji": "🐴",
@@ -796,6 +847,94 @@
       "toddler": "Il Monster Roller è aperto dai 4 anni compiuti: adatto solo alla punta più alta della fascia 0-4, non ai più piccoli, e verificare eventuali limiti di altezza o peso sul posto. Le altalene panoramiche Swing the World vanno valutate a vista, possono spaventare un bimbo piccolo."
     },
     {
+      "id": "pozzon-osogna",
+      "title": "Pozzón di Osogna",
+      "emoji": "🌊",
+      "kind": "acqua",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 46,
+        "km": 38.2,
+        "to": "Osogna"
+      },
+      "lat": 46.31243,
+      "lon": 8.98676,
+      "stats": {
+        "time": "pochi min a piedi dal parcheggio",
+        "alt": "~300 m"
+      },
+      "why": "Un vero lido naturale dentro il paese, con un grotto storico proprio sopra l'acqua.",
+      "desc": "Il torrente Nala, sceso dalla valle omonima sopra Osogna, fa qui il suo ultimo salto e si apre in un grande pozzo circondato da rocce levigate dall'acqua, dove d'estate ci si stende al sole. Accanto sorge il Grotto al Pozzón, aperto dal 1896. Alcuni si arrampicano sulle rocce per tuffarsi: è una pratica rischiosa, non un invito.",
+      "toddler": "Nessuna zona bassa e ferma segnalata: per un bambino piccolo meglio restare seduti sulle rocce piatte a bordo pozzo, tenendolo sempre per mano o in braccio in acqua.",
+      "stroller": false,
+      "season": [
+        "estate"
+      ],
+      "tags": [
+        "pozza naturale",
+        "cascata",
+        "grotto storico",
+        "gratis",
+        "accesso brevissimo"
+      ],
+      "warn": "Profondità irregolare e non segnalata: sorvegliare sempre i bambini, non è un'area con bagnino. Molto frequentato nei weekend estivi. Vicino c'è il torrente Boggera, terreno di canyoning tecnico regolato da una centrale idroelettrica: non va confuso col Pozzón.",
+      "links": [
+        {
+          "label": "sorprenditi.ch",
+          "kind": "info",
+          "url": "https://www.sorprenditi.ch/pozzon-di-osogna"
+        },
+        {
+          "label": "Corriere del Ticino",
+          "kind": "info",
+          "url": "https://www.cdt.ch/news/ticino/ecco-dove-andare-per-sopravvivere-alla-canicola-257166"
+        }
+      ]
+    },
+    {
+      "id": "cascata-piumogna",
+      "title": "Cascata della Piumogna (Faido)",
+      "emoji": "🏊",
+      "kind": "acqua",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 51,
+        "km": 50.2,
+        "to": "Chiggiogna (Faido)"
+      },
+      "lat": 46.46875,
+      "lon": 8.81991,
+      "stats": {
+        "time": "pochi min a piedi dal parcheggio",
+        "alt": "~700 m"
+      },
+      "why": "Probabilmente il miglior bagno naturale per famiglie della zona — ma è lontano: oltre un'ora e mezza andata e ritorno solo di macchina.",
+      "desc": "Grande pozza turchese sotto una cascata a Chiggiogna, vicino a Faido, con parcheggio ampio e un parco giochi accanto. È lo spot che le famiglie della zona considerano il più riuscito, ma sta fuori dal raggio delle gite di mezza giornata da Simöu: da mettere in conto come giornata intera, non come pausa nel pomeriggio.",
+      "toddler": "Il parco giochi accanto tiene occupati i più piccoli mentre gli altri fanno il bagno. La pozza stessa resta acqua di torrente: sorvegliare sempre.",
+      "stroller": true,
+      "season": [
+        "estate"
+      ],
+      "tags": [
+        "pozza turchese",
+        "parco giochi",
+        "grande parcheggio",
+        "il migliore della zona"
+      ],
+      "warn": "Oltre 50 minuti di macchina a tratta: quasi due ore di guida andata e ritorno. Verifica se vale la giornata prima di partire.",
+      "links": []
+    },
+    {
       "id": "canyoning-pontirone",
       "title": "Canyoning — Gole del Pontirone e Malvaglia",
       "emoji": "🌊",
@@ -839,6 +978,49 @@
           "label": "Ticino Outdoor",
           "kind": "web",
           "url": "https://ticinooutdoor.com/"
+        }
+      ]
+    },
+    {
+      "id": "dandrio-cascate",
+      "title": "Cascate di Dandrio (Val Malvaglia)",
+      "emoji": "💦",
+      "kind": "acqua",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 64,
+        "km": 39.0,
+        "to": "Dandrio (Val Malvaglia)"
+      },
+      "lat": 46.43982,
+      "lon": 9.05361,
+      "stats": {
+        "time": "10-15 min a piedi dal parcheggio",
+        "alt": "~1200 m"
+      },
+      "why": "Una vera cascata di montagna con pozza balneabile, in una valle laterale praticamente sconosciuta ai turisti.",
+      "desc": "Il fiume di Val Malvaglia forma a Dandrio due cascate. La prima, a 10 minuti dal paese, non va usata per il bagno: i sassi per scendere alla pozza sono mobili e scivolosi. La seconda, 2 km più avanti e 10-15 minuti a piedi lungo il fiume fino a un ponte, è dove le famiglie fanno davvero il bagno: getto potente, pozza sottostante ampia.",
+      "toddler": "Nessuna zona bassa dedicata: acqua gelida di torrente di montagna. Sconsigliato sotto i 3 anni se non tenuto costantemente per mano o in braccio.",
+      "stroller": false,
+      "season": [
+        "estate"
+      ],
+      "tags": [
+        "cascata",
+        "valle laterale",
+        "poco conosciuto",
+        "acqua gelida"
+      ],
+      "warn": "La cascata più vicina al paese ha sassi scivolosi: da evitare per il bagno. Acqua molto fredda, rischio di shock termico anche per gli adulti. Strada per Dandrio stretta: guidare con attenzione. Oltre un'ora di macchina.",
+      "links": [
+        {
+          "label": "Mini Me Explorer",
+          "kind": "web",
+          "url": "https://minimeexplorer.ch/2020/07/08/dandrio-val-malvaglia/"
         }
       ]
     }
