@@ -2,6 +2,8 @@
 *.log
 node_modules/
 
-# file intermedi generati dagli script in tools/ (geocodifica + routing)
+# file di appoggio: geocodifica, routing, ricerche intermedie.
+# Convenzione: tutto ciò che inizia con _ non fa parte del sito.
 tools/_*.json
 tools/_*.log
+data/_*.json
