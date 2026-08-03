@@ -1073,6 +1073,111 @@
           "url": "https://valmedel.info/beitrag/seilpark-curtin-medelin/"
         }
       ]
+    },
+    {
+      "id": "camping-disentis",
+      "title": "Campeggio TCS Disentis — laghetto balneabile e giochi d'acqua",
+      "emoji": "🏕️",
+      "kind": "acqua",
+      "ages": [
+        "0-4",
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 41,
+        "km": 34.6,
+        "to": "Disentis"
+      },
+      "lat": 46.69649,
+      "lon": 8.85364,
+      "stats": {
+        "time": "mezza giornata",
+        "alt": "1059 m",
+        "type": "campeggio"
+      },
+      "why": "Laghetto naturale balneabile, un grande parco giochi d'acqua con zattera e scivolo, e ombra vera sotto gli abeti: perfetto nei giorni di canicola.",
+      "desc": "Campeggio TCS a Disentis (1059 m), affacciato su un laghetto naturale balneabile circondato da abeti alti che fanno ombra su gran parte del prato. Accanto al laghetto, un grande parco giochi d'acqua con zattera galleggiante, scivolo e altri giochi per bambini, oltre a ponticelli e aree per correre scalzi. Ristorante e area pic-nic sul posto. Meta perfetta quando in valle di Blenio si soffoca e non c'è un filo d'ombra.",
+      "tags": [
+        "oltre il passo",
+        "balneabile",
+        "giochi d'acqua",
+        "zattera",
+        "ombra",
+        "canicola",
+        "Grigioni"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Campeggio aperto indicativamente dal 20 aprile al 22 settembre. Acqua di lago di montagna: fredda anche in piena estate. Verificare se l'accesso al laghetto è riservato agli ospiti del campeggio o aperto anche a chi arriva solo per la giornata. Si arriva dal Lucomagno, chiuso d'inverno.",
+      "links": [
+        {
+          "label": "TCS Camping Disentis",
+          "kind": "info",
+          "url": "https://camping.tcs.ch/it/campeggi/tcs-camping-disentis/"
+        },
+        {
+          "label": "Attività e servizi",
+          "kind": "web",
+          "url": "https://camping.tcs.ch/it/campeggi/tcs-camping-disentis/attivita-e-servizi/"
+        }
+      ]
+    },
+    {
+      "id": "pendenta-disentis",
+      "title": "La Pendenta — ponte sospeso di Disentis",
+      "emoji": "🌉",
+      "kind": "avventura",
+      "ages": [
+        "4-9",
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "facile",
+      "drive": {
+        "min": 41,
+        "km": 34.6,
+        "to": "Disentis"
+      },
+      "lat": 46.69556,
+      "lon": 8.84824,
+      "stats": {
+        "time": "1-1h30 (anello)",
+        "alt": "1180 m",
+        "type": "ponte sospeso"
+      },
+      "why": "Il ponte sospeso più lungo dei Grigioni, 270 metri sopra la gola del Reno: cento metri di vuoto sotto i piedi, e non costa niente.",
+      "desc": "Passerella pedonale di 270 metri che attraversa la gola del Vorderrhein a circa 100 metri d'altezza, fra la cappella di Sontga Gada (a sud-ovest di Disentis) e la frazione di Mumpé Medel. Inaugurata nel novembre 2024, è il ponte sospeso più lungo del canton Grigioni. Dal centro di Disentis si arriva a piedi in circa mezz'ora, passando anche vicino allo Sportzentrum; il giro si può chiudere ad anello tornando dal vecchio ponte sul Vorderrhein.",
+      "tags": [
+        "oltre il passo",
+        "ponte sospeso",
+        "gratis",
+        "gola",
+        "panorama",
+        "Grigioni",
+        "Surselva"
+      ],
+      "season": [
+        "primavera",
+        "estate",
+        "autunno"
+      ],
+      "warn": "Non adatto a chi soffre di vertigini: il ponte oscilla ed è alto sul vuoto. Tenere per mano i bambini piccoli. Si arriva dal Lucomagno, chiuso d'inverno.",
+      "links": [
+        {
+          "label": "pendenta.ch",
+          "kind": "info",
+          "url": "https://www.pendenta.ch/"
+        },
+        {
+          "label": "Graubünden Tourism",
+          "kind": "web",
+          "url": "https://www.graubuenden.ch/en/tours/haengebruecke-la-pendenta"
+        }
+      ]
     }
   ]
 }

@@ -752,6 +752,105 @@
           "url": "https://www.alltrails.com/it-it/sentiero/switzerland/ticino/somprei-pizzo-de-sole"
         }
       ]
+    },
+    {
+      "id": "piz-medel",
+      "title": "Piz Medel (3210 m)",
+      "emoji": "🧊",
+      "kind": "alpinismo",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "alpinistico",
+      "drive": {
+        "min": 36,
+        "km": 30.8,
+        "to": "Curaglia (Val Medel)"
+      },
+      "lat": 46.61817,
+      "lon": 8.91111,
+      "stats": {
+        "up": 1588,
+        "time": "2 giorni (1 notte in capanna)",
+        "alt": "3210 m",
+        "type": "traversata alpinistica"
+      },
+      "rating": 4.9,
+      "why": "Il tremila oltre il passo: capanna il primo giorno, ghiacciaio e cresta il secondo, e sotto tutta la Val di Blenio.",
+      "desc": "Da Curaglia si sale in auto fino al parcheggio del ponte di Pardatsch (1596 m), poi a piedi (T2) via Tegiatschas, Stavels Veders e Alp Sura fino alla Fuorcla da Lavaz e alla Camona da Medel/Medelserhütte CAS (2524 m), dove si pernotta. Il giorno dopo la via normale porta alla cima del Piz Medel (3210 m): AD-, circa 3 ore dalla capanna, con traversata del ghiacciaio e ultimo tratto sulla parete nord. Servono corda, ramponi e piccozza, e occhio alle condizioni del ghiacciaio prima di partire.",
+      "tags": [
+        "tremila",
+        "ghiacciaio",
+        "capanna CAS",
+        "cresta",
+        "Val Medel",
+        "Grigioni"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Percorso da alpinisti con esperienza di ghiacciaio e cordata (o con guida): crepacci, condizioni stagionali variabili. Prenotare la capanna in anticipo e sentire il custode sullo stato del ghiacciaio. Si arriva dal Lucomagno, chiuso d'inverno.",
+      "links": [
+        {
+          "label": "Camona da Medel CAS",
+          "kind": "info",
+          "url": "https://www.ariafina.ch/medelserhuette/"
+        },
+        {
+          "label": "hikr — Piz Medel",
+          "kind": "web",
+          "url": "https://www.hikr.org/tour/post37812.html"
+        },
+        {
+          "label": "Via normale (vienormali.it)",
+          "kind": "web",
+          "url": "http://www.vienormali.it/montagna/cima_scheda.asp?cod=1086"
+        }
+      ]
+    },
+    {
+      "id": "sosto-spit",
+      "title": "Il Sosto — salita a spit e discesa in doppia (Val Carassina)",
+      "emoji": "🪢",
+      "kind": "arrampicata",
+      "ages": [
+        "ragazzi",
+        "adulti"
+      ],
+      "difficulty": "moderato",
+      "drive": {
+        "min": 30,
+        "km": 16,
+        "to": "Diga del Luzzone (poi galleria per Carassina)"
+      },
+      "lat": 46.5465,
+      "lon": 8.9672,
+      "stats": {
+        "time": "1-2h (con doppia e rientro)",
+        "alt": "~1700 m",
+        "type": "tiro attrezzato + doppia"
+      },
+      "why": "Un tiro solo attrezzato a spit da mio padre, un precipizio di fianco e la doppia per scendere: adrenalina pura per chi non l'ha mai provato, senza essere vera arrampicata.",
+      "desc": "All'inizio della Val Carassina, oltre le due gallerie (quella della diga del Luzzone e poi quella di Carassina), un tiro attrezzato a spit porta in sicurezza fino in cima, a fianco di un precipizio, con vista spettacolare sulla Val Carassina e il lago di Luzzone. Non è arrampicata vera e propria: si sale un passo alla volta legati tutti alla stessa corda, con uno spit fra una persona e l'altra come punto di sicurezza. La discesa si fa in corda doppia. Ottimo per far provare l'adrenalina della montagna a chi non ha mai fatto niente del genere.",
+      "tags": [
+        "spit",
+        "corda doppia",
+        "precipizio",
+        "fatto in casa",
+        "Val Carassina",
+        "poco conosciuto"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Percorso informale, non segnalato né attrezzato ufficialmente: servono corda, imbrago e moschettoni propri, e sapere già usare un imbrago e fare una doppia (o andare con chi lo sa fare). Controllare lo stato degli spit prima di fidarsi: sono lì da anni. La strada per Carassina passa in due gallerie strette a senso unico alternato (max 2.10 m larghezza, 2.30 m altezza) ed è aperta indicativamente da giugno a ottobre.",
+      "links": [
+        {
+          "label": "Ghirone–Luzzone–Carassina (stato strada)",
+          "kind": "info",
+          "url": "https://www.consorzi.ch/index.php?option=com_content&view=article&id=37&Itemid=156"
+        }
+      ]
     }
   ]
 }

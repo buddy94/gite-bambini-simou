@@ -1143,6 +1143,55 @@
       ]
     },
     {
+      "id": "lai-blau",
+      "title": "Lai Blau (2409 m)",
+      "emoji": "🏞️",
+      "kind": "sentiero",
+      "ages": [
+        "adulti"
+      ],
+      "difficulty": "impegnativo",
+      "drive": {
+        "min": 19,
+        "km": 14.9,
+        "to": "Passo del Lucomagno"
+      },
+      "lat": 46.548,
+      "lon": 8.766,
+      "stats": {
+        "km": 8.6,
+        "up": 679,
+        "time": "4-5h",
+        "alt": "2409 m",
+        "type": "andata e ritorno"
+      },
+      "why": "Un lago alpino che sembra dipinto, oltre la diga del Lago di Santa Maria e la Val Rondadura.",
+      "desc": "Dalla diga del Lago di Santa Maria, appena scesi dal Passo del Lucomagno, si costeggia il lago verso sud per circa un chilometro fino all'imbocco della Val Rondadura, dove la strada sterrata diventa sentiero. Si sale a tornanti fino a un pianoro e poi ancora fino alle rive del Lai Blau (2409 m), spesso ancora in parte ghiacciato a inizio stagione. Chi ha gambe in più può proseguire fino ai laghetti senza nome sopra il Lai Blau.",
+      "tags": [
+        "lago alpino",
+        "alta quota",
+        "Lago di Santa Maria",
+        "Val Rondadura",
+        "panorama"
+      ],
+      "season": [
+        "estate"
+      ],
+      "warn": "Neve e ghiaccio residuo sul lago fino a stagione inoltrata. Parte del percorso passa vicino a una piazza di tiro militare: controllare il bollettino prima di partire. Il Passo del Lucomagno chiude d'inverno.",
+      "links": [
+        {
+          "label": "Graubünden Tourism",
+          "kind": "info",
+          "url": "https://www.graubuenden.ch/en/tours/lai-blau-lukmanierpass"
+        },
+        {
+          "label": "hikr — Lai Blau",
+          "kind": "web",
+          "url": "https://www.hikr.org/tour/post23302.html"
+        }
+      ]
+    },
+    {
       "id": "lago-colombe",
       "title": "Lago dei Campanitt al Passo delle Colombe",
       "emoji": "🕊️",
